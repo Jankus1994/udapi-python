@@ -130,7 +130,7 @@ class Run(object):
         # Initialize blocks (process_start).
         for block in blocks:
             block.process_start()
-
+        
         readers = []
         for block in blocks:
             try:
@@ -146,13 +146,22 @@ class Run(object):
 
         # Apply blocks on the data.
         finished = False
+        filenames_iterator = 0                                          # !!! ADDED !!!
+        init_cluster_id = -1                                            # !!! ADDED !!!
         while not finished:
             document = Document()
             logging.info(" ---- ROUND ----")
             for block in blocks:
+                if ( filenames_iterator < len( block.filenames) ):      # !!!
+                    filename = block.filenames[ filenames_iterator ]    # !!!
+                    document.set_filename( filename)                    # ADDED
+                    document.set_init_cluster_id( init_cluster_id)      # !!!
+                    filenames_iterator += 1                             # !!!
                 logging.info("Executing block " + block.__class__.__name__)
                 block.before_process_document(document)
-                block.process_document(document)
+                result = block.process_document(document)
+                if ( type( result) == int ):
+                    init_cluster_id = result
                 block.after_process_document(document)
 
             finished = True

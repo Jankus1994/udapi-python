@@ -7,6 +7,7 @@ class Block(object):
 
     def __init__(self, zones='all'):
         self.zones = zones
+        self.filenames = []  # !!! ADDED !!!
 
     def process_start(self):
         """A hook method that is executed before processing UD data"""
@@ -26,16 +27,16 @@ class Block(object):
             self.process_node(node)
 
     def process_bundle(self, bundle):
-        """Process a UD bundle"""
-        for tree in bundle:
+        """Process a UD bundle"""       
+        for tree in bundle.trees:            
             if self._should_process_tree(tree):
                 self.process_tree(tree)
 
     def process_document(self, document):
-        """Process a UD document"""
+        """Process a UD document"""           
         for bundle_no, bundle in enumerate(document.bundles, 1):
             logging.debug('Block %s processing bundle #%d (id=%s)',
-                          self.__class__.__name__, bundle_no, bundle.bundle_id)
+                          self.__class__.__name__, bundle_no, bundle.bundle_id)            
             self.process_bundle(bundle)
 
     def before_process_document(self, document):
