@@ -1,0 +1,53 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Paragrafy
+1	Paragrafy	paragraf	NOUN	NNIP1-----A----	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur|Polarity=Pos	0	root	_	SpacesAfter=\s\n\n
+
+# newpar
+# sent_id = 2
+# text = V nakladatelství Olympia odebral již soudně trestaný osmadvacetiletý podnikatel z Prahy časopisy za 25 000 Kč, které dosud nezaplatil.
+1	V	v	ADP	RR--6----------	AdpType=Prep|Case=Loc	2	case	_	_
+2	nakladatelství	nakladatelství	NOUN	NNNS6-----A----	Case=Loc|Gender=Neut|Number=Sing|Polarity=Pos	4	obl	_	_
+3	Olympia	Olympia	PROPN	NNFS1-----A----	Case=Nom|Gender=Fem|NameType=Com|Number=Sing|Polarity=Pos	2	nmod	_	_
+4	odebral	odebrat	VERB	VpYS---XR-AA---	Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part|Voice=Act	0	root	_	_
+5	již	již	ADV	Db-------------	_	6	advmod:emph	_	_
+6	soudně	soudně	ADV	Dg-------1A----	Degree=Pos|Polarity=Pos	4	advmod	_	_
+7	trestaný	trestaný	ADJ	AAMS1----1A----	Animacy=Anim|Case=Nom|Degree=Pos|Gender=Masc|Number=Sing|Polarity=Pos	9	amod	_	_
+8	osmadvacetiletý	osmadvacetiletý	ADJ	AAMS1----1A----	Animacy=Anim|Case=Nom|Degree=Pos|Gender=Masc|Number=Sing|Polarity=Pos	9	amod	_	_
+9	podnikatel	podnikatel	NOUN	NNMS1-----A----	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing|Polarity=Pos	4	nsubj	_	_
+10	z	z	ADP	RR--2----------	AdpType=Prep|Case=Gen	11	case	_	_
+11	Prahy	Praha	PROPN	NNFS2-----A----	Case=Gen|Gender=Fem|NameType=Geo|Number=Sing|Polarity=Pos	9	nmod	_	_
+12	časopisy	časopis	NOUN	NNIP4-----A----	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur|Polarity=Pos	4	obj	_	_
+13	za	za	ADP	RR--4----------	AdpType=Prep|Case=Acc	15	case	_	_
+14	25	25	NUM	C=-------------	NumForm=Digit|NumType=Card	15	nummod	_	_
+15	000	000	NUM	C=-------------	NumForm=Digit|NumType=Card	4	obl	_	_
+16	Kč	Kč	NOUN	NNFXX-----A----	Gender=Fem|Polarity=Pos	15	nmod	_	SpaceAfter=No
+17	,	,	PUNCT	Z:-------------	_	20	punct	_	_
+18	které	který	DET	P4YP4----------	Case=Acc|Gender=Masc|Number=Plur|PronType=Int,Rel	20	obj	_	_
+19	dosud	dosud	ADV	Db-------------	PronType=Dem	20	advmod	_	_
+20	nezaplatil	zaplatit	VERB	VpYS---XR-NA---	Aspect=Perf|Gender=Masc|Number=Sing|Polarity=Neg|Tense=Past|VerbForm=Part|Voice=Act	15	acl	_	SpaceAfter=No
+21	.	.	PUNCT	Z:-------------	_	4	punct	_	_
+
+# sent_id = 3
+# text = Kriminalisté zjistili, že nejméně v jedenácti případech neuhradil zboží za milion a půl korun odebrané na fakturu.
+1	Kriminalisté	kriminalista	NOUN	NNMP1-----A----	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur|Polarity=Pos	2	nsubj	_	_
+2	zjistili	zjistit	VERB	VpMP---XR-AA---	Animacy=Anim|Aspect=Perf|Gender=Masc|Number=Plur|Polarity=Pos|Tense=Past|VerbForm=Part|Voice=Act	0	root	_	SpaceAfter=No
+3	,	,	PUNCT	Z:-------------	_	9	punct	_	_
+4	že	že	SCONJ	J,-------------	_	9	mark	_	_
+5	nejméně	málo	ADV	Dg-------3A----	Degree=Sup|Polarity=Pos	8	advmod:emph	_	_
+6	v	v	ADP	RR--6----------	AdpType=Prep|Case=Loc	8	case	_	_
+7	jedenácti	jedenáct	NUM	Cn-P6----------	Case=Loc|Number=Plur|NumForm=Word|NumType=Card	8	nummod	_	_
+8	případech	případ	NOUN	NNIP6-----A----	Animacy=Inan|Case=Loc|Gender=Masc|Number=Plur|Polarity=Pos	9	obl	_	_
+9	neuhradil	uhradit	VERB	VpYS---XR-NA---	Aspect=Perf|Gender=Masc|Number=Sing|Polarity=Neg|Tense=Past|VerbForm=Part|Voice=Act	2	ccomp	_	_
+10	zboží	zboží	NOUN	NNNS4-----A----	Case=Acc|Gender=Neut|Number=Sing|Polarity=Pos	9	obj	_	_
+11	za	za	ADP	RR--4----------	AdpType=Prep|Case=Acc	12	case	_	_
+12	milion	milión	NOUN	NNIS4-----A----	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing|Polarity=Pos	10	nmod	_	_
+13	a	a	CCONJ	J^-------------	_	14	cc	_	_
+14	půl	půl	NOUN	NNFS4-----A----	Case=Acc|Gender=Fem|Number=Sing|Polarity=Pos	12	conj	_	_
+15	korun	koruna	NOUN	NNFP2-----A----	Case=Gen|Gender=Fem|Number=Plur|Polarity=Pos	12	nmod	_	_
+16	odebrané	odebraný	ADJ	AANS4----1A----	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing|Polarity=Pos	10	amod	_	_
+17	na	na	ADP	RR--4----------	AdpType=Prep|Case=Acc	18	case	_	_
+18	fakturu	faktura	NOUN	NNFS4-----A----	Case=Acc|Gender=Fem|Number=Sing|Polarity=Pos	16	obl	_	SpaceAfter=No
+19	.	.	PUNCT	Z:-------------	_	2	punct	_	_
+

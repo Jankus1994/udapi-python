@@ -1,0 +1,765 @@
+# sent_id = 1
+# text = Celní unie v ohrožení
+1	Celní	celní	ADJ	AAFS1----1A----	Case=Nom|Degree=Pos|Gender=Fem|Negative=Pos|Number=Sing	2	amod	_	_
+2	unie	unie	NOUN	NNFS1-----A----	Case=Nom|Gender=Fem|Negative=Pos|Number=Sing	0	root	_	Coref=1
+3	v	v	ADP	RR--6----------	AdpType=Prep|Case=Loc	4	case	_	_
+4	ohrožení	ohrožení	NOUN	NNNS6-----A----	Case=Loc|Gender=Neut|Negative=Pos|Number=Sing	2	nmod	_	_
+
+# sent_id = 2
+# text = Nová striktní omezení vlády SR proti česklým exportérům
+1	Nová	nový	ADJ	AANP1----1A----	Case=Nom|Degree=Pos|Gender=Neut|Negative=Pos|Number=Plur	3	amod	_	_
+2	striktní	striktní	ADJ	AANP1----1A----	Case=Nom|Degree=Pos|Gender=Neut|Negative=Pos|Number=Plur	3	amod	_	_
+3	omezení	omezení	NOUN	NNNP1-----A----	Case=Nom|Gender=Neut|Negative=Pos|Number=Plur	0	root	_	Coref=13
+4	vlády	vláda	NOUN	NNFS2-----A----	Case=Gen|Gender=Fem|Negative=Pos|Number=Sing	3	nmod	_	Coref=8
+5	SR	SR	PROPN	NNFXX-----A---8	Abbr=Yes|Gender=Fem|NameType=Geo|Negative=Pos	4	nmod	_	Coref=4
+6	proti	proti	ADP	RR--3----------	AdpType=Prep|Case=Dat	8	case	_	_
+7	česklým	česklý	ADJ	AAMP3----1A----	Animacy=Anim|Case=Dat|Degree=Pos|Gender=Masc|Negative=Pos|Number=Plur	8	amod	_	_
+8	exportérům	exportér	NOUN	NNMP3-----A----	Animacy=Anim|Case=Dat|Gender=Masc|Negative=Pos|Number=Plur	3	dep	_	Coref=14
+
+# sent_id = 3
+# text = Z téměř tří desítek smluv upravujících vztahy mezi oběma subjekty celního soustátí jsou okamžitě vypověditelné všechny...
+1	Z	z	ADP	RR--2----------	AdpType=Prep|Case=Gen	4	case	_	_
+2	téměř	téměř	ADV	Db-------------	_	4	advmod:emph	_	_
+3	tří	tři	NUM	ClXP2----------	Case=Gen|Number=Plur|NumForm=Word|NumType=Card|NumValue=1,2,3	4	nummod	_	_
+4	desítek	desítka	NOUN	NNFP2-----A----	Case=Gen|Gender=Fem|Negative=Pos|Number=Plur	15	nmod	_	Coref=2
+5	smluv	smlouva	NOUN	NNFP2-----A----	Case=Gen|Gender=Fem|Negative=Pos|Number=Plur	4	nmod	_	_
+6	upravujících	upravující	ADJ	AGFP2-----A----	Aspect=Imp|Case=Gen|Gender=Fem|Negative=Pos|Number=Plur|Tense=Pres|VerbForm=Part|Voice=Act	5	amod	_	_
+7	vztahy	vztah	NOUN	NNIP4-----A----	Animacy=Inan|Case=Acc|Gender=Masc|Negative=Pos|Number=Plur	6	dobj	_	Drop_coref=0
+8	mezi	mezi	ADP	RR--7----------	AdpType=Prep|Case=Ins	10	case	_	_
+9	oběma	oba	NUM	ClXP7----------	Case=Ins|Number=Plur|NumForm=Word|NumType=Card|NumValue=1,2,3	10	nummod	_	_
+10	subjekty	subjekt	NOUN	NNIP7-----A----	Animacy=Inan|Case=Ins|Gender=Masc|Negative=Pos|Number=Plur	7	nmod	_	Coref=0
+11	celního	celní	ADJ	AANS2----1A----	Case=Gen|Degree=Pos|Gender=Neut|Negative=Pos|Number=Sing	12	amod	_	_
+12	soustátí	soustátí	NOUN	NNNS2-----A----	Case=Gen|Gender=Neut|Negative=Pos|Number=Sing	10	nmod	_	Coref=1
+13	jsou	být	VERB	VB-P---3P-AA---	Mood=Ind|Negative=Pos|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	15	cop	_	_
+14	okamžitě	okamžitě	ADV	Dg-------1A----	Degree=Pos|Negative=Pos	15	advmod	_	_
+15	vypověditelné	vypověditelný	ADJ	AAFP1----1A----	Case=Nom|Degree=Pos|Gender=Fem|Negative=Pos|Number=Plur	0	root	_	_
+16	všechny	všechen	PRON	PLFP1----------	Case=Nom|Gender=Fem|Number=Plur|PronType=Tot	15	nsubj	_	Coref=2|SpaceAfter=No
+17	.	.	PUNCT	Z:-------------	_	15	punct	_	SpaceAfter=No
+18	.	.	PUNCT	Z:-------------	_	15	punct	_	SpaceAfter=No
+19	.	.	PUNCT	Z:-------------	_	15	punct	_	_
+
+# sent_id = 4
+# text = Až na jednu jedinou, tu hlavní, která proklamativně zakotvuje existenci Česko - Slovenské celní unie, a která má výpovědní lhůtu jeden rok.
+1	Až	až	PART	TT-------------	_	3	advmod:emph	_	_
+2	na	na	ADP	RR--4----------	AdpType=Prep|Case=Acc	3	case	_	_
+3	jednu	jeden	NUM	ClFS4----------	Case=Acc|Gender=Fem|Number=Sing|NumForm=Word|NumType=Card|NumValue=1,2,3	0	root	_	_
+4	jedinou	jediný	ADJ	AAFS4----1A----	Case=Acc|Degree=Pos|Gender=Fem|Negative=Pos|Number=Sing	3	amod	_	SpaceAfter=No
+5	,	,	PUNCT	Z:-------------	_	4	punct	_	Drop_coref=3
+6	tu	ten	PRON	PDFS4----------	Case=Acc|Gender=Fem|Number=Sing|PronType=Dem	4	dobj	_	_
+7	hlavní	hlavní	ADJ	AAFS4----1A----	Case=Acc|Degree=Pos|Gender=Fem|Negative=Pos|Number=Sing	6	amod	_	SpaceAfter=No
+8	,	,	PUNCT	Z:-------------	_	11	punct	_	_
+9	která	který	PRON	P4FS1----------	Case=Nom|Gender=Fem|Number=Sing|PronType=Int,Rel	11	nsubj	_	Coref=3
+10	proklamativně	proklamativně	ADV	Dg-------1A----	Degree=Pos|Negative=Pos	11	advmod	_	_
+11	zakotvuje	zakotvovat	VERB	VB-S---3P-AA---	Aspect=Imp|Mood=Ind|Negative=Pos|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	6	acl	_	_
+12	existenci	existence	NOUN	NNFS4-----A----	Case=Acc|Gender=Fem|Negative=Pos|Number=Sing	11	dobj	_	_
+13	Česko	Český	ADJ	A2--------A----	Hyph=Yes|NameType=Oth|Negative=Pos	17	amod	_	Coref=5
+14	-	-	PUNCT	Z:-------------	_	13	punct	_	_
+15	Slovenské	slovenský	ADJ	AAFS2----1A----	Case=Gen|Degree=Pos|Gender=Fem|Negative=Pos|Number=Sing	13	conj	_	Coref=4
+16	celní	celní	ADJ	AAFS2----1A----	Case=Gen|Degree=Pos|Gender=Fem|Negative=Pos|Number=Sing	17	amod	_	_
+17	unie	unie	NOUN	NNFS2-----A----	Case=Gen|Gender=Fem|Negative=Pos|Number=Sing	12	nmod	_	Coref=1|SpaceAfter=No
+18	,	,	PUNCT	Z:-------------	_	11	punct	_	_
+19	a	a	CONJ	J^-------------	_	11	cc	_	_
+20	která	který	PRON	P4FS1----------	Case=Nom|Gender=Fem|Number=Sing|PronType=Int,Rel	21	nsubj	_	Coref=3
+21	má	mít	VERB	VB-S---3P-AA---	Mood=Ind|Negative=Pos|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	11	conj	_	_
+22	výpovědní	výpovědní	ADJ	AAFS4----1A----	Case=Acc|Degree=Pos|Gender=Fem|Negative=Pos|Number=Sing	23	amod	_	_
+23	lhůtu	lhůta	NOUN	NNFS4-----A----	Case=Acc|Gender=Fem|Negative=Pos|Number=Sing	21	dobj	_	_
+24	jeden	jeden	NUM	ClIS4----------	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing|NumForm=Word|NumType=Card|NumValue=1,2,3	25	nummod	_	_
+25	rok	rok	NOUN	NNIS4-----A----	Animacy=Inan|Case=Acc|Gender=Masc|Negative=Pos|Number=Sing	23	nmod	_	Coref=7|SpaceAfter=No
+26	.	.	PUNCT	Z:-------------	_	3	punct	_	_
+
+# sent_id = 5
+# text = V praxi to znamená, že i kdyby hnedka zítra řekla ČR, že smlouva je pasé, přesto by se teprve v březnu příštího roku mohla legislativně zbavit svých závazků vůči partnerovi z bývalé ČSFR.
+1	V	v	ADP	RR--6----------	AdpType=Prep|Case=Loc	2	case	_	_
+2	praxi	praxe	NOUN	NNFS6-----A----	Case=Loc|Gender=Fem|Negative=Pos|Number=Sing	4	nmod	_	_
+3	to	ten	PRON	PDNS1----------	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	4	nsubj	_	_
+4	znamená	znamenat	VERB	VB-S---3P-AA---	Aspect=Imp|Mood=Ind|Negative=Pos|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No
+5	,	,	PUNCT	Z:-------------	_	12	punct	_	_
+6	že	že	SCONJ	J,-------------	_	12	mark	_	_
+7	i	i	CONJ	J^-------------	_	12	cc	_	_
+8-9	kdyby	_	_	_	_	_	_	_	_
+8	když	když	SCONJ	J,-------------	_	12	mark	_	_
+9	by	být	AUX	Vc-------------	Mood=Cnd|Person=3|VerbForm=Fin	12	aux	_	_
+10	hnedka	hnedka	ADV	Db-------------	_	12	advmod	_	_
+11	zítra	zítra	ADV	Db-------------	_	12	advmod	_	_
+12	řekla	říci	VERB	VpQW---XR-AA---	Aspect=Perf|Gender=Fem,Neut|Negative=Pos|Number=Plur,Sing|Tense=Past|VerbForm=Part|Voice=Act	4	ccomp	_	_
+13	ČR	ČR	PROPN	NNFXX-----A---8	Abbr=Yes|Gender=Fem|NameType=Geo|Negative=Pos	12	iobj	_	Coref=5|SpaceAfter=No
+14	,	,	PUNCT	Z:-------------	_	18	punct	_	_
+15	že	že	SCONJ	J,-------------	_	18	mark	_	_
+16	smlouva	smlouva	NOUN	NNFS1-----A----	Case=Nom|Gender=Fem|Negative=Pos|Number=Sing	18	nsubj	_	Coref=3
+17	je	být	VERB	VB-S---3P-AA---	Mood=Ind|Negative=Pos|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	18	cop	_	_
+18	pasé	pasé	ADJ	AAXXX----1A----	Degree=Pos|Negative=Pos	12	ccomp	_	SpaceAfter=No
+19	,	,	PUNCT	Z:-------------	_	12	punct	_	_
+20	přesto	přesto	ADV	Dg-------1A----	Degree=Pos|Negative=Pos	12	cc	_	_
+21	by	být	AUX	Vc-------------	Mood=Cnd|VerbForm=Fin	28	aux	_	_
+22	se	se	PRON	P7-X4----------	Case=Acc|PronType=Prs|Reflex=Yes|Variant=Short	30	expl	_	_
+23	teprve	teprve	ADV	Db-------------	_	25	advmod:emph	_	_
+24	v	v	ADP	RR--6----------	AdpType=Prep|Case=Loc	25	case	_	_
+25	březnu	březen	NOUN	NNIS6-----A----	Animacy=Inan|Case=Loc|Gender=Masc|Negative=Pos|Number=Sing	28	nmod	_	_
+26	příštího	příští	ADJ	AAIS2----1A----	Animacy=Inan|Case=Gen|Degree=Pos|Gender=Masc|Negative=Pos|Number=Sing	27	amod	_	_
+27	roku	rok	NOUN	NNIS2-----A---1	Animacy=Inan|Case=Gen|Gender=Masc|Negative=Pos|Number=Sing	25	nmod	_	_
+28	mohla	moci	VERB	VpQW---XR-AA---	Gender=Fem,Neut|Negative=Pos|Number=Plur,Sing|Tense=Past|VerbForm=Part|Voice=Act	12	conj	_	_
+29	legislativně	legislativně	ADV	Dg-------1A----	Degree=Pos|Negative=Pos	30	advmod	_	_
+30	zbavit	zbavit	VERB	Vf--------A----	Aspect=Perf|Negative=Pos|VerbForm=Inf	28	xcomp	_	Drop_coref=5
+31	svých	svůj	DET	P8XP2----------	Case=Gen|Number=Plur|Poss=Yes|PronType=Prs|Reflex=Yes	32	det	_	Coref=5
+32	závazků	závazek	NOUN	NNIP2-----A----	Animacy=Inan|Case=Gen|Gender=Masc|Negative=Pos|Number=Plur	30	dobj	_	_
+33	vůči	vůči	ADP	RR--3----------	AdpType=Prep|Case=Dat	34	case	_	_
+34	partnerovi	partner	NOUN	NNMS3-----A----	Animacy=Anim|Case=Dat|Gender=Masc|Negative=Pos|Number=Sing	32	nmod	_	Coref=4
+35	z	z	ADP	RR--2----------	AdpType=Prep|Case=Gen	37	case	_	_
+36	bývalé	bývalý	ADJ	AAFS2----1A----	Case=Gen|Degree=Pos|Gender=Fem|Negative=Pos|Number=Sing	37	amod	_	_
+37	ČSFR	ČSFR	PROPN	NNFXX-----A---8	Abbr=Yes|Gender=Fem|NameType=Geo|Negative=Pos	32	nmod	_	SpaceAfter=No
+38	.	.	PUNCT	Z:-------------	_	12	punct	_	_
+
+# sent_id = 6
+# text = Kazimír Jánoška
+1	Kazimír	Kazimír	PROPN	NNMS1-----A----	Animacy=Anim|Case=Nom|Gender=Masc|NameType=Giv|Negative=Pos|Number=Sing	0	root	_	_
+2	Jánoška	Jánoška	PROPN	NNMS1-----A----	Animacy=Anim|Case=Nom|Gender=Masc|NameType=Sur|Negative=Pos|Number=Sing	1	name	_	_
+
+# sent_id = 7
+# text = Na pozadí vývoje v posledních dnech a týdnech se však zdá, že litera výše uvedené mezinárodní smlouvy mezi ČR a SR bude mít co nevidět pouze sílu psaného slova a ničeho jiného.
+1	Na	na	ADP	RR--6----------	AdpType=Prep|Case=Loc	2	case	_	_
+2	pozadí	pozadí	NOUN	NNNS6-----A----	Case=Loc|Gender=Neut|Negative=Pos|Number=Sing	11	nmod	_	_
+3	vývoje	vývoj	NOUN	NNIS2-----A----	Animacy=Inan|Case=Gen|Gender=Masc|Negative=Pos|Number=Sing	2	nmod	_	_
+4	v	v	ADP	RR--6----------	AdpType=Prep|Case=Loc	6	case	_	_
+5	posledních	poslední	ADJ	AAIP6----1A----	Animacy=Inan|Case=Loc|Degree=Pos|Gender=Masc|Negative=Pos|Number=Plur	6	amod	_	_
+6	dnech	den	NOUN	NNIP6-----A----	Animacy=Inan|Case=Loc|Gender=Masc|Negative=Pos|Number=Plur	3	nmod	_	_
+7	a	a	CONJ	J^-------------	_	6	cc	_	_
+8	týdnech	týden	NOUN	NNIP6-----A----	Animacy=Inan|Case=Loc|Gender=Masc|Negative=Pos|Number=Plur	6	conj	_	_
+9	se	se	PRON	P7-X4----------	Case=Acc|PronType=Prs|Reflex=Yes|Variant=Short	11	expl	_	_
+10	však	však	CONJ	J^-------------	_	11	cc	_	_
+11	zdá	zdát	VERB	VB-S---3P-AA---	Mood=Ind|Negative=Pos|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No
+12	,	,	PUNCT	Z:-------------	_	24	punct	_	_
+13	že	že	SCONJ	J,-------------	_	24	mark	_	_
+14	litera	litera	NOUN	NNFS1-----A----	Case=Nom|Gender=Fem|Negative=Pos|Number=Sing	24	nsubj	_	_
+15	výše	vysoko	ADV	Dg-------2A---1	Degree=Cmp|Negative=Pos	16	advmod	_	_
+16	uvedené	uvedený	ADJ	AAFS2----1A----	Case=Gen|Degree=Pos|Gender=Fem|Negative=Pos|Number=Sing	18	amod	_	_
+17	mezinárodní	mezinárodní	ADJ	AAFS2----1A----	Case=Gen|Degree=Pos|Gender=Fem|Negative=Pos|Number=Sing	18	amod	_	_
+18	smlouvy	smlouva	NOUN	NNFS2-----A----	Case=Gen|Gender=Fem|Negative=Pos|Number=Sing	14	nmod	_	Coref=3|Drop_coref=6
+19	mezi	mezi	ADP	RR--7----------	AdpType=Prep|Case=Ins	20	case	_	_
+20	ČR	ČR	PROPN	NNFXX-----A---8	Abbr=Yes|Gender=Fem|NameType=Geo|Negative=Pos	18	nmod	_	Coref=5
+21	a	a	CONJ	J^-------------	_	20	cc	_	Coref=6
+22	SR	SR	PROPN	NNFXX-----A---8	Abbr=Yes|Gender=Fem|NameType=Geo|Negative=Pos	20	conj	_	Coref=4
+23	bude	být	AUX	VB-S---3F-AA---	Mood=Ind|Negative=Pos|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	24	aux	_	_
+24	mít	mít	VERB	Vf--------A----	Negative=Pos|VerbForm=Inf	11	csubj	_	_
+25	co	co	ADV	Db-------------	_	26	advmod	_	_
+26	nevidět	vidět	VERB	Vf--------N----	Negative=Neg|VerbForm=Inf	24	ccomp	_	_
+27	pouze	pouze	ADV	Db-------------	_	28	advmod:emph	_	_
+28	sílu	síla	NOUN	NNFS4-----A----	Case=Acc|Gender=Fem|Negative=Pos|Number=Sing	26	dobj	_	_
+29	psaného	psaný	ADJ	AANS2----1A----	Case=Gen|Degree=Pos|Gender=Neut|Negative=Pos|Number=Sing	30	amod	_	_
+30	slova	slovo	NOUN	NNNS2-----A----	Case=Gen|Gender=Neut|Negative=Pos|Number=Sing	28	nmod	_	_
+31	a	a	CONJ	J^-------------	_	28	cc	_	_
+32	ničeho	nic	PRON	PW--2----------	Case=Gen|Negative=Neg|PronType=Neg	28	conj	_	_
+33	jiného	jiný	ADJ	AANS2----1A----	Case=Gen|Degree=Pos|Gender=Neut|Negative=Pos|Number=Sing	32	amod	_	SpaceAfter=No
+34	.	.	PUNCT	Z:-------------	_	11	punct	_	_
+
+# sent_id = 8
+# text = Celní unie bude sice existovat na papíře ještě dalších dvanáct měsíců (a třeba i déle), ale v praxi dostanou vzájemné vztahy punc tvrdosti mezinárodního obchodu.
+1	Celní	celní	ADJ	AAFS1----1A----	Case=Nom|Degree=Pos|Gender=Fem|Negative=Pos|Number=Sing	2	amod	_	_
+2	unie	unie	NOUN	NNFS1-----A----	Case=Nom|Gender=Fem|Negative=Pos|Number=Sing	5	nsubj	_	Coref=1
+3	bude	být	AUX	VB-S---3F-AA---	Mood=Ind|Negative=Pos|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	5	aux	_	_
+4	sice	sice	ADV	Db-------------	_	5	cc	_	_
+5	existovat	existovat	VERB	Vf--------A----	Aspect=Imp|Negative=Pos|VerbForm=Inf	0	root	_	_
+6	na	na	ADP	RR--6----------	AdpType=Prep|Case=Loc	7	case	_	_
+7	papíře	papír	NOUN	NNIS6-----A----	Animacy=Inan|Case=Loc|Gender=Masc|Negative=Pos|Number=Sing	5	nmod	_	_
+8	ještě	ještě	ADV	Db-------------	_	10	advmod:emph	_	_
+9	dalších	další	ADJ	AAIP2----1A----	Animacy=Inan|Case=Gen|Degree=Pos|Gender=Masc|Negative=Pos|Number=Plur	11	amod	_	_
+10	dvanáct	dvanáct	NUM	Cn-S4----------	Case=Acc|Number=Sing|NumForm=Word|NumType=Card	11	nummod:gov	_	_
+11	měsíců	měsíc	NOUN	NNIP2-----A----	Animacy=Inan|Case=Gen|Gender=Masc|Negative=Pos|Number=Plur	5	advmod	_	Coref=7
+12	(	(	PUNCT	Z:-------------	_	5	punct	_	SpaceAfter=No
+13	a	a	CONJ	J^-------------	_	5	cc	_	_
+14	třeba	třeba	ADV	Db-------------	_	16	advmod:emph	_	_
+15	i	i	CONJ	J^-------------	_	16	advmod:emph	_	_
+16	déle	dlouho	ADV	Dg-------2A----	Degree=Cmp|Negative=Pos	5	conj	_	SpaceAfter=No
+17	)	)	PUNCT	Z:-------------	_	5	punct	_	SpaceAfter=No
+18	,	,	PUNCT	Z:-------------	_	5	punct	_	_
+19	ale	ale	CONJ	J^-------------	_	5	cc	_	_
+20	v	v	ADP	RR--6----------	AdpType=Prep|Case=Loc	21	case	_	_
+21	praxi	praxe	NOUN	NNFS6-----A----	Case=Loc|Gender=Fem|Negative=Pos|Number=Sing	22	nmod	_	_
+22	dostanou	dostat	VERB	VB-P---3P-AA---	Mood=Ind|Negative=Pos|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	5	conj	_	_
+23	vzájemné	vzájemný	ADJ	AAIP1----1A----	Animacy=Inan|Case=Nom|Degree=Pos|Gender=Masc|Negative=Pos|Number=Plur	24	amod	_	_
+24	vztahy	vztah	NOUN	NNIP1-----A----	Animacy=Inan|Case=Nom|Gender=Masc|Negative=Pos|Number=Plur	22	nsubj	_	Coref=0
+25	punc	punc	NOUN	NNIS4-----A----	Animacy=Inan|Case=Acc|Gender=Masc|Negative=Pos|Number=Sing	22	dobj	_	_
+26	tvrdosti	tvrdost	NOUN	NNFS2-----A----	Case=Gen|Gender=Fem|Negative=Pos|Number=Sing	25	nmod	_	_
+27	mezinárodního	mezinárodní	ADJ	AAIS2----1A----	Animacy=Inan|Case=Gen|Degree=Pos|Gender=Masc|Negative=Pos|Number=Sing	28	amod	_	_
+28	obchodu	obchod	NOUN	NNIS2-----A----	Animacy=Inan|Case=Gen|Gender=Masc|Negative=Pos|Number=Sing	26	nmod	_	SpaceAfter=No
+29	.	.	PUNCT	Z:-------------	_	5	punct	_	_
+
+# sent_id = 9
+# text = Poroste administrativa
+1	Poroste	růst	VERB	VB-S---3P-AA---	Mood=Ind|Negative=Pos|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+2	administrativa	administrativa	NOUN	NNFS1-----A----	Case=Nom|Gender=Fem|Negative=Pos|Number=Sing	1	nsubj	_	_
+
+# sent_id = 10
+# text = Jistotu v tomto směru dávají nejnovější kroky vlády SR, která se rozhodla zavést již před časem avizovanou desetiprocentní dovozní přirážku na zboží zahraniční provinencie.
+1	Jistotu	jistota	NOUN	NNFS4-----A----	Case=Acc|Gender=Fem|Negative=Pos|Number=Sing	5	dobj	_	_
+2	v	v	ADP	RR--6----------	AdpType=Prep|Case=Loc	4	case	_	_
+3	tomto	tento	DET	PDZS6----------	Case=Loc|Gender=Masc,Neut|Number=Sing|PronType=Dem	4	det	_	_
+4	směru	směr	NOUN	NNIS6-----A----	Animacy=Inan|Case=Loc|Gender=Masc|Negative=Pos|Number=Sing	1	nmod	_	_
+5	dávají	dávat	VERB	VB-P---3P-AA---	Aspect=Imp|Mood=Ind|Negative=Pos|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+6	nejnovější	nový	ADJ	AAIP1----3A----	Animacy=Inan|Case=Nom|Degree=Sup|Gender=Masc|Negative=Pos|Number=Plur	7	amod	_	_
+7	kroky	krok	NOUN	NNIP1-----A----	Animacy=Inan|Case=Nom|Gender=Masc|Negative=Pos|Number=Plur	5	nsubj	_	_
+8	vlády	vláda	NOUN	NNFS2-----A----	Case=Gen|Gender=Fem|Negative=Pos|Number=Sing	7	nmod	_	Coref=8
+9	SR	SR	PROPN	NNFXX-----A---8	Abbr=Yes|Gender=Fem|NameType=Geo|Negative=Pos	8	nmod	_	Coref=4|SpaceAfter=No
+10	,	,	PUNCT	Z:-------------	_	13	punct	_	_
+11	která	který	PRON	P4FS1----------	Case=Nom|Gender=Fem|Number=Sing|PronType=Int,Rel	13	nsubj	_	Coref=8
+12	se	se	PRON	P7-X4----------	Case=Acc|PronType=Prs|Reflex=Yes|Variant=Short	13	expl	_	_
+13	rozhodla	rozhodnout	VERB	VpQW---XR-AA--1	Aspect=Perf|Gender=Fem,Neut|Negative=Pos|Number=Plur,Sing|Tense=Past|VerbForm=Part|Voice=Act	8	acl	_	_
+14	zavést	zavést	VERB	Vf--------A----	Negative=Pos|VerbForm=Inf	13	xcomp	_	Drop_coref=8
+15	již	již	ADV	Db-------------	_	17	advmod:emph	_	_
+16	před	před	ADP	RR--7----------	AdpType=Prep|Case=Ins	17	case	_	_
+17	časem	čas	NOUN	NNIS7-----A----	Animacy=Inan|Case=Ins|Gender=Masc|Negative=Pos|Number=Sing	14	nmod	_	_
+18	avizovanou	avizovaný	ADJ	AAFS4----1A----	Case=Acc|Degree=Pos|Gender=Fem|Negative=Pos|Number=Sing	21	amod	_	_
+19	desetiprocentní	desetiprocentní	ADJ	AAFS4----1A----	Case=Acc|Degree=Pos|Gender=Fem|Negative=Pos|Number=Sing	21	amod	_	_
+20	dovozní	dovozní	ADJ	AAFS4----1A----	Case=Acc|Degree=Pos|Gender=Fem|Negative=Pos|Number=Sing	21	amod	_	_
+21	přirážku	přirážka	NOUN	NNFS4-----A----	Case=Acc|Gender=Fem|Negative=Pos|Number=Sing	14	dobj	_	_
+22	na	na	ADP	RR--4----------	AdpType=Prep|Case=Acc	23	case	_	_
+23	zboží	zboží	NOUN	NNNS4-----A----	Case=Acc|Gender=Neut|Negative=Pos|Number=Sing	21	nmod	_	_
+24	zahraniční	zahraniční_,a	ADJ	AAFS2----1A----	Case=Gen|Degree=Pos|Gender=Fem|Negative=Pos|Number=Sing	25	amod	_	_
+25	provinencie	provinencie	NOUN	NNFS2-----A----	Case=Gen|Gender=Fem|Negative=Pos|Number=Sing	23	nmod	_	SpaceAfter=No
+26	.	.	PUNCT	Z:-------------	_	5	punct	_	_
+
+# sent_id = 11
+# text = Byť má na tento krok určité právo (jako člen GATT), v daném okamžiku však vyznívá jako tvrdé politické rozhodnutí vlády, která se snaží velice rezolutními administrativními kroky zredukovat mnohamilionové pasívum v obchodní výměně s ČR.
+1	Byť	byť	SCONJ	J,-------------	_	2	mark	_	_
+2	má	mít	VERB	VB-S---3P-AA---	Mood=Ind|Negative=Pos|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	18	advcl	_	Drop_coref=8
+3	na	na	ADP	RR--4----------	AdpType=Prep|Case=Acc	5	case	_	_
+4	tento	tento	DET	PDIS4----------	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing|PronType=Dem	5	det	_	_
+5	krok	krok	NOUN	NNIS4-----A----	Animacy=Inan|Case=Acc|Gender=Masc|Negative=Pos|Number=Sing	7	nmod	_	Coref=8|Drop_coref=8
+6	určité	určitý	ADJ	AANS4----1A----	Case=Acc|Degree=Pos|Gender=Neut|Negative=Pos|Number=Sing	7	amod	_	_
+7	právo	právo	NOUN	NNNS4-----A----	Case=Acc|Gender=Neut|Negative=Pos|Number=Sing	2	dobj	_	Drop_coref=8
+8	(	(	PUNCT	Z:-------------	_	10	punct	_	SpaceAfter=No
+9	jako	jako	SCONJ	J,-------------	_	10	mark	_	_
+10	člen	člen	NOUN	NNMS1-----A----	Animacy=Anim|Case=Nom|Gender=Masc|Negative=Pos|Number=Sing	7	xcomp	_	_
+11	GATT	GATT	NOUN	NNFXX-----A---8	Abbr=Yes|Gender=Fem|Negative=Pos	10	nmod	_	Coref=10|SpaceAfter=No
+12	)	)	PUNCT	Z:-------------	_	10	punct	_	SpaceAfter=No
+13	,	,	PUNCT	Z:-------------	_	2	punct	_	_
+14	v	v	ADP	RR--6----------	AdpType=Prep|Case=Loc	16	case	_	_
+15	daném	daný	ADJ	AAIS6----1A----	Animacy=Inan|Case=Loc|Degree=Pos|Gender=Masc|Negative=Pos|Number=Sing	16	amod	_	_
+16	okamžiku	okamžik	NOUN	NNIS6-----A----	Animacy=Inan|Case=Loc|Gender=Masc|Negative=Pos|Number=Sing	18	nmod	_	_
+17	však	však	CONJ	J^-------------	_	18	cc	_	_
+18	vyznívá	vyznívat	VERB	VB-S---3P-AA---	Aspect=Imp|Mood=Ind|Negative=Pos|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	Drop_coref=9
+19	jako	jako	SCONJ	J,-------------	_	22	mark	_	_
+20	tvrdé	tvrdý	ADJ	AANS1----1A----	Case=Nom|Degree=Pos|Gender=Neut|Negative=Pos|Number=Sing	22	amod	_	_
+21	politické	politický	ADJ	AANS1----1A----	Case=Nom|Degree=Pos|Gender=Neut|Negative=Pos|Number=Sing	22	amod	_	_
+22	rozhodnutí	rozhodnutí	NOUN	NNNS1-----A----	Case=Nom|Gender=Neut|Negative=Pos|Number=Sing	18	advcl	_	Coref=8
+23	vlády	vláda	NOUN	NNFS2-----A----	Case=Gen|Gender=Fem|Negative=Pos|Number=Sing	22	nmod	_	Coref=8|SpaceAfter=No
+24	,	,	PUNCT	Z:-------------	_	27	punct	_	_
+25	která	který	PRON	P4FS1----------	Case=Nom|Gender=Fem|Number=Sing|PronType=Int,Rel	27	nsubj	_	Coref=8
+26	se	se	PRON	P7-X4----------	Case=Acc|PronType=Prs|Reflex=Yes|Variant=Short	27	expl	_	_
+27	snaží	snažit	VERB	VB-S---3P-AA---	Aspect=Imp|Mood=Ind|Negative=Pos|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	22	acl	_	_
+28	velice	velice	ADV	Db-------------	_	29	advmod	_	_
+29	rezolutními	rezolutní	ADJ	AAIP7----1A----	Animacy=Inan|Case=Ins|Degree=Pos|Gender=Masc|Negative=Pos|Number=Plur	31	amod	_	_
+30	administrativními	administrativní	ADJ	AAIP7----1A----	Animacy=Inan|Case=Ins|Degree=Pos|Gender=Masc|Negative=Pos|Number=Plur	31	amod	_	_
+31	kroky	krok	NOUN	NNIP7-----A----	Animacy=Inan|Case=Ins|Gender=Masc|Negative=Pos|Number=Plur	32	nmod	_	_
+32	zredukovat	zredukovat	VERB	Vf--------A----	Aspect=Perf|Negative=Pos|VerbForm=Inf	27	xcomp	_	Drop_coref=8
+33	mnohamilionové	mnohomiliónový	ADJ	AANS4----1A----	Case=Acc|Degree=Pos|Gender=Neut|Negative=Pos|Number=Sing	34	amod	_	_
+34	pasívum	pasívum_,x	NOUN	NNNS4-----A----	Case=Acc|Gender=Neut|Negative=Pos|Number=Sing	32	dobj	_	_
+35	v	v	ADP	RR--6----------	AdpType=Prep|Case=Loc	37	case	_	_
+36	obchodní	obchodní	ADJ	AAFS6----1A----	Case=Loc|Degree=Pos|Gender=Fem|Negative=Pos|Number=Sing	37	amod	_	_
+37	výměně	výměna	NOUN	NNFS6-----A----	Case=Loc|Gender=Fem|Negative=Pos|Number=Sing	34	nmod	_	_
+38	s	s	ADP	RR--7----------	AdpType=Prep|Case=Ins	39	case	_	_
+39	ČR	ČR	PROPN	NNFXX-----A---8	Abbr=Yes|Gender=Fem|NameType=Geo|Negative=Pos	37	nmod	_	Coref=5|SpaceAfter=No
+40	.	.	PUNCT	Z:-------------	_	18	punct	_	_
+
+# sent_id = 12
+# text = Podle regulí GATT lze toto opatření přijmout maximálně na období šesti měsíců a pouze u vybraných položek.
+1	Podle	podle	ADP	RR--2----------	AdpType=Prep|Case=Gen	2	case	_	_
+2	regulí	regule	NOUN	NNFP2-----A----	Case=Gen|Gender=Fem|Negative=Pos|Number=Plur	4	nmod	_	_
+3	GATT	GATT	NOUN	NNFXX-----A---8	Abbr=Yes|Gender=Fem|Negative=Pos	2	nmod	_	Coref=10
+4	lze	lze	VERB	VB-S---3P-AA---	Mood=Ind|Negative=Pos|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	Drop_coref=11
+5	toto	tento	DET	PDNS4----------	Case=Acc|Gender=Neut|Number=Sing|PronType=Dem	6	det	_	_
+6	opatření	opatření	NOUN	NNNS4-----A----	Case=Acc|Gender=Neut|Negative=Pos|Number=Sing	7	dobj	_	Coref=9
+7	přijmout	přijmout	VERB	Vf--------A----	Negative=Pos|VerbForm=Inf	4	csubj	_	_
+8	maximálně	maximálně	ADV	Dg-------1A----	Degree=Pos|Negative=Pos	10	advmod:emph	_	_
+9	na	na	ADP	RR--4----------	AdpType=Prep|Case=Acc	10	case	_	_
+10	období	období	NOUN	NNNS4-----A----	Case=Acc|Gender=Neut|Negative=Pos|Number=Sing	7	nmod	_	_
+11	šesti	šest	NUM	Cn-P2----------	Case=Gen|Number=Plur|NumForm=Word|NumType=Card	12	nummod	_	_
+12	měsíců	měsíc	NOUN	NNIP2-----A----	Animacy=Inan|Case=Gen|Gender=Masc|Negative=Pos|Number=Plur	10	nmod	_	_
+13	a	a	CONJ	J^-------------	_	10	cc	_	Drop_coref=11
+14	pouze	pouze	ADV	Db-------------	_	17	advmod:emph	_	_
+15	u	u	ADP	RR--2----------	AdpType=Prep|Case=Gen	17	case	_	_
+16	vybraných	vybraný	ADJ	AAFP2----1A----	Case=Gen|Degree=Pos|Gender=Fem|Negative=Pos|Number=Plur	17	amod	_	_
+17	položek	položka	NOUN	NNFP2-----A----	Case=Gen|Gender=Fem|Negative=Pos|Number=Plur	10	conj	_	SpaceAfter=No
+18	.	.	PUNCT	Z:-------------	_	4	punct	_	_
+
+# sent_id = 13
+# text = Tato skutečnost však nic nemění na faktu, že nadcházející týdny a měsíce budou znamenat neúměrně zvýšené nároky na administrativu podnikatelů při rozvíjení jejich obchodních aktivit se slovenskými partnery.
+1	Tato	tento	DET	PDFS1----------	Case=Nom|Gender=Fem|Number=Sing|PronType=Dem	2	det	_	_
+2	skutečnost	skutečnost	NOUN	NNFS1-----A----	Case=Nom|Gender=Fem|Negative=Pos|Number=Sing	5	nsubj	_	Coref=11
+3	však	však	CONJ	J^-------------	_	5	cc	_	_
+4	nic	nic	PRON	PW--4----------	Case=Acc|Negative=Neg|PronType=Neg	5	dobj	_	_
+5	nemění	měnit	VERB	VB-S---3P-NA---	Aspect=Imp|Mood=Ind|Negative=Neg|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+6	na	na	ADP	RR--6----------	AdpType=Prep|Case=Loc	7	case	_	_
+7	faktu	fakt	NOUN	NNIS6-----A----	Animacy=Inan|Case=Loc|Gender=Masc|Negative=Pos|Number=Sing	5	dobj	_	SpaceAfter=No
+8	,	,	PUNCT	Z:-------------	_	15	punct	_	_
+9	že	že	SCONJ	J,-------------	_	15	mark	_	_
+10	nadcházející	nadcházející	ADJ	AGIP1-----A----	Animacy=Inan|Aspect=Imp|Case=Nom|Gender=Masc|Negative=Pos|Number=Plur|Tense=Pres|VerbForm=Part|Voice=Act	11	amod	_	_
+11	týdny	týden	NOUN	NNIP1-----A----	Animacy=Inan|Case=Nom|Gender=Masc|Negative=Pos|Number=Plur	15	nsubj	_	_
+12	a	a	CONJ	J^-------------	_	11	cc	_	_
+13	měsíce	měsíc	NOUN	NNIP1-----A----	Animacy=Inan|Case=Nom|Gender=Masc|Negative=Pos|Number=Plur	11	conj	_	_
+14	budou	být	AUX	VB-P---3F-AA---	Mood=Ind|Negative=Pos|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	15	aux	_	_
+15	znamenat	znamenat	VERB	Vf--------A----	Aspect=Imp|Negative=Pos|VerbForm=Inf	7	acl	_	_
+16	neúměrně	úměrně	ADV	Dg-------1N----	Degree=Pos|Negative=Neg	17	advmod	_	_
+17	zvýšené	zvýšený	ADJ	AAIP4----1A----	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Negative=Pos|Number=Plur	18	amod	_	_
+18	nároky	nárok	NOUN	NNIP4-----A----	Animacy=Inan|Case=Acc|Gender=Masc|Negative=Pos|Number=Plur	15	dobj	_	_
+19	na	na	ADP	RR--4----------	AdpType=Prep|Case=Acc	20	case	_	_
+20	administrativu	administrativa	NOUN	NNFS4-----A----	Case=Acc|Gender=Fem|Negative=Pos|Number=Sing	18	nmod	_	_
+21	podnikatelů	podnikatel	NOUN	NNMP2-----A----	Animacy=Anim|Case=Gen|Gender=Masc|Negative=Pos|Number=Plur	20	nmod	_	Coref=12
+22	při	při	ADP	RR--6----------	AdpType=Prep|Case=Loc	23	case	_	_
+23	rozvíjení	rozvíjení	NOUN	NNNS6-----A----	Case=Loc|Gender=Neut|Negative=Pos|Number=Sing	15	nmod	_	_
+24	jejich	jeho	DET	PSXXXXP3-------	Number[psor]=Plur|Person=3|Poss=Yes|PronType=Prs	26	det	_	Coref=12
+25	obchodních	obchodní	ADJ	AAFP2----1A----	Case=Gen|Degree=Pos|Gender=Fem|Negative=Pos|Number=Plur	26	amod	_	_
+26	aktivit	aktivita	NOUN	NNFP2-----A----	Case=Gen|Gender=Fem|Negative=Pos|Number=Plur	23	nmod	_	_
+27	se	s	ADP	RV--7----------	AdpType=Voc|Case=Ins	29	case	_	_
+28	slovenskými	slovenský	ADJ	AAMP7----1A----	Animacy=Anim|Case=Ins|Degree=Pos|Gender=Masc|Negative=Pos|Number=Plur	29	amod	_	Coref=4
+29	partnery	partner	NOUN	NNMP7-----A----	Animacy=Anim|Case=Ins|Gender=Masc|Negative=Pos|Number=Plur	26	nmod	_	SpaceAfter=No
+30	.	.	PUNCT	Z:-------------	_	5	punct	_	_
+
+# sent_id = 14
+# text = Pravidla pro příští týdny
+1	Pravidla	pravidlo	NOUN	NNNP1-----A----	Case=Nom|Gender=Neut|Negative=Pos|Number=Plur	0	root	_	_
+2	pro	pro	ADP	RR--4----------	AdpType=Prep|Case=Acc	4	case	_	_
+3	příští	příští	ADJ	AAIP4----1A----	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Negative=Pos|Number=Plur	4	amod	_	_
+4	týdny	týden	NOUN	NNIP4-----A----	Animacy=Inan|Case=Acc|Gender=Masc|Negative=Pos|Number=Plur	1	nmod	_	_
+
+# sent_id = 15
+# text = Již několik dnů je všeobecně známo, že ochranářská opatření slovenské vlády proti českým exportérům se dotýkají zejména oblasti obchodu s potravinami a zemědělskými produkty.
+1	Již	již	ADV	Db-------------	_	2	advmod:emph	_	_
+2	několik	několik	DET	Ca--4----------	Case=Acc|NumType=Card|PronType=Dem,Ind	3	det:numgov	_	_
+3	dnů	den	NOUN	NNIP2-----A----	Animacy=Inan|Case=Gen|Gender=Masc|Negative=Pos|Number=Plur	6	advmod	_	_
+4	je	být	VERB	VB-S---3P-AA---	Mood=Ind|Negative=Pos|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	6	cop	_	_
+5	všeobecně	všeobecně	ADV	Dg-------1A----	Degree=Pos|Negative=Pos	6	advmod	_	_
+6	známo	známý	ADJ	ACNS------A----	Gender=Neut|Negative=Pos|Number=Sing|Variant=Short	0	root	_	SpaceAfter=No
+7	,	,	PUNCT	Z:-------------	_	17	punct	_	_
+8	že	že	SCONJ	J,-------------	_	17	mark	_	_
+9	ochranářská	ochranářský	ADJ	AANP1----1A----	Case=Nom|Degree=Pos|Gender=Neut|Negative=Pos|Number=Plur	10	amod	_	_
+10	opatření	opatření	NOUN	NNNP1-----A----	Case=Nom|Gender=Neut|Negative=Pos|Number=Plur	17	nsubj	_	Coref=13
+11	slovenské	slovenský	ADJ	AAFS2----1A----	Case=Gen|Degree=Pos|Gender=Fem|Negative=Pos|Number=Sing	12	amod	_	Coref=4
+12	vlády	vláda	NOUN	NNFS2-----A----	Case=Gen|Gender=Fem|Negative=Pos|Number=Sing	10	nmod	_	Coref=8
+13	proti	proti	ADP	RR--3----------	AdpType=Prep|Case=Dat	15	case	_	_
+14	českým	český	ADJ	AAMP3----1A----	Animacy=Anim|Case=Dat|Degree=Pos|Gender=Masc|Negative=Pos|Number=Plur	15	amod	_	Coref=5
+15	exportérům	exportér	NOUN	NNMP3-----A----	Animacy=Anim|Case=Dat|Gender=Masc|Negative=Pos|Number=Plur	12	nmod	_	Coref=14
+16	se	se	PRON	P7-X4----------	Case=Acc|PronType=Prs|Reflex=Yes|Variant=Short	17	expl	_	_
+17	dotýkají	dotýkat	VERB	VB-P---3P-AA---	Aspect=Imp|Mood=Ind|Negative=Pos|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	6	csubj	_	_
+18	zejména	zejména	ADV	Db-------------	_	19	advmod:emph	_	_
+19	oblasti	oblast	NOUN	NNFS2-----A----	Case=Gen|Gender=Fem|Negative=Pos|Number=Sing	17	dobj	_	_
+20	obchodu	obchod	NOUN	NNIS2-----A----	Animacy=Inan|Case=Gen|Gender=Masc|Negative=Pos|Number=Sing	19	nmod	_	_
+21	s	s	ADP	RR--7----------	AdpType=Prep|Case=Ins	22	case	_	_
+22	potravinami	potravina	NOUN	NNFP7-----A----	Case=Ins|Gender=Fem|Negative=Pos|Number=Plur	20	nmod	_	Coref=16
+23	a	a	CONJ	J^-------------	_	19	cc	_	_
+24	zemědělskými	zemědělský	ADJ	AAIP7----1A----	Animacy=Inan|Case=Ins|Degree=Pos|Gender=Masc|Negative=Pos|Number=Plur	25	amod	_	_
+25	produkty	produkt	NOUN	NNIP7-----A----	Animacy=Inan|Case=Ins|Gender=Masc|Negative=Pos|Number=Plur	19	conj	_	SpaceAfter=No
+26	.	.	PUNCT	Z:-------------	_	6	punct	_	_
+
+# sent_id = 16
+# text = Našemu listu se podařilo získat od představitelů slovenského Úřadu pro normalizaci, metrologii a zkušebnictví (ÚNMS SR) informaci o technickém zajištění propouštění potravinářských výrobků do SR.
+1	Našemu	můj	DET	PSZS3-P1-------	Case=Dat|Gender=Masc,Neut|Number=Sing|Number[psor]=Plur|Person=1|Poss=Yes|PronType=Prs	2	det	_	_
+2	listu	list	NOUN	NNIS3-----A----	Animacy=Inan|Case=Dat|Gender=Masc|Negative=Pos|Number=Sing	4	dobj	_	Coref=15
+3	se	se	PRON	P7-X4----------	Case=Acc|PronType=Prs|Reflex=Yes|Variant=Short	4	expl	_	_
+4	podařilo	podařit	VERB	VpNS---XR-AA---	Aspect=Perf|Gender=Neut|Negative=Pos|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	0	root	_	_
+5	získat	získat	VERB	Vf--------A----	Aspect=Perf|Negative=Pos|VerbForm=Inf	4	csubj	_	Drop_coref=15
+6	od	od	ADP	RR--2----------	AdpType=Prep|Case=Gen	7	case	_	_
+7	představitelů	představitel	NOUN	NNMP2-----A----	Animacy=Anim|Case=Gen|Gender=Masc|Negative=Pos|Number=Plur	5	iobj	_	_
+8	slovenského	slovenský	ADJ	AAIS2----1A----	Animacy=Inan|Case=Gen|Degree=Pos|Gender=Masc|Negative=Pos|Number=Sing	9	amod	_	Coref=4
+9	Úřadu	úřad	NOUN	NNIS2-----A----	Animacy=Inan|Case=Gen|Gender=Masc|Negative=Pos|Number=Sing	7	nmod	_	_
+10	pro	pro	ADP	RR--4----------	AdpType=Prep|Case=Acc	11	case	_	_
+11	normalizaci	normalizace	NOUN	NNFS4-----A----	Case=Acc|Gender=Fem|Negative=Pos|Number=Sing	9	nmod	_	SpaceAfter=No
+12	,	,	PUNCT	Z:-------------	_	11	punct	_	_
+13	metrologii	metrologie	NOUN	NNFS4-----A----	Case=Acc|Gender=Fem|Negative=Pos|Number=Sing	11	conj	_	_
+14	a	a	CONJ	J^-------------	_	11	cc	_	_
+15	zkušebnictví	zkušebnictví	NOUN	NNNS4-----A----	Case=Acc|Gender=Neut|Negative=Pos|Number=Sing	11	conj	_	_
+16	(	(	PUNCT	Z:-------------	_	9	punct	_	Coref=18|SpaceAfter=No
+17	ÚNMS	ÚNMS	PROPN	NNIXX-----A---8	Abbr=Yes|Animacy=Inan|Foreign=Foreign|Gender=Masc|NameType=Com|Negative=Pos	9	dep	_	_
+18	SR	SR	PROPN	NNFXX-----A---8	Abbr=Yes|Gender=Fem|NameType=Geo|Negative=Pos	17	nmod	_	Coref=4|SpaceAfter=No
+19	)	)	PUNCT	Z:-------------	_	9	punct	_	_
+20	informaci	informace	NOUN	NNFS4-----A----	Case=Acc|Gender=Fem|Negative=Pos|Number=Sing	5	dobj	_	_
+21	o	o	ADP	RR--6----------	AdpType=Prep|Case=Loc	23	case	_	_
+22	technickém	technický	ADJ	AANS6----1A----	Case=Loc|Degree=Pos|Gender=Neut|Negative=Pos|Number=Sing	23	amod	_	_
+23	zajištění	zajištění	NOUN	NNNS6-----A----	Case=Loc|Gender=Neut|Negative=Pos|Number=Sing	20	nmod	_	_
+24	propouštění	propouštění	NOUN	NNNS2-----A----	Case=Gen|Gender=Neut|Negative=Pos|Number=Sing	23	nmod	_	_
+25	potravinářských	potravinářský	ADJ	AAIP2----1A----	Animacy=Inan|Case=Gen|Degree=Pos|Gender=Masc|Negative=Pos|Number=Plur	26	amod	_	_
+26	výrobků	výrobek	NOUN	NNIP2-----A----	Animacy=Inan|Case=Gen|Gender=Masc|Negative=Pos|Number=Plur	24	nmod	_	Coref=16
+27	do	do	ADP	RR--2----------	AdpType=Prep|Case=Gen	28	case	_	_
+28	SR	SR	PROPN	NNFXX-----A---8	Abbr=Yes|Gender=Fem|NameType=Geo|Negative=Pos	24	nmod	_	Coref=4|SpaceAfter=No
+29	.	.	PUNCT	Z:-------------	_	4	punct	_	_
+
+# sent_id = 17
+# text = Z rozhodujících opatření, která by měla plně vstoupit v platnost po 1. dubnu vyjímáme:
+1	Z	z	ADP	RR--2----------	AdpType=Prep|Case=Gen	3	case	_	_
+2	rozhodujících	rozhodující	ADJ	AGNP2-----A----	Aspect=Imp|Case=Gen|Gender=Neut|Negative=Pos|Number=Plur|Tense=Pres|VerbForm=Part|Voice=Act	3	amod	_	_
+3	opatření	opatření	NOUN	NNNP2-----A----	Case=Gen|Gender=Neut|Negative=Pos|Number=Plur	16	nmod	_	Coref=13|SpaceAfter=No
+4	,	,	PUNCT	Z:-------------	_	7	punct	_	_
+5	která	který	PRON	P4NP1----------	Case=Nom|Gender=Neut|Number=Plur|PronType=Int,Rel	7	nsubj	_	Coref=13
+6	by	být	AUX	Vc-------------	Mood=Cnd|VerbForm=Fin	7	aux	_	_
+7	měla	mít	VERB	VpQW---XR-AA---	Gender=Fem,Neut|Negative=Pos|Number=Plur,Sing|Tense=Past|VerbForm=Part|Voice=Act	3	acl	_	_
+8	plně	plně	ADV	Dg-------1A----	Degree=Pos|Negative=Pos	9	advmod	_	_
+9	vstoupit	vstoupit	VERB	Vf--------A----	Aspect=Perf|Negative=Pos|VerbForm=Inf	7	xcomp	_	_
+10	v	v	ADP	RR--4----------	AdpType=Prep|Case=Acc	11	case	_	_
+11	platnost	platnost	NOUN	NNFS4-----A----	Case=Acc|Gender=Fem|Negative=Pos|Number=Sing	9	nmod	_	Drop_coref=13
+12	po	po	ADP	RR--6----------	AdpType=Prep|Case=Loc	15	case	_	_
+13	1	1	NUM	C=-------------	NumForm=Digit|NumType=Card	15	nummod	_	SpaceAfter=No
+14	.	.	PUNCT	Z:-------------	_	13	punct	_	_
+15	dubnu	duben	NOUN	NNIS6-----A----	Animacy=Inan|Case=Loc|Gender=Masc|Negative=Pos|Number=Sing	7	nmod	_	Coref=19
+16	vyjímáme	vyjímat	VERB	VB-P---1P-AA---	Aspect=Imp|Mood=Ind|Negative=Pos|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	Drop_coref=15|SpaceAfter=No
+17	:	:	PUNCT	Z:-------------	_	16	punct	_	_
+
+# sent_id = 18
+# text = 1)
+1	1	1	NUM	C=-------------	NumForm=Digit|NumType=Card	0	root	_	SpaceAfter=No
+2	)	)	PUNCT	Z:-------------	_	1	punct	_	_
+
+# sent_id = 19
+# text = Do 31. března platí v plném rozsahu postup podle dohody ÚNMZ ČR a ÚNMS SR, na jejímž základě český výrobce (slovenský dovozce) získá na základě schválení české zkušebny a rozhodnutí Ministerstva zdravotnictví SR na ÚNMS SR potvrzení o platnosti rozhodnutí i na území SR.
+1	Do	do	ADP	RR--2----------	AdpType=Prep|Case=Gen	4	case	_	_
+2	31	31	NUM	C=-------------	NumForm=Digit|NumType=Card	4	nummod	_	SpaceAfter=No
+3	.	.	PUNCT	Z:-------------	_	2	punct	_	_
+4	března	březen	NOUN	NNIS2-----A----	Animacy=Inan|Case=Gen|Gender=Masc|Negative=Pos|Number=Sing	5	nmod	_	_
+5	platí	platit	VERB	VB-S---3P-AA---	Mood=Ind|Negative=Pos|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+6	v	v	ADP	RR--6----------	AdpType=Prep|Case=Loc	8	case	_	_
+7	plném	plný	ADJ	AAIS6----1A----	Animacy=Inan|Case=Loc|Degree=Pos|Gender=Masc|Negative=Pos|Number=Sing	8	amod	_	_
+8	rozsahu	rozsah	NOUN	NNIS6-----A----	Animacy=Inan|Case=Loc|Gender=Masc|Negative=Pos|Number=Sing	5	nmod	_	_
+9	postup	postup	NOUN	NNIS1-----A----	Animacy=Inan|Case=Nom|Gender=Masc|Negative=Pos|Number=Sing	5	nsubj	_	_
+10	podle	podle	ADP	RR--2----------	AdpType=Prep|Case=Gen	11	case	_	_
+11	dohody	dohoda	NOUN	NNFS2-----A----	Case=Gen|Gender=Fem|Negative=Pos|Number=Sing	5	nmod	_	Drop_coref=17
+12	ÚNMZ	ÚNMZ	PROPN	NNIXX-----A---8	Abbr=Yes|Animacy=Inan|Gender=Masc|NameType=Com|Negative=Pos	11	nmod	_	_
+13	ČR	ČR	PROPN	NNFXX-----A---8	Abbr=Yes|Gender=Fem|NameType=Geo|Negative=Pos	12	nmod	_	Coref=5
+14	a	a	CONJ	J^-------------	_	12	cc	_	Coref=17
+15	ÚNMS	ÚNMS	PROPN	NNIXX-----A---8	Abbr=Yes|Animacy=Inan|Foreign=Foreign|Gender=Masc|NameType=Com|Negative=Pos	12	conj	_	Coref=18
+16	SR	SR	PROPN	NNFXX-----A---8	Abbr=Yes|Gender=Fem|NameType=Geo|Negative=Pos	15	nmod	_	Coref=4|SpaceAfter=No
+17	,	,	PUNCT	Z:-------------	_	27	punct	_	_
+18	na	na	ADP	RR--6----------	AdpType=Prep|Case=Loc	20	case	_	_
+19	jejímž	jenž	DET	P1ZS6FS3-------	Case=Loc|Gender=Masc,Neut|Gender[psor]=Fem|Number=Sing|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Rel	20	det	_	Coref=17
+20	základě	základ	NOUN	NNIS6-----A----	Animacy=Inan|Case=Loc|Gender=Masc|Negative=Pos|Number=Sing	27	nmod	_	_
+21	český	český	ADJ	AAMS1----1A----	Animacy=Anim|Case=Nom|Degree=Pos|Gender=Masc|Negative=Pos|Number=Sing	22	amod	_	Coref=5
+22	výrobce	výrobce	NOUN	NNMS1-----A----	Animacy=Anim|Case=Nom|Gender=Masc|Negative=Pos|Number=Sing	27	nsubj	_	_
+23	(	(	PUNCT	Z:-------------	_	25	punct	_	SpaceAfter=No
+24	slovenský	slovenský	ADJ	AAMS1----1A----	Animacy=Anim|Case=Nom|Degree=Pos|Gender=Masc|Negative=Pos|Number=Sing	25	amod	_	Coref=4
+25	dovozce	dovozce	NOUN	NNMS1-----A----	Animacy=Anim|Case=Nom|Gender=Masc|Negative=Pos|Number=Sing	22	appos	_	SpaceAfter=No
+26	)	)	PUNCT	Z:-------------	_	25	punct	_	_
+27	získá	získat	VERB	VB-S---3P-AA---	Aspect=Perf|Mood=Ind|Negative=Pos|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	11	acl	_	_
+28	na	na	ADP	RR--6----------	AdpType=Prep|Case=Loc	30	case	_	_
+29	základě	základ	NOUN	NNIS6-----A----	Animacy=Inan|Case=Loc|Gender=Masc|Negative=Pos|Number=Sing	28	mwe	_	_
+30	schválení	schválení	NOUN	NNNS2-----A----	Case=Gen|Gender=Neut|Negative=Pos|Number=Sing	27	nmod	_	_
+31	české	český	ADJ	AAFS2----1A----	Case=Gen|Degree=Pos|Gender=Fem|Negative=Pos|Number=Sing	32	amod	_	Coref=5
+32	zkušebny	zkušebna	NOUN	NNFS2-----A----	Case=Gen|Gender=Fem|Negative=Pos|Number=Sing	30	nmod	_	Coref=20
+33	a	a	CONJ	J^-------------	_	30	cc	_	_
+34	rozhodnutí	rozhodnutí	NOUN	NNNS2-----A----	Case=Gen|Gender=Neut|Negative=Pos|Number=Sing	30	conj	_	_
+35	Ministerstva	ministerstvo	NOUN	NNNS2-----A----	Case=Gen|Gender=Neut|Negative=Pos|Number=Sing	34	nmod	_	_
+36	zdravotnictví	zdravotnictví	NOUN	NNNS2-----A----	Case=Gen|Gender=Neut|Negative=Pos|Number=Sing	35	nmod	_	_
+37	SR	SR	PROPN	NNFXX-----A---8	Abbr=Yes|Gender=Fem|NameType=Geo|Negative=Pos	35	nmod	_	Coref=4
+38	na	na	ADP	RR--6----------	AdpType=Prep|Case=Loc	39	case	_	_
+39	ÚNMS	ÚNMS	PROPN	NNIXX-----A---8	Abbr=Yes|Animacy=Inan|Foreign=Foreign|Gender=Masc|NameType=Com|Negative=Pos	35	nmod	_	Coref=18
+40	SR	SR	PROPN	NNFXX-----A---8	Abbr=Yes|Gender=Fem|NameType=Geo|Negative=Pos	39	nmod	_	Coref=4
+41	potvrzení	potvrzení	NOUN	NNNS4-----A----	Case=Acc|Gender=Neut|Negative=Pos|Number=Sing	27	dobj	_	_
+42	o	o	ADP	RR--6----------	AdpType=Prep|Case=Loc	43	case	_	_
+43	platnosti	platnost	NOUN	NNFS6-----A----	Case=Loc|Gender=Fem|Negative=Pos|Number=Sing	41	nmod	_	_
+44	rozhodnutí	rozhodnutí	NOUN	NNNS2-----A----	Case=Gen|Gender=Neut|Negative=Pos|Number=Sing	43	nmod	_	_
+45	i	i	CONJ	J^-------------	_	44	cc	_	_
+46	na	na	ADP	RR--6----------	AdpType=Prep|Case=Loc	47	case	_	_
+47	území	území	NOUN	NNNS6-----A----	Case=Loc|Gender=Neut|Negative=Pos|Number=Sing	44	conj	_	_
+48	SR	SR	PROPN	NNFXX-----A---8	Abbr=Yes|Gender=Fem|NameType=Geo|Negative=Pos	47	nmod	_	Coref=4|SpaceAfter=No
+49	.	.	PUNCT	Z:-------------	_	5	punct	_	_
+
+# sent_id = 20
+# text = 2) Od 1. dubna nebude ÚNMS SR rozhodnutí české zkušebny potvrzovat.
+1	2	2	NUM	C=-------------	NumForm=Digit|NumType=Card	13	nmod	_	SpaceAfter=No
+2	)	)	PUNCT	Z:-------------	_	13	punct	_	_
+3	Od	od	ADP	RR--2----------	AdpType=Prep|Case=Gen	6	case	_	_
+4	1	1	NUM	C=-------------	NumForm=Digit|NumType=Card	6	nummod	_	SpaceAfter=No
+5	.	.	PUNCT	Z:-------------	_	4	punct	_	_
+6	dubna	duben	NOUN	NNIS2-----A----	Animacy=Inan|Case=Gen|Gender=Masc|Negative=Pos|Number=Sing	13	nmod	_	Coref=19
+7	nebude	být	AUX	VB-S---3F-NA---	Mood=Ind|Negative=Neg|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	13	aux	_	_
+8	ÚNMS	ÚNMS	PROPN	NNIXX-----A---8	Abbr=Yes|Animacy=Inan|Foreign=Foreign|Gender=Masc|NameType=Com|Negative=Pos	13	nsubj	_	Coref=18
+9	SR	SR	PROPN	NNFXX-----A---8	Abbr=Yes|Gender=Fem|NameType=Geo|Negative=Pos	8	nmod	_	Coref=4
+10	rozhodnutí	rozhodnutí	NOUN	NNNP4-----A----	Case=Acc|Gender=Neut|Negative=Pos|Number=Plur	13	dobj	_	_
+11	české	český	ADJ	AAFS2----1A----	Case=Gen|Degree=Pos|Gender=Fem|Negative=Pos|Number=Sing	12	amod	_	Coref=5
+12	zkušebny	zkušebna	NOUN	NNFS2-----A----	Case=Gen|Gender=Fem|Negative=Pos|Number=Sing	10	nmod	_	Coref=20
+13	potvrzovat	potvrzovat	VERB	Vf--------A----	Aspect=Imp|Negative=Pos|VerbForm=Inf	0	root	_	Coref=21|SpaceAfter=No
+14	.	.	PUNCT	Z:-------------	_	13	punct	_	_
+
+# sent_id = 21
+# text = Tato funkce přejde na příslušnou slovenskou zkušebnu (SPPI - Slovenskou potravinářskou a zemědělskou inspekci), která bude vydávat na základě dodaných podkladů příslušné certifikáty.
+1	Tato	tento	DET	PDFS1----------	Case=Nom|Gender=Fem|Number=Sing|PronType=Dem	2	det	_	_
+2	funkce	funkce	NOUN	NNFS1-----A----	Case=Nom|Gender=Fem|Negative=Pos|Number=Sing	3	nsubj	_	Coref=21
+3	přejde	přejít	VERB	VB-S---3P-AA---	Mood=Ind|Negative=Pos|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+4	na	na	ADP	RR--4----------	AdpType=Prep|Case=Acc	7	case	_	_
+5	příslušnou	příslušný	ADJ	AAFS4----1A----	Case=Acc|Degree=Pos|Gender=Fem|Negative=Pos|Number=Sing	7	amod	_	_
+6	slovenskou	slovenský	ADJ	AAFS4----1A----	Case=Acc|Degree=Pos|Gender=Fem|Negative=Pos|Number=Sing	7	amod	_	Coref=4
+7	zkušebnu	zkušebna	NOUN	NNFS4-----A----	Case=Acc|Gender=Fem|Negative=Pos|Number=Sing	3	nmod	_	_
+8	(	(	PUNCT	Z:-------------	_	9	punct	_	Coref=22|SpaceAfter=No
+9	SPPI	SPPI	PROPN	NNFXX-----A---8	Abbr=Yes|Foreign=Foreign|Gender=Fem|NameType=Com|Negative=Pos	7	appos	_	_
+10	-	-	PUNCT	Z:-------------	_	9	punct	_	_
+11	Slovenskou	slovenský	ADJ	AAFS4----1A----	Case=Acc|Degree=Pos|Gender=Fem|Negative=Pos|Number=Sing	15	amod	_	Coref=4
+12	potravinářskou	potravinářský	ADJ	AAFS4----1A----	Case=Acc|Degree=Pos|Gender=Fem|Negative=Pos|Number=Sing	15	amod	_	_
+13	a	a	CONJ	J^-------------	_	12	cc	_	_
+14	zemědělskou	zemědělský	ADJ	AAFS4----1A----	Case=Acc|Degree=Pos|Gender=Fem|Negative=Pos|Number=Sing	12	conj	_	_
+15	inspekci	inspekce	NOUN	NNFS4-----A----	Case=Acc|Gender=Fem|Negative=Pos|Number=Sing	9	conj	_	SpaceAfter=No
+16	)	)	PUNCT	Z:-------------	_	9	punct	_	SpaceAfter=No
+17	,	,	PUNCT	Z:-------------	_	20	punct	_	_
+18	která	který	PRON	P4FS1----------	Case=Nom|Gender=Fem|Number=Sing|PronType=Int,Rel	20	nsubj	_	Coref=22
+19	bude	být	AUX	VB-S---3F-AA---	Mood=Ind|Negative=Pos|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	20	aux	_	_
+20	vydávat	vydávat	VERB	Vf--------A----	Aspect=Imp|Negative=Pos|VerbForm=Inf	7	acl	_	_
+21	na	na	ADP	RR--6----------	AdpType=Prep|Case=Loc	24	case	_	_
+22	základě	základ	NOUN	NNIS6-----A----	Animacy=Inan|Case=Loc|Gender=Masc|Negative=Pos|Number=Sing	21	mwe	_	_
+23	dodaných	dodaný	ADJ	AAIP2----1A----	Animacy=Inan|Case=Gen|Degree=Pos|Gender=Masc|Negative=Pos|Number=Plur	24	amod	_	_
+24	podkladů	podklad	NOUN	NNIP2-----A----	Animacy=Inan|Case=Gen|Gender=Masc|Negative=Pos|Number=Plur	20	nmod	_	_
+25	příslušné	příslušný	ADJ	AAIP4----1A----	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Negative=Pos|Number=Plur	26	amod	_	_
+26	certifikáty	certifikát	NOUN	NNIP4-----A----	Animacy=Inan|Case=Acc|Gender=Masc|Negative=Pos|Number=Plur	20	dobj	_	SpaceAfter=No
+27	.	.	PUNCT	Z:-------------	_	3	punct	_	_
+
+# sent_id = 22
+# text = 3)
+1	3	3	NUM	C=-------------	NumForm=Digit|NumType=Card	0	root	_	SpaceAfter=No
+2	)	)	PUNCT	Z:-------------	_	1	punct	_	_
+
+# sent_id = 23
+# text = Dosud vydaná rozhodnutí z doby trvání federace platí a toto zboží lze do SR dodávat i nadále, avšak po vydání příslušného certifikátu SPPI.
+1	Dosud	dosud	ADV	Db-------------	_	2	advmod	_	_
+2	vydaná	vydaný	ADJ	AANP1----1A----	Case=Nom|Degree=Pos|Gender=Neut|Negative=Pos|Number=Plur	3	amod	_	_
+3	rozhodnutí	rozhodnutí	NOUN	NNNP1-----A----	Case=Nom|Gender=Neut|Negative=Pos|Number=Plur	8	nsubj	_	_
+4	z	z	ADP	RR--2----------	AdpType=Prep|Case=Gen	5	case	_	_
+5	doby	doba	NOUN	NNFS2-----A----	Case=Gen|Gender=Fem|Negative=Pos|Number=Sing	3	nmod	_	_
+6	trvání	trvání	NOUN	NNNS2-----A----	Case=Gen|Gender=Neut|Negative=Pos|Number=Sing	5	nmod	_	_
+7	federace	federace	NOUN	NNFS2-----A----	Case=Gen|Gender=Fem|Negative=Pos|Number=Sing	6	nmod	_	_
+8	platí	platit	VERB	VB-P---3P-AA---	Mood=Ind|Negative=Pos|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+9	a	a	CONJ	J^-------------	_	8	cc	_	_
+10	toto	tento	DET	PDNS4----------	Case=Acc|Gender=Neut|Number=Sing|PronType=Dem	11	det	_	_
+11	zboží	zboží	NOUN	NNNS4-----A----	Case=Acc|Gender=Neut|Negative=Pos|Number=Sing	15	dobj	_	_
+12	lze	lze	VERB	VB-S---3P-AA---	Mood=Ind|Negative=Pos|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	8	conj	_	Drop_coref=23
+13	do	do	ADP	RR--2----------	AdpType=Prep|Case=Gen	14	case	_	_
+14	SR	SR	PROPN	NNFXX-----A---8	Abbr=Yes|Gender=Fem|NameType=Geo|Negative=Pos	11	nmod	_	Coref=4
+15	dodávat	dodávat	VERB	Vf--------A----	Aspect=Imp|Negative=Pos|VerbForm=Inf	12	csubj	_	_
+16	i	i	CONJ	J^-------------	_	17	advmod:emph	_	_
+17	nadále	nadále	ADV	Db-------------	_	12	advmod	_	SpaceAfter=No
+18	,	,	PUNCT	Z:-------------	_	12	punct	_	_
+19	avšak	avšak	CONJ	J^-------------	_	12	cc	_	Drop_coref=23
+20	po	po	ADP	RR--6----------	AdpType=Prep|Case=Loc	21	case	_	_
+21	vydání	vydání	NOUN	NNNS6-----A----	Case=Loc|Gender=Neut|Negative=Pos|Number=Sing	12	conj	_	Coref=24
+22	příslušného	příslušný	ADJ	AAIS2----1A----	Animacy=Inan|Case=Gen|Degree=Pos|Gender=Masc|Negative=Pos|Number=Sing	23	amod	_	_
+23	certifikátu	certifikát	NOUN	NNIS2-----A----	Animacy=Inan|Case=Gen|Gender=Masc|Negative=Pos|Number=Sing	21	nmod	_	_
+24	SPPI	SPPI	PROPN	NNFXX-----A---8	Abbr=Yes|Foreign=Foreign|Gender=Fem|NameType=Com|Negative=Pos	23	nmod	_	Coref=22|SpaceAfter=No
+25	.	.	PUNCT	Z:-------------	_	8	punct	_	_
+
+# sent_id = 24
+# text = 4)
+1	4	4	NUM	C=-------------	NumForm=Digit|NumType=Card	0	root	_	SpaceAfter=No
+2	)	)	PUNCT	Z:-------------	_	1	punct	_	_
+
+# sent_id = 25
+# text = Usnesením vlády SR je koordinací všech akcí souvisejících se zajištěním certifikace dovážených potravinářských výrobků pověřen ÚNMS SR.
+1	Usnesením	usnesení	NOUN	NNNS7-----A----	Case=Ins|Gender=Neut|Negative=Pos|Number=Sing	0	root	_	Coref=25
+2	vlády	vláda	NOUN	NNFS2-----A----	Case=Gen|Gender=Fem|Negative=Pos|Number=Sing	1	nmod	_	Coref=8
+3	SR	SR	PROPN	NNFXX-----A---8	Abbr=Yes|Gender=Fem|NameType=Geo|Negative=Pos	2	nmod	_	Coref=4
+4	je	být	VERB	VB-S---3P-AA---	Mood=Ind|Negative=Pos|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	1	cop	_	_
+5	koordinací	koordinace	NOUN	NNFS7-----A----	Case=Ins|Gender=Fem|Negative=Pos|Number=Sing	15	dobj	_	_
+6	všech	všechen	PRON	PLXP2----------	Case=Gen|Number=Plur|PronType=Tot	7	nmod	_	_
+7	akcí	akce	NOUN	NNFP2-----A----	Case=Gen|Gender=Fem|Negative=Pos|Number=Plur	5	nmod	_	_
+8	souvisejících	související	ADJ	AGFP2-----A----	Aspect=Imp|Case=Gen|Gender=Fem|Negative=Pos|Number=Plur|Tense=Pres|VerbForm=Part|Voice=Act	7	amod	_	_
+9	se	s	ADP	RV--7----------	AdpType=Voc|Case=Ins	10	case	_	_
+10	zajištěním	zajištění	NOUN	NNNS7-----A----	Case=Ins|Gender=Neut|Negative=Pos|Number=Sing	8	dobj	_	_
+11	certifikace	certifikace	NOUN	NNFS2-----A----	Case=Gen|Gender=Fem|Negative=Pos|Number=Sing	10	nmod	_	Coref=24
+12	dovážených	dovážený	ADJ	AAIP2----1A----	Animacy=Inan|Case=Gen|Degree=Pos|Gender=Masc|Negative=Pos|Number=Plur	14	amod	_	_
+13	potravinářských	potravinářský	ADJ	AAIP2----1A----	Animacy=Inan|Case=Gen|Degree=Pos|Gender=Masc|Negative=Pos|Number=Plur	14	amod	_	_
+14	výrobků	výrobek	NOUN	NNIP2-----A----	Animacy=Inan|Case=Gen|Gender=Masc|Negative=Pos|Number=Plur	11	nmod	_	Coref=16
+15	pověřen	pověřit	VERB	VsYS---XX-AP---	Aspect=Perf|Gender=Masc|Negative=Pos|Number=Sing|VerbForm=Part|Voice=Pass	1	csubj	_	_
+16	ÚNMS	ÚNMS	PROPN	NNIXX-----A---8	Abbr=Yes|Animacy=Inan|Foreign=Foreign|Gender=Masc|NameType=Com|Negative=Pos	15	nsubjpass	_	Coref=18
+17	SR	SR	PROPN	NNFXX-----A---8	Abbr=Yes|Gender=Fem|NameType=Geo|Negative=Pos	16	nmod	_	Coref=4|SpaceAfter=No
+18	.	.	PUNCT	Z:-------------	_	1	punct	_	_
+
+# sent_id = 26
+# text = Jedná se o usnesení číslo 64 ze dne 1. února 1994.
+1	Jedná	jednat	VERB	VB-S---3P-AA---	Aspect=Imp|Mood=Ind|Negative=Pos|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+2	se	se	PRON	P7-X4----------	Case=Acc|PronType=Prs|Reflex=Yes|Variant=Short	1	expl	_	_
+3	o	o	ADP	RR--4----------	AdpType=Prep|Case=Acc	4	case	_	_
+4	usnesení	usnesení	NOUN	NNNS4-----A----	Case=Acc|Gender=Neut|Negative=Pos|Number=Sing	1	dobj	_	Coref=25
+5	číslo	číslo	NOUN	NNNS4-----A----	Case=Acc|Gender=Neut|Negative=Pos|Number=Sing	4	nmod	_	_
+6	64	64	NUM	C=-------------	NumForm=Digit|NumType=Card	5	nummod	_	_
+7	ze	z	ADP	RV--2----------	AdpType=Voc|Case=Gen	8	case	_	_
+8	dne	den	NOUN	NNIS2-----A----	Animacy=Inan|Case=Gen|Gender=Masc|Negative=Pos|Number=Sing	4	nmod	_	_
+9	1	1	NUM	C=-------------	NumForm=Digit|NumType=Card	11	nummod	_	SpaceAfter=No
+10	.	.	PUNCT	Z:-------------	_	9	punct	_	_
+11	února	únor	NOUN	NNIS2-----A---1	Animacy=Inan|Case=Gen|Gender=Masc|Negative=Pos|Number=Sing	8	nmod	_	_
+12	1994	1994	NUM	C=-------------	NumForm=Digit|NumType=Card	11	nummod	_	SpaceAfter=No
+13	.	.	PUNCT	Z:-------------	_	1	punct	_	_
+
+# sent_id = 27
+# text = Na tomto úřadě lze získat i potřebné informace.
+1	Na	na	ADP	RR--6----------	AdpType=Prep|Case=Loc	3	case	_	_
+2	tomto	tento	DET	PDZS6----------	Case=Loc|Gender=Masc,Neut|Number=Sing|PronType=Dem	3	det	_	_
+3	úřadě	úřad	NOUN	NNIS6-----A----	Animacy=Inan|Case=Loc|Gender=Masc|Negative=Pos|Number=Sing	4	nmod	_	Coref=18
+4	lze	lze	VERB	VB-S---3P-AA---	Mood=Ind|Negative=Pos|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	Drop_coref=26
+5	získat	získat	VERB	Vf--------A----	Aspect=Perf|Negative=Pos|VerbForm=Inf	4	csubj	_	Drop_coref=26
+6	i	i	CONJ	J^-------------	_	8	advmod:emph	_	_
+7	potřebné	potřebný	ADJ	AAFP4----1A----	Case=Acc|Degree=Pos|Gender=Fem|Negative=Pos|Number=Plur	8	amod	_	_
+8	informace	informace	NOUN	NNFP4-----A----	Case=Acc|Gender=Fem|Negative=Pos|Number=Plur	5	dobj	_	SpaceAfter=No
+9	.	.	PUNCT	Z:-------------	_	4	punct	_	_
+
+# sent_id = 28
+# text = 5) Slovenská celní správa bude vyžadovat u každé jednotlivé dodávky originální rozhodnutí či certifikátu.
+1	5	5	NUM	C=-------------	NumForm=Digit|NumType=Card	7	nmod	_	SpaceAfter=No
+2	)	)	PUNCT	Z:-------------	_	7	punct	_	_
+3	Slovenská	slovenský	ADJ	AAFS1----1A----	Case=Nom|Degree=Pos|Gender=Fem|Negative=Pos|Number=Sing	5	amod	_	Coref=4
+4	celní	celní	ADJ	AAFS1----1A----	Case=Nom|Degree=Pos|Gender=Fem|Negative=Pos|Number=Sing	5	amod	_	_
+5	správa	správa	NOUN	NNFS1-----A----	Case=Nom|Gender=Fem|Negative=Pos|Number=Sing	7	nsubj	_	_
+6	bude	být	AUX	VB-S---3F-AA---	Mood=Ind|Negative=Pos|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	7	aux	_	_
+7	vyžadovat	vyžadovat	VERB	Vf--------A----	Aspect=Imp|Negative=Pos|VerbForm=Inf	0	root	_	Coref=27
+8	u	u	ADP	RR--2----------	AdpType=Prep|Case=Gen	11	case	_	_
+9	každé	každý	ADJ	AAFS2----1A----	Case=Gen|Degree=Pos|Gender=Fem|Negative=Pos|Number=Sing	11	amod	_	_
+10	jednotlivé	jednotlivý	ADJ	AAFS2----1A----	Case=Gen|Degree=Pos|Gender=Fem|Negative=Pos|Number=Sing	11	amod	_	_
+11	dodávky	dodávka	NOUN	NNFS2-----A----	Case=Gen|Gender=Fem|Negative=Pos|Number=Sing	7	nmod	_	_
+12	originální	originální	ADJ	AANS4----1A----	Case=Acc|Degree=Pos|Gender=Neut|Negative=Pos|Number=Sing	13	amod	_	_
+13	rozhodnutí	rozhodnutí	NOUN	NNNS4-----A----	Case=Acc|Gender=Neut|Negative=Pos|Number=Sing	7	dobj	_	_
+14	či	či	CONJ	J^-------------	_	13	cc	_	_
+15	certifikátu	certifikát	NOUN	NNFS4-----A----	Case=Acc|Gender=Fem|Negative=Pos|Number=Sing	13	conj	_	SpaceAfter=No
+16	.	.	PUNCT	Z:-------------	_	7	punct	_	_
+
+# sent_id = 29
+# text = Tento postup si vyžádá v praxi zhotovování ověřených kopií.
+1	Tento	tento	DET	PDYS1----------	Case=Nom|Gender=Masc|Number=Sing|PronType=Dem	2	det	_	_
+2	postup	postup	NOUN	NNIS1-----A----	Animacy=Inan|Case=Nom|Gender=Masc|Negative=Pos|Number=Sing	4	nsubj	_	Coref=27
+3	si	se	PRON	P7-X3----------	Case=Dat|PronType=Prs|Reflex=Yes|Variant=Short	4	expl	_	_
+4	vyžádá	vyžádat	VERB	VB-S---3P-AA---	Aspect=Perf|Mood=Ind|Negative=Pos|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+5	v	v	ADP	RR--6----------	AdpType=Prep|Case=Loc	6	case	_	_
+6	praxi	praxe	NOUN	NNFS6-----A----	Case=Loc|Gender=Fem|Negative=Pos|Number=Sing	4	nmod	_	_
+7	zhotovování	zhotovování	NOUN	NNNS4-----A----	Case=Acc|Gender=Neut|Negative=Pos|Number=Sing	4	dobj	_	_
+8	ověřených	ověřený	ADJ	AAFP2----1A----	Case=Gen|Degree=Pos|Gender=Fem|Negative=Pos|Number=Plur	9	amod	_	_
+9	kopií	kopie	NOUN	NNFP2-----A----	Case=Gen|Gender=Fem|Negative=Pos|Number=Plur	7	nmod	_	SpaceAfter=No
+10	.	.	PUNCT	Z:-------------	_	4	punct	_	_
+
+# sent_id = 30
+# text = 6)
+1	6	6	NUM	C=-------------	NumForm=Digit|NumType=Card	0	root	_	SpaceAfter=No
+2	)	)	PUNCT	Z:-------------	_	1	punct	_	_
+
+# sent_id = 31
+# text = Povinnost certifikace těchto výrobků vznikla na základě novelizace paragrafu 47 celního zákona 618/1992 SB., novelizovaného v zákoně 325 článek 8 ve znění zákona číslo 165/1993 Sb.
+1	Povinnost	povinnost	NOUN	NNFS1-----A----	Case=Nom|Gender=Fem|Negative=Pos|Number=Sing	5	nsubj	_	_
+2	certifikace	certifikace	NOUN	NNFS2-----A----	Case=Gen|Gender=Fem|Negative=Pos|Number=Sing	1	nmod	_	Coref=24
+3	těchto	tento	DET	PDXP2----------	Case=Gen|Number=Plur|PronType=Dem	4	det	_	_
+4	výrobků	výrobek	NOUN	NNIP2-----A----	Animacy=Inan|Case=Gen|Gender=Masc|Negative=Pos|Number=Plur	2	nmod	_	Coref=16
+5	vznikla	vzniknout	VERB	VpQW---XR-AA--1	Aspect=Perf|Gender=Fem,Neut|Negative=Pos|Number=Plur,Sing|Tense=Past|VerbForm=Part|Voice=Act	0	root	_	_
+6	na	na	ADP	RR--6----------	AdpType=Prep|Case=Loc	8	case	_	_
+7	základě	základ	NOUN	NNIS6-----A----	Animacy=Inan|Case=Loc|Gender=Masc|Negative=Pos|Number=Sing	6	mwe	_	_
+8	novelizace	novelizace	NOUN	NNFS2-----A----	Case=Gen|Gender=Fem|Negative=Pos|Number=Sing	5	nmod	_	_
+9	paragrafu	paragraf	NOUN	NNIS2-----A----	Animacy=Inan|Case=Gen|Gender=Masc|Negative=Pos|Number=Sing	8	nmod	_	_
+10	47	47	NUM	C=-------------	NumForm=Digit|NumType=Card	9	nummod	_	_
+11	celního	celní	ADJ	AAIS2----1A----	Animacy=Inan|Case=Gen|Degree=Pos|Gender=Masc|Negative=Pos|Number=Sing	12	amod	_	_
+12	zákona	zákon	NOUN	NNIS2-----A----	Animacy=Inan|Case=Gen|Gender=Masc|Negative=Pos|Number=Sing	9	nmod	_	_
+13	618	618	NUM	C=-------------	NumForm=Digit|NumType=Card	12	nummod	_	SpaceAfter=No
+14	/	/	PUNCT	Z:-------------	_	15	punct	_	SpaceAfter=No
+15	1992	1992	NUM	C=-------------	NumForm=Digit|NumType=Card	13	compound	_	_
+16	SB	Sb	NOUN	NNFXX-----A---8	Abbr=Yes|Gender=Fem|Negative=Pos	12	nmod	_	SpaceAfter=No
+17	.	.	PUNCT	Z:-------------	_	16	punct	_	SpaceAfter=No
+18	,	,	PUNCT	Z:-------------	_	19	punct	_	_
+19	novelizovaného	novelizovaný	ADJ	AAIS2----1A----	Animacy=Inan|Case=Gen|Degree=Pos|Gender=Masc|Negative=Pos|Number=Sing	9	amod	_	_
+20	v	v	ADP	RR--6----------	AdpType=Prep|Case=Loc	21	case	_	_
+21	zákoně	zákon	NOUN	NNIS6-----A----	Animacy=Inan|Case=Loc|Gender=Masc|Negative=Pos|Number=Sing	19	nmod	_	_
+22	325	325	NUM	C=-------------	NumForm=Digit|NumType=Card	21	nummod	_	_
+23	článek	článek	NOUN	NNIS1-----A----	Animacy=Inan|Case=Nom|Gender=Masc|Negative=Pos|Number=Sing	19	nmod	_	_
+24	8	8	NUM	C=-------------	NumForm=Digit|NumType=Card	23	nummod	_	_
+25	ve	v	ADP	RV--6----------	AdpType=Voc|Case=Loc	26	case	_	_
+26	znění	znění	NOUN	NNNS6-----A----	Case=Loc|Gender=Neut|Negative=Pos|Number=Sing	19	nmod	_	_
+27	zákona	zákon	NOUN	NNIS2-----A----	Animacy=Inan|Case=Gen|Gender=Masc|Negative=Pos|Number=Sing	26	nmod	_	_
+28	číslo	číslo	NOUN	NNNS1-----A----	Case=Nom|Gender=Neut|Negative=Pos|Number=Sing	27	nmod	_	_
+29	165	165	NUM	C=-------------	NumForm=Digit|NumType=Card	28	nummod	_	SpaceAfter=No
+30	/	/	PUNCT	Z:-------------	_	31	punct	_	SpaceAfter=No
+31	1993	1993	NUM	C=-------------	NumForm=Digit|NumType=Card	29	compound	_	_
+32	Sb	Sb	NOUN	NNFXX-----A---8	Abbr=Yes|Gender=Fem|Negative=Pos	27	nmod	_	SpaceAfter=No
+33	.	.	PUNCT	Z:-------------	_	5	punct	_	_
+
+# sent_id = 32
+# text = 7)
+1	7	7	NUM	C=-------------	NumForm=Digit|NumType=Card	0	root	_	SpaceAfter=No
+2	)	)	PUNCT	Z:-------------	_	1	punct	_	_
+
+# sent_id = 33
+# text = Ve všech případech vzniká od 1. dubna povinnost, aby při přechodu slovenských hranic byla dodávka vybavena originálem nebo ověřenou kopií certifikátu SPPI.
+1	Ve	v	ADP	RV--6----------	AdpType=Voc|Case=Loc	3	case	_	_
+2	všech	všechen	PRON	PLXP6----------	Case=Loc|Number=Plur|PronType=Tot	3	nmod	_	_
+3	případech	případ	NOUN	NNIP6-----A----	Animacy=Inan|Case=Loc|Gender=Masc|Negative=Pos|Number=Plur	4	nmod	_	_
+4	vzniká	vznikat	VERB	VB-S---3P-AA---	Aspect=Imp|Mood=Ind|Negative=Pos|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	Drop_coref=28
+5	od	od	ADP	RR--2----------	AdpType=Prep|Case=Gen	8	case	_	_
+6	1	1	NUM	C=-------------	NumForm=Digit|NumType=Card	8	nummod	_	SpaceAfter=No
+7	.	.	PUNCT	Z:-------------	_	6	punct	_	_
+8	dubna	duben	NOUN	NNIS2-----A----	Animacy=Inan|Case=Gen|Gender=Masc|Negative=Pos|Number=Sing	4	nmod	_	Coref=19
+9	povinnost	povinnost	NOUN	NNFS1-----A----	Case=Nom|Gender=Fem|Negative=Pos|Number=Sing	4	nsubj	_	Drop_coref=28|SpaceAfter=No
+10	,	,	PUNCT	Z:-------------	_	19	punct	_	_
+11-12	aby	_	_	_	_	_	_	_	_
+11	aby	aby	SCONJ	J,-------------	_	19	mark	_	_
+12	by	být	AUX	Vc-------------	Mood=Cnd|Person=3|VerbForm=Fin	19	aux	_	_
+13	při	při	ADP	RR--6----------	AdpType=Prep|Case=Loc	14	case	_	_
+14	přechodu	přechod	NOUN	NNIS6-----A---1	Animacy=Inan|Case=Loc|Gender=Masc|Negative=Pos|Number=Sing	19	nmod	_	_
+15	slovenských	slovenský	ADJ	AAFP2----1A----	Case=Gen|Degree=Pos|Gender=Fem|Negative=Pos|Number=Plur	16	amod	_	Coref=4
+16	hranic	hranice	NOUN	NNFP2-----A----	Case=Gen|Gender=Fem|Negative=Pos|Number=Plur	14	nmod	_	_
+17	byla	být	AUX	VpQW---XR-AA---	Gender=Fem,Neut|Negative=Pos|Number=Plur,Sing|Tense=Past|VerbForm=Part|Voice=Act	19	auxpass	_	_
+18	dodávka	dodávka	NOUN	NNFS1-----A----	Case=Nom|Gender=Fem|Negative=Pos|Number=Sing	19	nsubjpass	_	_
+19	vybavena	vybavit	VERB	VsQW---XX-AP---	Aspect=Perf|Gender=Fem,Neut|Negative=Pos|Number=Plur,Sing|VerbForm=Part|Voice=Pass	9	acl	_	Coref=31
+20	originálem	originál	NOUN	NNIS7-----A----	Animacy=Inan|Case=Ins|Gender=Masc|Negative=Pos|Number=Sing	19	nmod	_	_
+21	nebo	nebo	CONJ	J^-------------	_	20	cc	_	_
+22	ověřenou	ověřený	ADJ	AAFS7----1A----	Case=Ins|Degree=Pos|Gender=Fem|Negative=Pos|Number=Sing	23	amod	_	_
+23	kopií	kopie	NOUN	NNFS7-----A----	Case=Ins|Gender=Fem|Negative=Pos|Number=Sing	20	conj	_	_
+24	certifikátu	certifikát	NOUN	NNIS2-----A----	Animacy=Inan|Case=Gen|Gender=Masc|Negative=Pos|Number=Sing	23	nmod	_	_
+25	SPPI	SPPI	PROPN	NNFXX-----A---8	Abbr=Yes|Foreign=Foreign|Gender=Fem|NameType=Com|Negative=Pos	24	nmod	_	Coref=22|SpaceAfter=No
+26	.	.	PUNCT	Z:-------------	_	4	punct	_	_
+
+# sent_id = 34
+# text = 8)
+1	8	8	NUM	C=-------------	NumForm=Digit|NumType=Card	0	root	_	SpaceAfter=No
+2	)	)	PUNCT	Z:-------------	_	1	punct	_	_
+
+# sent_id = 35
+# text = Stejné požadavky jako na dovážené výrobky bude SPPI uplatňovat i u výrobků tuzemských.
+1	Stejné	stejný	ADJ	AAIP4----1A----	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Negative=Pos|Number=Plur	2	amod	_	Drop_coref=30
+2	požadavky	požadavek	NOUN	NNIP4-----A----	Animacy=Inan|Case=Acc|Gender=Masc|Negative=Pos|Number=Plur	9	dobj	_	Coref=31
+3	jako	jako	SCONJ	J,-------------	_	6	mark	_	_
+4	na	na	ADP	RR--4----------	AdpType=Prep|Case=Acc	6	case	_	_
+5	dovážené	dovážený	ADJ	AAIP4----1A----	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Negative=Pos|Number=Plur	6	amod	_	_
+6	výrobky	výrobek	NOUN	NNIP4-----A----	Animacy=Inan|Case=Acc|Gender=Masc|Negative=Pos|Number=Plur	1	dep	_	_
+7	bude	být	AUX	VB-S---3F-AA---	Mood=Ind|Negative=Pos|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	9	aux	_	_
+8	SPPI	SPPI	PROPN	NNFXX-----A---8	Abbr=Yes|Foreign=Foreign|Gender=Fem|NameType=Com|Negative=Pos	9	nsubj	_	Coref=29
+9	uplatňovat	uplatňovat	VERB	Vf--------A----	Aspect=Imp|Negative=Pos|VerbForm=Inf	0	root	_	_
+10	i	i	CONJ	J^-------------	_	12	advmod:emph	_	_
+11	u	u	ADP	RR--2----------	AdpType=Prep|Case=Gen	12	case	_	_
+12	výrobků	výrobek	NOUN	NNIP2-----A----	Animacy=Inan|Case=Gen|Gender=Masc|Negative=Pos|Number=Plur	9	nmod	_	_
+13	tuzemských	tuzemský	ADJ	AAIP2----1A----	Animacy=Inan|Case=Gen|Degree=Pos|Gender=Masc|Negative=Pos|Number=Plur	12	amod	_	SpaceAfter=No
+14	.	.	PUNCT	Z:-------------	_	9	punct	_	_
+
+# sent_id = 36
+# text = Text k foto
+1	Text	text	NOUN	NNIS1-----A----	Animacy=Inan|Case=Nom|Gender=Masc|Negative=Pos|Number=Sing	0	root	_	_
+2	k	k	ADP	RR--3----------	AdpType=Prep|Case=Dat	3	case	_	_
+3	foto	foto	NOUN	NNNXX-----A----	Gender=Neut|Negative=Pos	1	nmod	_	_
+
+# sent_id = 37
+# text = ŽE BY NOVÁ CESTA JAK ŘEŠIT PROBLÉMY CELNÍ UNIE?
+1	ŽE	že	SCONJ	J,-------------	_	2	mark	_	_
+2	BY	být	VERB	Vc-------------	Mood=Cnd|VerbForm=Fin	0	root	_	_
+3	NOVÁ	nový	ADJ	AAFS1----1A----	Case=Nom|Degree=Pos|Gender=Fem|Negative=Pos|Number=Sing	4	amod	_	_
+4	CESTA	cesta	NOUN	NNFS1-----A----	Case=Nom|Gender=Fem|Negative=Pos|Number=Sing	2	nsubj	_	Drop_coref=32
+5	JAK	jak	ADV	Db-------------	_	6	advmod	_	_
+6	ŘEŠIT	řešit	VERB	Vf--------A----	Aspect=Imp|Negative=Pos|VerbForm=Inf	4	acl	_	Drop_coref=32
+7	PROBLÉMY	problém	NOUN	NNIP4-----A----	Animacy=Inan|Case=Acc|Gender=Masc|Negative=Pos|Number=Plur	6	dobj	_	_
+8	CELNÍ	celní	ADJ	AAFS2----1A----	Case=Gen|Degree=Pos|Gender=Fem|Negative=Pos|Number=Sing	9	amod	_	_
+9	UNIE	unie	NOUN	NNFS2-----A----	Case=Gen|Gender=Fem|Negative=Pos|Number=Sing	7	nmod	_	SpaceAfter=No
+10	?	?	PUNCT	Z:-------------	_	2	punct	_	_
+
+# sent_id = 38
+# text = Což o to, zkusit se to může.
+1	Což	což	INTJ	II-------------	_	0	root	_	_
+2	o	o	ADP	RR--4----------	AdpType=Prep|Case=Acc	3	case	_	_
+3	to	ten	PRON	PDNS4----------	Case=Acc|Gender=Neut|Number=Sing|PronType=Dem	1	dep	_	SpaceAfter=No
+4	,	,	PUNCT	Z:-------------	_	8	punct	_	_
+5	zkusit	zkusit	VERB	Vf--------A----	Aspect=Perf|Negative=Pos|VerbForm=Inf	8	xcomp	_	_
+6	se	se	PRON	P7-X4----------	Case=Acc|PronType=Prs|Reflex=Yes|Variant=Short	5	expl	_	_
+7	to	ten	PRON	PDNS1----------	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	8	nsubj	_	_
+8	může	moci	VERB	VB-S---3P-AA---	Mood=Ind|Negative=Pos|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	3	acl	_	SpaceAfter=No
+9	.	.	PUNCT	Z:-------------	_	1	punct	_	_
+
+# sent_id = 39
+# text = Ale šance je přesto minimální.
+1	Ale	ale	CONJ	J^-------------	_	5	cc	_	_
+2	šance	šance	NOUN	NNFS1-----A----	Case=Nom|Gender=Fem|Negative=Pos|Number=Sing	5	nsubj	_	_
+3	je	být	VERB	VB-S---3P-AA---	Mood=Ind|Negative=Pos|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	5	cop	_	_
+4	přesto	přesto	ADV	Dg-------1A----	Degree=Pos|Negative=Pos	5	advmod	_	_
+5	minimální	minimální	ADJ	AAFS1----1A----	Case=Nom|Degree=Pos|Gender=Fem|Negative=Pos|Number=Sing	0	root	_	SpaceAfter=No
+6	.	.	PUNCT	Z:-------------	_	5	punct	_	_
+

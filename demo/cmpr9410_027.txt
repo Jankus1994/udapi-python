@@ -1,0 +1,29 @@
+Místo i pro malé firmy 
+
+Orientace na drobné podnikatele se vyplácí 
+
+Málokde vládne tak konkurenční prostředí jako v počítačové branži. Přesto i zde je a zřejmě i v budoucnu bude dostatek prostoru pro spoustu malých firem. Jenom si každá z nich musí najít svoji tvář, svoje zákazníky. Například pražská firma Arxon, s.r.o., začínala ve dvou lidech, dnes má čtyři pracovníky a do budoucna nemíní jejich počet příliš zvyšovat. V případě potřeby se spoléhá spíše na pomoc externích spolupracovníků. O tom, na čem založila svoji strategii, hovořil Profit s jejím majitelem Otou Luňákem. 
+
+Téměř od začátku existence firmy je to zaměření na malé a střední podnikatele. Projevuje se v několika směrech. Pokud jde o počítače, Arxon přišel na náš trh s pécéčky, jaká zde nebyla. Jde o tchajwanskou značku MiniSys, která při dobrých výkonových parametrech a nízké ceně zabírá velmi malý prostor. Počítač lze dokonce s pomocí držáku upevnit pod hranu stolu. Kdo už s počítači přišel do styku, ten má obvykle zpočátku k takovému zařízení trochu nedůvěru. Těm, kdo si pořizují svůj první počítač, však jeho velikost vyhovuje a stává se důležitým argumentem při rozhodování. Náročnějším zákazníkům jsou určeny americké počítače ALR s pětiletou záruční lhůtou, kupují si je zejména právníci a lékaři. 
+
+Počítač i s účetnictvím 
+
+S prodejem samotných počítačů by však firma neobstála. Proto vedle obvyklého programového vybavení nabízí také některé programy, které jsou nezbytné či užitečné pro podnikatele. V prvé řadě je to programovatelný systém podvojného účetnictví Kvestor. V testu Profitu byl před časem hodnocen velmi dobře. K jeho přednostem patří schopnost tisku výstupních sestav s korektní českou diakritikou a možnost úprav účetního prostředí na míru. Účtování se provádí volbou v uživatelském menu, aniž by bylo nutné ovládat účetní souvztažnosti. Navíc Arxon nabízí uživatelům tohoto programu školení. A to buď ve svém školicím středisku, nebo přímo na pracovišti či v bytě zákazníka. Zejména u začínajících podnikatelů má slušný ohlas kombinace tohoto účetního programu s počítačem MiniSys, která přijde na pouhých 25 000 korun. 
+
+Kniha jízd 
+
+Velký úspěch má v poslední době také program S.P.Z. Programátor Milan Kuneš ho vytvořil původně pro interní potřebu. Ota Luňák totiž ztratil knihu jízd a potřeboval ji zrekonstruovat. Tak vznikl program, který slouží nejen pro průběžné vedení předepsané knihy jízd. Kromě toho dokáže zrekonstruovat chybějící období, což je v praxi často zapotřebí. Po zadání několika vstupních údajů (počáteční a konečný stav tachometru, spotřeba vozu podle technického průkazu, kam, jak často a za jakým účelem už obvykle jezdí, období, kdy určitě nikam nejel, dny, kdy vůbec nejezdí a podobně) vytvoří s pomocí teorie pravděpodobnosti kompletní knihu jízd se všemi náležitostmi včetně vypočtené náhrady v korunách pro každou cestu. 
+
+Když se ukázalo, že na trhu podobný program není a je o něj zájem, vytvořil programátor také verzi pro neomezený počet aut. 
+
+Z dalších programů, které nebývají běžně k dostání, ale podnikateli jsou dost žádány, stojí za zmínku programy pro výuku jazyků, pro tvorbu cizojazyčné korespondence či překlady do češtiny. Arxonu je dodává firma Softex. Její PC Translator hodlá dokonce Arxon upravit pro prostředí Windows. 
+
+Doplňková nabídka 
+
+V prodejně Arxonu najdou zákazníci, mnozí již stálí, také různé příručky pro podnikatele a ekonomy. Nejčastěji jsou to publikace pražského nakladatelství Profess a ostravského Miraga. Dále zde jsou četné formuláře nezbytné pro podnikání, tiskopisy pro výpočetní techniku. Ota Luňák doporučuje svým zákazníkům a prodává jim také motivační kazety, jejichž poslech posiluje umění soustředit se, pozitivní myšlení či pocity sebedůvěry. 
+
+Nedávno začal Arxon nabízet služby grafického studia. Dodává návrhy a případně i zajistí výrobu reklamních letáků, ceníků, tiskopisů, pozvánek, oznámení, navštívenek, firemních cenovek, samolepek. Zájem podnikatelů o školení vedl firmu ke zřízení malého školicího střediska. Nyní usiluje o to, aby se stala autorizovaným školitelem pro produkty Microsoftu. Ota Luňák soudí a dosavadní zkušenosti mu to potvrzují, že když bude mít stále co nabídnout vyhraněnému okruhu zákazníků, je možné na tom založit dlouhodobou existenci firmy. 
+
+Jaroslav Winter 
+
+Kontakt: Arxon, s.r.o., Slezská 98, 130 00 Praha 3, tel. a FAX: (02) 251 474. 

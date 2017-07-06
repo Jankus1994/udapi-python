@@ -1,0 +1,627 @@
+# sent_id = 1
+# text = Smlouvou o pronájmu služby nekončí
+# newdoc
+# newpar
+1	Smlouvou	smlouva	NOUN	NNFS7-----A----	Case=Ins|Gender=Fem|Number=Sing|Polarity=Pos	5	obj	_	_
+2	o	o	ADP	RR--6----------	AdpType=Prep|Case=Loc	3	case	_	_
+3	pronájmu	pronájem	NOUN	NNIS6-----A----	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing|Polarity=Pos	1	nmod	_	_
+4	služby	služba	NOUN	NNFP1-----A----	Case=Nom|Gender=Fem|Number=Plur|Polarity=Pos	3	nmod	_	_
+5	nekončí	končit	VERB	VB-P---3P-NA---	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Polarity=Neg|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	SpacesAfter=\s\r\n\r\n
+
+# sent_id = 2
+# text = Dana Rybáková Firmy, které podnikají v Praze, mnohdy potřebují byty pro své zaměstnance.
+# newpar
+1	Dana	Dana	PROPN	NNFS1-----A----	Case=Nom|Gender=Fem|NameType=Giv|Number=Sing|Polarity=Pos	11	nsubj	_	_
+2	Rybáková	Rybáková	PROPN	NNFS1-----A----	Case=Nom|Gender=Fem|NameType=Sur|Number=Sing|Polarity=Pos	1	flat	_	_
+3	Firmy	firma	NOUN	NNFP1-----A----	Case=Nom|Gender=Fem|Number=Plur|Polarity=Pos	11	nsubj	_	Coref=0|SpaceAfter=No
+4	,	,	PUNCT	Z:-------------	_	6	punct	_	_
+5	které	který	DET	P4FP1----------	Case=Nom|Gender=Fem|Number=Plur|PronType=Int,Rel	6	nsubj	_	Coref=0
+6	podnikají	podnikat	VERB	VB-P---3P-AA---	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	3	acl	_	_
+7	v	v	ADP	RR--6----------	AdpType=Prep|Case=Loc	8	case	_	_
+8	Praze	Praha	PROPN	NNFS6-----A----	Case=Loc|Gender=Fem|NameType=Geo|Number=Sing|Polarity=Pos	6	obl	_	SpaceAfter=No
+9	,	,	PUNCT	Z:-------------	_	6	punct	_	_
+10	mnohdy	mnohdy	ADV	Db-------------	_	11	advmod	_	_
+11	potřebují	potřebovat	VERB	VB-P---3P-AA---	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+12	byty	byt	NOUN	NNIP1-----A----	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur|Polarity=Pos	11	obj	_	_
+13	pro	pro	ADP	RR--4----------	AdpType=Prep|Case=Acc	15	case	_	_
+14	své	svůj	DET	P8YP4---------1	Case=Acc|Gender=Masc|Number=Plur|Poss=Yes|PronType=Prs|Reflex=Yes	15	det	_	_
+15	zaměstnance	zaměstnanec	NOUN	NNMP4-----A----	Animacy=Anim|Case=Acc|Gender=Masc|Number=Plur|Polarity=Pos	12	nmod	_	SpaceAfter=No
+16	.	.	PUNCT	Z:-------------	_	11	punct	_	_
+
+# sent_id = 3
+# text = Movitější zahraniční studenti se nespokojí s bydlením na kolejích.
+1	Movitější	movitý	ADJ	AAMP1----2A----	Animacy=Anim|Case=Nom|Degree=Cmp|Gender=Masc|Number=Plur|Polarity=Pos	3	amod	_	_
+2	zahraniční	zahraniční	ADJ	AAMP1----1A----	Animacy=Anim|Case=Nom|Degree=Pos|Gender=Masc|Number=Plur|Polarity=Pos	3	amod	_	_
+3	studenti	student	NOUN	NNMP1-----A----	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur|Polarity=Pos	5	nsubj	_	_
+4	se	se	PRON	P7-X4----------	Case=Acc|PronType=Prs|Reflex=Yes|Variant=Short	5	expl:pv	_	_
+5	nespokojí	spokojit	VERB	VB-P---3P-NA---	Aspect=Perf|Mood=Ind|Number=Plur|Person=3|Polarity=Neg|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+6	s	s	ADP	RR--7----------	AdpType=Prep|Case=Ins	7	case	_	_
+7	bydlením	bydlení	NOUN	NNNS7-----A----	Case=Ins|Gender=Neut|Number=Sing|Polarity=Pos	5	obj	_	_
+8	na	na	ADP	RR--6----------	AdpType=Prep|Case=Loc	9	case	_	_
+9	kolejích	kolej	NOUN	NNFP6-----A----	Case=Loc|Gender=Fem|Number=Plur|Polarity=Pos	7	nmod	_	SpaceAfter=No
+10	.	.	PUNCT	Z:-------------	_	5	punct	_	_
+
+# sent_id = 4
+# text = Ti a mnozí další hledají možnost dlouhodobého pronájmu bytu.
+1	Ti	ten	DET	PDMP1----------	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur|PronType=Dem	5	nsubj	_	_
+2	a	a	CCONJ	J^-------------	_	3	cc	_	_
+3	mnozí	mnohý	ADJ	AAMP1----1A----	Animacy=Anim|Case=Nom|Degree=Pos|Gender=Masc|Number=Plur|Polarity=Pos	1	conj	_	_
+4	další	další	ADJ	AAMP1----1A----	Animacy=Anim|Case=Nom|Degree=Pos|Gender=Masc|Number=Plur|Polarity=Pos	1	amod	_	_
+5	hledají	hledat	VERB	VB-P---3P-AA---	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+6	možnost	možnost	NOUN	NNFS4-----A----	Case=Acc|Gender=Fem|Number=Sing|Polarity=Pos	5	obj	_	_
+7	dlouhodobého	dlouhodobý	ADJ	AAIS2----1A----	Animacy=Inan|Case=Gen|Degree=Pos|Gender=Masc|Number=Sing|Polarity=Pos	8	amod	_	_
+8	pronájmu	pronájem	NOUN	NNIS2-----A----	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing|Polarity=Pos	6	nmod	_	_
+9	bytu	byt	NOUN	NNIS2-----A----	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing|Polarity=Pos	8	nmod	_	SpaceAfter=No
+10	.	.	PUNCT	Z:-------------	_	5	punct	_	_
+
+# sent_id = 5
+# text = A právě na dlouhodobé pronájmy bytů a rodinných domů se specializuje firma Ubytreal.
+1	A	a	CCONJ	J^-------------	_	5	cc	_	_
+2	právě	právě	ADV	Db-------------	_	5	advmod:emph	_	_
+3	na	na	ADP	RR--4----------	AdpType=Prep|Case=Acc	5	case	_	_
+4	dlouhodobé	dlouhodobý	ADJ	AAIP4----1A----	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Plur|Polarity=Pos	5	amod	_	_
+5	pronájmy	pronájem	NOUN	NNIP4-----A----	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur|Polarity=Pos	11	obj	_	_
+6	bytů	byt	NOUN	NNIP2-----A----	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur|Polarity=Pos	5	nmod	_	_
+7	a	a	CCONJ	J^-------------	_	9	cc	_	_
+8	rodinných	rodinný	ADJ	AAIP2----1A----	Animacy=Inan|Case=Gen|Degree=Pos|Gender=Masc|Number=Plur|Polarity=Pos	9	amod	_	_
+9	domů	dům	NOUN	NNIP2-----A----	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur|Polarity=Pos	6	conj	_	_
+10	se	se	PRON	P7-X4----------	Case=Acc|PronType=Prs|Reflex=Yes|Variant=Short	11	expl:pv	_	_
+11	specializuje	specializovat	VERB	VB-S---3P-AA---	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+12	firma	firma	NOUN	NNFS1-----A----	Case=Nom|Gender=Fem|Number=Sing|Polarity=Pos	11	nsubj	_	_
+13	Ubytreal	Ubytreal	PROPN	NNIS1-----A----	Animacy=Inan|Case=Nom|Gender=Masc|NameType=Com|Number=Sing|Polarity=Pos	12	nmod	_	SpaceAfter=No
+14	.	.	PUNCT	Z:-------------	_	11	punct	_	SpacesAfter=\s\r\n\r\n
+
+# sent_id = 6
+# text = V databance má pouze byty I. kategorie v Praze a jejím okolí.
+# newpar
+1	V	v	ADP	RR--6----------	AdpType=Prep|Case=Loc	2	case	_	_
+2	databance	databanka	NOUN	NNFS6-----A----	Case=Loc|Gender=Fem|Number=Sing|Polarity=Pos	3	obl	_	_
+3	má	mít	VERB	VB-S---3P-AA---	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+4	pouze	pouze	ADV	Db-------------	_	5	advmod:emph	_	_
+5	byty	byt	NOUN	NNIP4-----A----	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur|Polarity=Pos	3	obj	_	_
+6	I	I	NUM	C}-------------	NumForm=Roman|NumType=Card	8	nummod	_	SpaceAfter=No
+7	.	.	PUNCT	Z:-------------	_	6	punct	_	_
+8	kategorie	kategorie	NOUN	NNFS2-----A----	Case=Gen|Gender=Fem|Number=Sing|Polarity=Pos	5	nmod	_	_
+9	v	v	ADP	RR--6----------	AdpType=Prep|Case=Loc	10	case	_	_
+10	Praze	Praha	PROPN	NNFS6-----A----	Case=Loc|Gender=Fem|NameType=Geo|Number=Sing|Polarity=Pos	5	nmod	_	_
+11	a	a	CCONJ	J^-------------	_	13	cc	_	_
+12	jejím	jeho	DET	PSZS6FS3-------	Case=Loc|Gender=Masc,Neut|Gender[psor]=Fem|Number=Sing|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	13	det	_	_
+13	okolí	okolí	NOUN	NNNS6-----A----	Case=Loc|Gender=Neut|Number=Sing|Polarity=Pos	10	conj	_	SpaceAfter=No
+14	.	.	PUNCT	Z:-------------	_	3	punct	_	_
+
+# sent_id = 7
+# text = Výjimku tvoří byty v centru Prahy, kde se do nabídky zařazují i byty s vytápěním wavkami.
+1	Výjimku	výjimka	NOUN	NNFS4-----A----	Case=Acc|Gender=Fem|Number=Sing|Polarity=Pos	2	obj	_	_
+2	tvoří	tvořit	VERB	VB-P---3P-AA---	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+3	byty	byt	NOUN	NNIP1-----A----	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur|Polarity=Pos	2	nsubj	_	_
+4	v	v	ADP	RR--6----------	AdpType=Prep|Case=Loc	5	case	_	_
+5	centru	centrum	NOUN	NNNS6-----A----	Case=Loc|Gender=Neut|Number=Sing|Polarity=Pos	3	nmod	_	_
+6	Prahy	Praha	PROPN	NNFS2-----A----	Case=Gen|Gender=Fem|NameType=Geo|Number=Sing|Polarity=Pos	5	nmod	_	SpaceAfter=No
+7	,	,	PUNCT	Z:-------------	_	12	punct	_	_
+8	kde	kde	ADV	Db-------------	PronType=Int,Rel	12	advmod	_	_
+9	se	se	PRON	P7-X4----------	Case=Acc|PronType=Prs|Reflex=Yes|Variant=Short	12	expl:pass	_	_
+10	do	do	ADP	RR--2----------	AdpType=Prep|Case=Gen	11	case	_	_
+11	nabídky	nabídka	NOUN	NNFS2-----A----	Case=Gen|Gender=Fem|Number=Sing|Polarity=Pos	12	obl	_	_
+12	zařazují	zařazovat	VERB	VB-P---3P-AA---	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	5	acl	_	_
+13	i	i	CCONJ	J^-------------	_	14	advmod:emph	_	_
+14	byty	byt	NOUN	NNIP1-----A----	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur|Polarity=Pos	12	nsubj:pass	_	_
+15	s	s	ADP	RR--7----------	AdpType=Prep|Case=Ins	16	case	_	_
+16	vytápěním	vytápění	NOUN	NNNS7-----A----	Case=Ins|Gender=Neut|Number=Sing|Polarity=Pos	14	nmod	_	_
+17	wavkami	wavky	NOUN	NNFP1-----A----	Case=Nom|Foreign=Yes|Gender=Fem|Number=Plur|Polarity=Pos	16	nmod	_	SpaceAfter=No
+18	.	.	PUNCT	Z:-------------	_	2	punct	_	_
+
+# sent_id = 8
+# text = Smlouvy podepisujeme jak s pronajímateli, tak s nájemci.
+1	Smlouvy	smlouva	NOUN	NNFP4-----A----	Case=Acc|Gender=Fem|Number=Plur|Polarity=Pos	2	obj	_	_
+2	podepisujeme	podepisovat	VERB	VB-P---1P-AA---	Aspect=Imp|Mood=Ind|Number=Plur|Person=1|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+3	jak	jak	ADV	Db-------------	PronType=Int,Rel	5	cc	_	_
+4	s	s	ADP	RR--7----------	AdpType=Prep|Case=Ins	5	case	_	_
+5	pronajímateli	pronajímatel	NOUN	NNMP7-----A----	Animacy=Anim|Case=Ins|Gender=Masc|Number=Plur|Polarity=Pos	2	obl	_	SpaceAfter=No
+6	,	,	PUNCT	Z:-------------	_	9	punct	_	_
+7	tak	tak	CCONJ	J^-------------	_	9	cc	_	_
+8	s	s	ADP	RR--7----------	AdpType=Prep|Case=Ins	9	case	_	_
+9	nájemci	nájemce	NOUN	NNMP7-----A----	Animacy=Anim|Case=Ins|Gender=Masc|Number=Plur|Polarity=Pos	5	conj	_	SpaceAfter=No
+10	.	.	PUNCT	Z:-------------	_	2	punct	_	_
+
+# sent_id = 9
+# text = Naše databanka je jakousi křižovatkou informací, řekl spolumajitel firmy Michal Vacek.
+1	Naše	můj	DET	PSHS1-P1-------	Case=Nom|Gender=Fem,Neut|Number=Sing|Number[psor]=Plur|Person=1|Poss=Yes|PronType=Prs	2	det	_	_
+2	databanka	databanka	NOUN	NNFS1-----A----	Case=Nom|Gender=Fem|Number=Sing|Polarity=Pos	5	nsubj	_	_
+3	je	být	AUX	VB-S---3P-AA---	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	5	cop	_	_
+4	jakousi	jakýsi	DET	PZFS7----------	Case=Ins|Gender=Fem|Number=Sing|PronType=Ind	5	det	_	_
+5	křižovatkou	křižovatka	NOUN	NNFS7-----A----	Case=Ins|Gender=Fem|Number=Sing|Polarity=Pos	8	ccomp	_	_
+6	informací	informace	NOUN	NNFP2-----A----	Case=Gen|Gender=Fem|Number=Plur|Polarity=Pos	5	nmod	_	SpaceAfter=No
+7	,	,	PUNCT	Z:-------------	_	5	punct	_	_
+8	řekl	říci	VERB	VpYS---XR-AA---	Aspect=Perf|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part|Voice=Act	0	root	_	_
+9	spolumajitel	spolumajitel	NOUN	NNMS1-----A----	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing|Polarity=Pos	11	nmod	_	_
+10	firmy	firma	NOUN	NNFS2-----A----	Case=Gen|Gender=Fem|Number=Sing|Polarity=Pos	9	nmod	_	_
+11	Michal	Michal	PROPN	NNMS1-----A----	Animacy=Anim|Case=Nom|Gender=Masc|NameType=Giv|Number=Sing|Polarity=Pos	8	nsubj	_	_
+12	Vacek	Vacek	PROPN	NNMS1-----A----	Animacy=Anim|Case=Nom|Gender=Masc|NameType=Sur|Number=Sing|Polarity=Pos	11	flat	_	SpaceAfter=No
+13	.	.	PUNCT	Z:-------------	_	8	punct	_	SpacesAfter=\s\r\n\r\n
+
+# sent_id = 10
+# text = Smlouvy o pronájmu se podepisují minimálně na jeden a maximálně na tři roky.
+# newpar
+1	Smlouvy	smlouva	NOUN	NNFP1-----A----	Case=Nom|Gender=Fem|Number=Plur|Polarity=Pos	5	nsubj:pass	_	_
+2	o	o	ADP	RR--6----------	AdpType=Prep|Case=Loc	3	case	_	_
+3	pronájmu	pronájem	NOUN	NNIS6-----A----	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing|Polarity=Pos	1	nmod	_	_
+4	se	se	PRON	P7-X4----------	Case=Acc|PronType=Prs|Reflex=Yes|Variant=Short	5	expl:pass	_	_
+5	podepisují	podepisovat	VERB	VB-P---3P-AA---	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+6	minimálně	minimálně	ADV	Dg-------1A----	Degree=Pos|Polarity=Pos	8	advmod:emph	_	_
+7	na	na	ADP	RR--4----------	AdpType=Prep|Case=Acc	8	case	_	_
+8	jeden	jeden	NUM	ClIS4----------	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing|NumForm=Word|NumType=Card|NumValue=1,2,3	5	obl	_	_
+9	a	a	CCONJ	J^-------------	_	13	cc	_	_
+10	maximálně	maximálně	ADV	Dg-------1A----	Degree=Pos|Polarity=Pos	13	advmod:emph	_	_
+11	na	na	ADP	RR--4----------	AdpType=Prep|Case=Acc	13	case	_	_
+12	tři	tři	NUM	ClXP4----------	Case=Acc|Number=Plur|NumForm=Word|NumType=Card|NumValue=1,2,3	13	nummod	_	_
+13	roky	rok	NOUN	NNIP4-----A----	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur|Polarity=Pos	8	conj	_	SpaceAfter=No
+14	.	.	PUNCT	Z:-------------	_	5	punct	_	_
+
+# sent_id = 11
+# text = Ve smlouvě je uvedena pevná částka, kterou nájemce za byt platí, a ta se nemění.
+1	Ve	v	ADP	RV--6----------	AdpType=Voc|Case=Loc	2	case	_	_
+2	smlouvě	smlouva	NOUN	NNFS6-----A----	Case=Loc|Gender=Fem|Number=Sing|Polarity=Pos	4	obl	_	Coref=1
+3	je	být	AUX	VB-S---3P-AA---	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	4	aux:pass	_	_
+4	uvedena	uvedený	ADJ	VsQW---XX-AP---	Gender=Fem,Neut|Number=Plur,Sing|Polarity=Pos|Variant=Short|VerbForm=Part|Voice=Pass	0	root	_	_
+5	pevná	pevný	ADJ	AAFS1----1A----	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing|Polarity=Pos	6	amod	_	_
+6	částka	částka	NOUN	NNFS1-----A----	Case=Nom|Gender=Fem|Number=Sing|Polarity=Pos	4	nsubj:pass	_	Coref=1|SpaceAfter=No
+7	,	,	PUNCT	Z:-------------	_	12	punct	_	_
+8	kterou	který	DET	P4FS4----------	Case=Acc|Gender=Fem|Number=Sing|PronType=Int,Rel	12	obj	_	Coref=1
+9	nájemce	nájemce	NOUN	NNMS1-----A----	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing|Polarity=Pos	12	nsubj	_	_
+10	za	za	ADP	RR--4----------	AdpType=Prep|Case=Acc	11	case	_	_
+11	byt	byt	NOUN	NNIS4-----A----	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing|Polarity=Pos	9	nmod	_	_
+12	platí	platit	VERB	VB-S---3P-AA---	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	6	acl	_	SpaceAfter=No
+13	,	,	PUNCT	Z:-------------	_	12	punct	_	_
+14	a	a	CCONJ	J^-------------	_	17	cc	_	_
+15	ta	ten	DET	PDFS1----------	Case=Nom|Gender=Fem|Number=Sing|PronType=Dem	17	nsubj:pass	_	_
+16	se	se	PRON	P7-X4----------	Case=Acc|PronType=Prs|Reflex=Yes|Variant=Short	17	expl:pass	_	_
+17	nemění	měnit	VERB	VB-S---3P-NA---	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Neg|Tense=Pres|VerbForm=Fin|Voice=Act	4	conj	_	SpaceAfter=No
+18	.	.	PUNCT	Z:-------------	_	4	punct	_	_
+
+# sent_id = 12
+# text = Smlouva se dá po uplynutí lhůty prodloužit, ale pak je třeba upravit právě sumu placenou za byt, vzít v úvahu například inflaci.
+1	Smlouva	smlouva	NOUN	NNFS1-----A----	Case=Nom|Gender=Fem|Number=Sing|Polarity=Pos	3	nsubj:pass	_	_
+2	se	se	PRON	P7-X4----------	Case=Acc|PronType=Prs|Reflex=Yes|Variant=Short	3	expl:pass	_	_
+3	dá	dát	VERB	VB-S---3P-AA---	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+4	po	po	ADP	RR--6----------	AdpType=Prep|Case=Loc	5	case	_	_
+5	uplynutí	uplynutí	NOUN	NNNS6-----A----	Case=Loc|Gender=Neut|Number=Sing|Polarity=Pos	7	obl	_	_
+6	lhůty	lhůta	NOUN	NNFS2-----A----	Case=Gen|Gender=Fem|Number=Sing|Polarity=Pos	5	nmod	_	_
+7	prodloužit	prodloužit	VERB	Vf--------A----	Aspect=Perf|Polarity=Pos|VerbForm=Inf	3	xcomp	_	SpaceAfter=No
+8	,	,	PUNCT	Z:-------------	_	12	punct	_	_
+9	ale	ale	CCONJ	J^-------------	_	12	cc	_	_
+10	pak	pak	ADV	Db-------------	_	12	advmod	_	_
+11	je	být	AUX	VB-S---3P-AA---	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	12	cop	_	_
+12	třeba	třeba	ADJ	ACNS------A----	Gender=Neut|Number=Sing|Polarity=Pos|Variant=Short	3	conj	_	_
+13	upravit	upravit	VERB	Vf--------A----	Aspect=Perf|Polarity=Pos|VerbForm=Inf	12	csubj	_	_
+14	právě	právě	ADV	Db-------------	_	15	advmod:emph	_	_
+15	sumu	suma	NOUN	NNFS4-----A----	Case=Acc|Gender=Fem|Number=Sing|Polarity=Pos	13	obj	_	_
+16	placenou	placený	ADJ	AAFS4----1A----	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing|Polarity=Pos	15	amod	_	_
+17	za	za	ADP	RR--4----------	AdpType=Prep|Case=Acc	18	case	_	_
+18	byt	byt	NOUN	NNIS4-----A----	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing|Polarity=Pos	16	obj	_	SpaceAfter=No
+19	,	,	PUNCT	Z:-------------	_	20	punct	_	_
+20	vzít	vzít	VERB	Vf--------A----	Polarity=Pos|VerbForm=Inf	13	conj	_	_
+21	v	v	ADP	RR--4----------	AdpType=Prep|Case=Acc	22	case	_	_
+22	úvahu	úvaha	NOUN	NNFS4-----A----	Case=Acc|Gender=Fem|Number=Sing|Polarity=Pos	20	iobj	_	_
+23	například	například	ADV	Db-------------	_	24	advmod:emph	_	_
+24	inflaci	inflace	NOUN	NNFS4-----A----	Case=Acc|Gender=Fem|Number=Sing|Polarity=Pos	20	obj	_	SpaceAfter=No
+25	.	.	PUNCT	Z:-------------	_	3	punct	_	SpacesAfter=\s\r\n\r\n
+
+# sent_id = 13
+# text = Nejlevnější je nezařízená garsoniéra bez telefonu, za pět tisíc korun měsíčně.
+# newpar
+1	Nejlevnější	levný	ADJ	AAFS1----3A----	Case=Nom|Degree=Sup|Gender=Fem|Number=Sing|Polarity=Pos	0	root	_	_
+2	je	být	AUX	VB-S---3P-AA---	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	1	cop	_	_
+3	nezařízená	zařízený	ADJ	AAFS1----1N----	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing|Polarity=Neg	4	amod	_	_
+4	garsoniéra	garsoniéra	NOUN	NNFS1-----A----	Case=Nom|Gender=Fem|Number=Sing|Polarity=Pos	1	nsubj	_	_
+5	bez	bez	ADP	RR--2----------	AdpType=Prep|Case=Gen	6	case	_	_
+6	telefonu	telefon	NOUN	NNIS2-----A----	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing|Polarity=Pos	4	nmod	_	SpaceAfter=No
+7	,	,	PUNCT	Z:-------------	_	11	punct	_	_
+8	za	za	ADP	RR--4----------	AdpType=Prep|Case=Acc	11	case	_	_
+9	pět	pět	NUM	Cn-S4----------	Case=Acc|Number=Sing|NumForm=Word|NumType=Card	11	nummod:gov	_	_
+10	tisíc	tisíc	NUM	ClXS2----------	Case=Gen|Number=Sing|NumForm=Word|NumType=Card|NumValue=1,2,3	11	nummod:gov	_	_
+11	korun	koruna	NOUN	NNFP2-----A----	Case=Gen|Gender=Fem|Number=Plur|Polarity=Pos	1	obl	_	_
+12	měsíčně	měsíčně	ADV	Dg-------1A----	Degree=Pos|Polarity=Pos	11	advmod	_	SpaceAfter=No
+13	.	.	PUNCT	Z:-------------	_	1	punct	_	_
+
+# sent_id = 14
+# text = Nejdražší pronájem, který firma zatím sjednala, byla vila na Klamovce za sedm tisíc dolarů měsíčně.
+1	Nejdražší	drahý	ADJ	AAIS1----3A----	Animacy=Inan|Case=Nom|Degree=Sup|Gender=Masc|Number=Sing|Polarity=Pos	2	amod	_	_
+2	pronájem	pronájem	NOUN	NNIS1-----A----	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing|Polarity=Pos	10	nsubj	_	Coref=2|SpaceAfter=No
+3	,	,	PUNCT	Z:-------------	_	7	punct	_	_
+4	který	který	DET	P4IS4----------	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing|PronType=Int,Rel	7	obj	_	Coref=2
+5	firma	firma	NOUN	NNFS1-----A----	Case=Nom|Gender=Fem|Number=Sing|Polarity=Pos	7	nsubj	_	_
+6	zatím	zatím	ADV	Db-------------	_	7	advmod	_	_
+7	sjednala	sjednat	VERB	VpQW---XR-AA---	Aspect=Perf|Gender=Fem,Neut|Number=Plur,Sing|Polarity=Pos|Tense=Past|VerbForm=Part|Voice=Act	2	acl	_	SpaceAfter=No
+8	,	,	PUNCT	Z:-------------	_	7	punct	_	_
+9	byla	být	AUX	VpQW---XR-AA---	Gender=Fem,Neut|Number=Plur,Sing|Polarity=Pos|Tense=Past|VerbForm=Part|Voice=Act	10	cop	_	_
+10	vila	vila	NOUN	NNFS1-----A----	Case=Nom|Gender=Fem|Number=Sing|Polarity=Pos	0	root	_	_
+11	na	na	ADP	RR--6----------	AdpType=Prep|Case=Loc	12	case	_	_
+12	Klamovce	Klamovka	PROPN	NNFS6-----A----	Case=Loc|Gender=Fem|NameType=Geo|Number=Sing|Polarity=Pos	10	nmod	_	_
+13	za	za	ADP	RR--4----------	AdpType=Prep|Case=Acc	16	case	_	_
+14	sedm	sedm	NUM	Cn-S4----------	Case=Acc|Number=Sing|NumForm=Word|NumType=Card	16	nummod:gov	_	_
+15	tisíc	tisíc	NUM	ClXS2----------	Case=Gen|Number=Sing|NumForm=Word|NumType=Card|NumValue=1,2,3	16	nummod:gov	_	_
+16	dolarů	dolar	NOUN	NNIP2-----A----	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur|Polarity=Pos	10	obl	_	_
+17	měsíčně	měsíčně	ADV	Dg-------1A----	Degree=Pos|Polarity=Pos	16	advmod	_	SpaceAfter=No
+18	.	.	PUNCT	Z:-------------	_	10	punct	_	SpacesAfter=\s\r\n\r\n
+
+# sent_id = 15
+# text = Dříve tvořili přes 50 procent naší klientely cizinci, dnes je jejich poměr k domácím zájemcům 1:1, uvedl M. Vacek.
+# newpar
+1	Dříve	brzy	ADV	Dg-------2A----	Degree=Cmp|Polarity=Pos	2	advmod	_	_
+2	tvořili	tvořit	VERB	VpMP---XR-AA---	Animacy=Anim|Aspect=Imp|Gender=Masc|Number=Plur|Polarity=Pos|Tense=Past|VerbForm=Part|Voice=Act	21	ccomp	_	_
+3	přes	přes	ADP	RR--4----------	AdpType=Prep|Case=Acc	5	case	_	_
+4	50	50	NUM	C=-------------	NumForm=Digit|NumType=Card	5	nummod:gov	_	_
+5	procent	procento	NOUN	NNNP2-----A----	Case=Gen|Gender=Neut|Number=Plur|Polarity=Pos	2	obj	_	_
+6	naší	můj	DET	PSFS2-P1-------	Case=Gen|Gender=Fem|Number=Sing|Number[psor]=Plur|Person=1|Poss=Yes|PronType=Prs	7	det	_	_
+7	klientely	klientela	NOUN	NNFS2-----A----	Case=Gen|Gender=Fem|Number=Sing|Polarity=Pos	5	nmod	_	_
+8	cizinci	cizinec	NOUN	NNMP1-----A----	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur|Polarity=Pos	2	nsubj	_	SpaceAfter=No
+9	,	,	PUNCT	Z:-------------	_	17	punct	_	_
+10	dnes	dnes	ADV	Db-------------	_	17	advmod	_	_
+11	je	být	AUX	VB-S---3P-AA---	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	17	cop	_	_
+12	jejich	jeho	DET	PSXXXXP3-------	Number[psor]=Plur|Person=3|Poss=Yes|PronType=Prs	13	det	_	_
+13	poměr	poměr	NOUN	NNIS1-----A----	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing|Polarity=Pos	17	nsubj	_	_
+14	k	k	ADP	RR--3----------	AdpType=Prep|Case=Dat	16	case	_	_
+15	domácím	domácí	ADJ	AAMP3----1A----	Animacy=Anim|Case=Dat|Degree=Pos|Gender=Masc|Number=Plur|Polarity=Pos	16	amod	_	_
+16	zájemcům	zájemce	NOUN	NNMP3-----A----	Animacy=Anim|Case=Dat|Gender=Masc|Number=Plur|Polarity=Pos	13	nmod	_	_
+17	1	1	NUM	C=-------------	NumForm=Digit|NumType=Card	2	conj	_	SpaceAfter=No
+18	:	:	PUNCT	Z:-------------	_	19	punct	_	SpaceAfter=No
+19	1	1	NUM	C=-------------	NumForm=Digit|NumType=Card	17	conj	_	SpaceAfter=No
+20	,	,	PUNCT	Z:-------------	_	2	punct	_	_
+21	uvedl	uvést	VERB	VpYS---XR-AA---	Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part|Voice=Act	0	root	_	_
+22	M	M	PROPN	NNMXX-----A---8	Abbr=Yes|Animacy=Anim|Gender=Masc|NameType=Giv|Polarity=Pos	21	nsubj	_	SpaceAfter=No
+23	.	.	PUNCT	Z:-------------	_	22	punct	_	_
+24	Vacek	Vacek	PROPN	NNMS1-----A----	Animacy=Anim|Case=Nom|Gender=Masc|NameType=Sur|Number=Sing|Polarity=Pos	22	flat	_	SpaceAfter=No
+25	.	.	PUNCT	Z:-------------	_	21	punct	_	_
+
+# sent_id = 16
+# text = Je spousta podnikatelů, kteří hledají pro své mimopražské zaměstnance ubytování v Praze.
+1	Je	být	AUX	VB-S---3P-AA---	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	2	cop	_	_
+2	spousta	spousta	NOUN	NNFS1-----A----	Case=Nom|Gender=Fem|Number=Sing|Polarity=Pos	0	root	_	_
+3	podnikatelů	podnikatel	NOUN	NNMP2-----A----	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur|Polarity=Pos	2	nmod	_	Coref=3|SpaceAfter=No
+4	,	,	PUNCT	Z:-------------	_	6	punct	_	_
+5	kteří	který	DET	P4MP1----------	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur|PronType=Int,Rel	6	nsubj	_	Coref=3
+6	hledají	hledat	VERB	VB-P---3P-AA---	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	3	acl	_	_
+7	pro	pro	ADP	RR--4----------	AdpType=Prep|Case=Acc	10	case	_	_
+8	své	svůj	DET	P8YP4---------1	Case=Acc|Gender=Masc|Number=Plur|Poss=Yes|PronType=Prs|Reflex=Yes	10	det	_	_
+9	mimopražské	mimopražský	ADJ	AAMP4----1A----	Animacy=Anim|Case=Acc|Degree=Pos|Gender=Masc|Number=Plur|Polarity=Pos	10	amod	_	_
+10	zaměstnance	zaměstnanec	NOUN	NNMP4-----A----	Animacy=Anim|Case=Acc|Gender=Masc|Number=Plur|Polarity=Pos	6	obl	_	_
+11	ubytování	ubytování	NOUN	NNNS2-----A----	Case=Gen|Gender=Neut|Number=Sing|Polarity=Pos	6	obj	_	_
+12	v	v	ADP	RR--6----------	AdpType=Prep|Case=Loc	13	case	_	_
+13	Praze	Praha	PROPN	NNFS6-----A----	Case=Loc|Gender=Fem|NameType=Geo|Number=Sing|Polarity=Pos	11	nmod	_	SpaceAfter=No
+14	.	.	PUNCT	Z:-------------	_	2	punct	_	_
+
+# sent_id = 17
+# text = Nájemce může podle svých požadavků dostat nabídku i po telefonu, popřípadě navštívit kancelář společnosti a nabídky dostane vytištěné.
+1	Nájemce	nájemce	NOUN	NNMS1-----A----	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing|Polarity=Pos	2	nsubj	_	_
+2	může	moci	VERB	VB-S---3P-AA---	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+3	podle	podle	ADP	RR--2----------	AdpType=Prep|Case=Gen	5	case	_	_
+4	svých	svůj	DET	P8XP2----------	Case=Gen|Number=Plur|Poss=Yes|PronType=Prs|Reflex=Yes	5	det	_	_
+5	požadavků	požadavek	NOUN	NNIP2-----A----	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur|Polarity=Pos	2	obl	_	_
+6	dostat	dostat	VERB	Vf--------A----	Polarity=Pos|VerbForm=Inf	2	xcomp	_	_
+7	nabídku	nabídka	NOUN	NNFS4-----A----	Case=Acc|Gender=Fem|Number=Sing|Polarity=Pos	6	obj	_	_
+8	i	i	CCONJ	J^-------------	_	10	advmod:emph	_	_
+9	po	po	ADP	RR--6----------	AdpType=Prep|Case=Loc	10	case	_	_
+10	telefonu	telefon	NOUN	NNIS6-----A----	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing|Polarity=Pos	6	obl	_	SpaceAfter=No
+11	,	,	PUNCT	Z:-------------	_	13	punct	_	_
+12	popřípadě	popřípadě	ADV	Db-------------	_	13	advmod	_	_
+13	navštívit	navštívit	VERB	Vf--------A----	Aspect=Perf|Polarity=Pos|VerbForm=Inf	10	acl	_	_
+14	kancelář	kancelář	NOUN	NNFS4-----A----	Case=Acc|Gender=Fem|Number=Sing|Polarity=Pos	13	obj	_	_
+15	společnosti	společnost	NOUN	NNFS2-----A----	Case=Gen|Gender=Fem|Number=Sing|Polarity=Pos	14	nmod	_	_
+16	a	a	CCONJ	J^-------------	_	18	cc	_	_
+17	nabídky	nabídka	NOUN	NNFP4-----A----	Case=Acc|Gender=Fem|Number=Plur|Polarity=Pos	18	obj	_	_
+18	dostane	dostat	VERB	VB-S---3P-AA---	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	13	conj	_	_
+19	vytištěné	vytištěný	ADJ	AAFP4----1A----	Case=Acc|Degree=Pos|Gender=Fem|Number=Plur|Polarity=Pos	17	amod	_	SpaceAfter=No
+20	.	.	PUNCT	Z:-------------	_	2	punct	_	_
+
+# sent_id = 18
+# text = Klient si určí, jak velký byt, v jaké části Prahy, v kterém patře, s jakým vybavením a za kolik si chce pronajmout.
+1	Klient	klient	NOUN	NNMS1-----A----	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing|Polarity=Pos	3	nsubj	_	Coref=4
+2	si	se	PRON	P7-X3----------	Case=Dat|PronType=Prs|Reflex=Yes|Variant=Short	3	obl	_	_
+3	určí	určit	VERB	VB-S---3P-AA---	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No
+4	,	,	PUNCT	Z:-------------	_	7	punct	_	_
+5	jak	jak	ADV	Db-------------	PronType=Int,Rel	6	advmod	_	_
+6	velký	velký	ADJ	AAIS4----1A----	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing|Polarity=Pos	7	amod	_	_
+7	byt	byt	NOUN	NNIS4-----A----	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing|Polarity=Pos	3	obj	_	Coref=4|SpaceAfter=No
+8	,	,	PUNCT	Z:-------------	_	11	punct	_	_
+9	v	v	ADP	RR--6----------	AdpType=Prep|Case=Loc	11	case	_	_
+10	jaké	jaký	DET	P4FS6----------	Case=Loc|Gender=Fem|Number=Sing|PronType=Int,Rel	11	det	_	_
+11	části	část	NOUN	NNFS6-----A----	Case=Loc|Gender=Fem|Number=Sing|Polarity=Pos	7	dep	_	_
+12	Prahy	Praha	PROPN	NNFS2-----A----	Case=Gen|Gender=Fem|NameType=Geo|Number=Sing|Polarity=Pos	11	nmod	_	SpaceAfter=No
+13	,	,	PUNCT	Z:-------------	_	16	punct	_	_
+14	v	v	ADP	RR--6----------	AdpType=Prep|Case=Loc	16	case	_	_
+15	kterém	který	DET	P4ZS6----------	Case=Loc|Gender=Masc,Neut|Number=Sing|PronType=Int,Rel	16	det	_	Coref=4
+16	patře	patro	NOUN	NNNS6-----A---1	Case=Loc|Gender=Neut|Number=Sing|Polarity=Pos	11	conj	_	Coref=4|SpaceAfter=No
+17	,	,	PUNCT	Z:-------------	_	20	punct	_	_
+18	s	s	ADP	RR--7----------	AdpType=Prep|Case=Ins	20	case	_	_
+19	jakým	jaký	DET	P4ZS7----------	Case=Ins|Gender=Masc,Neut|Number=Sing|PronType=Int,Rel	20	det	_	Coref=4
+20	vybavením	vybavení	NOUN	NNNS7-----A----	Case=Ins|Gender=Neut|Number=Sing|Polarity=Pos	11	conj	_	_
+21	a	a	CCONJ	J^-------------	_	25	cc	_	_
+22	za	za	ADP	RR--4----------	AdpType=Prep|Case=Acc	23	case	_	_
+23	kolik	kolik	DET	C?--4----------	Case=Acc|NumType=Card|PronType=Int,Rel	26	obj	_	_
+24	si	se	PRON	P7-X3----------	Case=Dat|PronType=Prs|Reflex=Yes|Variant=Short	26	expl:pv	_	_
+25	chce	chtít	VERB	VB-S---3P-AA---	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	11	conj	_	_
+26	pronajmout	pronajmout	VERB	Vf--------A----	Polarity=Pos|VerbForm=Inf	25	xcomp	_	SpaceAfter=No
+27	.	.	PUNCT	Z:-------------	_	3	punct	_	_
+
+# sent_id = 19
+# text = Z databáze pak dostane buď nabídku, která se s jeho požadavky dokonale kryje, nebo nabídku s jednou libovolnou chybou.
+1	Z	z	ADP	RR--2----------	AdpType=Prep|Case=Gen	2	case	_	_
+2	databáze	databáze	NOUN	NNFS2-----A----	Case=Gen|Gender=Fem|Number=Sing|Polarity=Pos	4	obl	_	Coref=5
+3	pak	pak	ADV	Db-------------	_	4	advmod	_	_
+4	dostane	dostat	VERB	VB-S---3P-AA---	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+5	buď	buď	CCONJ	J^-------------	_	6	cc	_	_
+6	nabídku	nabídka	NOUN	NNFS4-----A----	Case=Acc|Gender=Fem|Number=Sing|Polarity=Pos	4	obj	_	Coref=5|SpaceAfter=No
+7	,	,	PUNCT	Z:-------------	_	14	punct	_	_
+8	která	který	DET	P4FS1----------	Case=Nom|Gender=Fem|Number=Sing|PronType=Int,Rel	14	nsubj	_	Coref=5
+9	se	se	PRON	P7-X4----------	Case=Acc|PronType=Prs|Reflex=Yes|Variant=Short	14	expl:pv	_	_
+10	s	s	ADP	RR--7----------	AdpType=Prep|Case=Ins	12	case	_	_
+11	jeho	jeho	DET	PSXXXZS3-------	Gender[psor]=Masc,Neut|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	12	det	_	_
+12	požadavky	požadavek	NOUN	NNIP7-----A----	Animacy=Inan|Case=Ins|Gender=Masc|Number=Plur|Polarity=Pos	14	obj	_	_
+13	dokonale	dokonale	ADV	Dg-------1A----	Degree=Pos|Polarity=Pos	14	advmod	_	_
+14	kryje	krýt	VERB	VB-S---3P-AA---	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	6	acl	_	SpaceAfter=No
+15	,	,	PUNCT	Z:-------------	_	17	punct	_	_
+16	nebo	nebo	CCONJ	J^-------------	_	17	cc	_	_
+17	nabídku	nabídka	NOUN	NNFS4-----A----	Case=Acc|Gender=Fem|Number=Sing|Polarity=Pos	6	conj	_	_
+18	s	s	ADP	RR--7----------	AdpType=Prep|Case=Ins	21	case	_	_
+19	jednou	jeden	NUM	ClFS7----------	Case=Ins|Gender=Fem|Number=Sing|NumForm=Word|NumType=Card|NumValue=1,2,3	21	nummod	_	_
+20	libovolnou	libovolný	ADJ	AAFS7----1A----	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing|Polarity=Pos	21	amod	_	_
+21	chybou	chyba	NOUN	NNFS7-----A----	Case=Ins|Gender=Fem|Number=Sing|Polarity=Pos	17	nmod	_	SpaceAfter=No
+22	.	.	PUNCT	Z:-------------	_	4	punct	_	_
+
+# sent_id = 20
+# text = To znamená, že byt je třeba v jiné části Prahy nebo je dražší apod.
+1	To	ten	DET	PDNS1----------	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	2	nsubj	_	_
+2	znamená	znamenat	VERB	VB-S---3P-AA---	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No
+3	,	,	PUNCT	Z:-------------	_	7	punct	_	_
+4	že	že	SCONJ	J,-------------	_	7	mark	_	_
+5	byt	byt	NOUN	NNIS4-----A----	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing|Polarity=Pos	7	nsubj	_	_
+6	je	být	AUX	VB-S---3P-AA---	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	7	cop	_	_
+7	třeba	třeba	ADJ	ACNS------A----	Gender=Neut|Number=Sing|Polarity=Pos|Variant=Short	2	ccomp	_	_
+8	v	v	ADP	RR--6----------	AdpType=Prep|Case=Loc	10	case	_	_
+9	jiné	jiný	ADJ	AAFS6----1A----	Case=Loc|Degree=Pos|Gender=Fem|Number=Sing|Polarity=Pos	10	amod	_	_
+10	části	část	NOUN	NNFS6-----A----	Case=Loc|Gender=Fem|Number=Sing|Polarity=Pos	5	nmod	_	_
+11	Prahy	Praha	PROPN	NNFS2-----A----	Case=Gen|Gender=Fem|NameType=Geo|Number=Sing|Polarity=Pos	10	nmod	_	_
+12	nebo	nebo	CCONJ	J^-------------	_	14	cc	_	_
+13	je	být	AUX	VB-S---3P-AA---	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	14	cop	_	_
+14	dražší	drahý	ADJ	AAIS1----2A----	Animacy=Inan|Case=Nom|Degree=Cmp|Gender=Masc|Number=Sing|Polarity=Pos	7	conj	_	_
+15	apod	apod	ADV	Db------------8	Abbr=Yes	14	advmod	_	SpaceAfter=No
+16	.	.	PUNCT	Z:-------------	_	2	punct	_	SpacesAfter=\s\r\n\r\n
+
+# sent_id = 21
+# text = Pronajímatel může nabídnout byt i telefonicky, ale v každém případě se musí osobně dostavit do kanceláře společnosti k podepsání zprostředkovatelské smlouvy.
+# newpar
+1	Pronajímatel	pronajímatel	NOUN	NNMS1-----A----	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing|Polarity=Pos	2	nsubj	_	_
+2	může	moci	VERB	VB-S---3P-AA---	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+3	nabídnout	nabídnout	VERB	Vf--------A----	Aspect=Perf|Polarity=Pos|VerbForm=Inf	2	xcomp	_	_
+4	byt	byt	NOUN	NNIS4-----A----	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing|Polarity=Pos	3	obj	_	_
+5	i	i	CCONJ	J^-------------	_	6	advmod:emph	_	_
+6	telefonicky	telefonicky	ADV	Dg-------1A----	Degree=Pos|Polarity=Pos	3	advmod	_	SpaceAfter=No
+7	,	,	PUNCT	Z:-------------	_	13	punct	_	_
+8	ale	ale	CCONJ	J^-------------	_	13	cc	_	_
+9	v	v	ADP	RR--6----------	AdpType=Prep|Case=Loc	11	case	_	_
+10	každém	každý	ADJ	AAIS6----1A----	Animacy=Inan|Case=Loc|Degree=Pos|Gender=Masc|Number=Sing|Polarity=Pos	11	amod	_	_
+11	případě	případ	NOUN	NNIS6-----A----	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing|Polarity=Pos	13	obl	_	_
+12	se	se	PRON	P7-X4----------	Case=Acc|PronType=Prs|Reflex=Yes|Variant=Short	15	expl:pv	_	_
+13	musí	muset	VERB	VB-S---3P-AA---	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	2	conj	_	_
+14	osobně	osobně	ADV	Dg-------1A----	Degree=Pos|Polarity=Pos	15	advmod	_	_
+15	dostavit	dostavit	VERB	Vf--------A----	Aspect=Perf|Polarity=Pos|VerbForm=Inf	13	xcomp	_	_
+16	do	do	ADP	RR--2----------	AdpType=Prep|Case=Gen	17	case	_	_
+17	kanceláře	kancelář	NOUN	NNFS2-----A----	Case=Gen|Gender=Fem|Number=Sing|Polarity=Pos	15	obl	_	_
+18	společnosti	společnost	NOUN	NNFS2-----A----	Case=Gen|Gender=Fem|Number=Sing|Polarity=Pos	17	nmod	_	_
+19	k	k	ADP	RR--3----------	AdpType=Prep|Case=Dat	20	case	_	_
+20	podepsání	podepsání	NOUN	NNNS3-----A----	Case=Dat|Gender=Neut|Number=Sing|Polarity=Pos	15	obl	_	_
+21	zprostředkovatelské	zprostředkovatelský	ADJ	AAFS2----1A----	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing|Polarity=Pos	22	amod	_	_
+22	smlouvy	smlouva	NOUN	NNFS2-----A----	Case=Gen|Gender=Fem|Number=Sing|Polarity=Pos	20	nmod	_	SpaceAfter=No
+23	.	.	PUNCT	Z:-------------	_	2	punct	_	_
+
+# sent_id = 22
+# text = Neuzavíráme exkluzivní zprostředkovatelské smlouvy jako jiné realitní firmy, které pro pronajímatele znamenají, že pod hrozbou pokuty ve výši až tří měsíčních nájmů si po určitou dobu nesmí sám najít klienta.
+1	Neuzavíráme	uzavírat	VERB	VB-P---1P-NA---	Mood=Ind|Number=Plur|Person=1|Polarity=Neg|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+2	exkluzivní	exkluzivní	ADJ	AAFP4----1A----	Case=Acc|Degree=Pos|Gender=Fem|Number=Plur|Polarity=Pos	4	amod	_	_
+3	zprostředkovatelské	zprostředkovatelský	ADJ	AAFP4----1A----	Case=Acc|Degree=Pos|Gender=Fem|Number=Plur|Polarity=Pos	4	amod	_	_
+4	smlouvy	smlouva	NOUN	NNFP4-----A----	Case=Acc|Gender=Fem|Number=Plur|Polarity=Pos	1	obj	_	Coref=6
+5	jako	jako	SCONJ	J,-------------	_	8	mark	_	_
+6	jiné	jiný	ADJ	AAFP1----1A----	Case=Nom|Degree=Pos|Gender=Fem|Number=Plur|Polarity=Pos	8	amod	_	_
+7	realitní	realitní	ADJ	AAFP1----1A----	Case=Nom|Degree=Pos|Gender=Fem|Number=Plur|Polarity=Pos	8	amod	_	_
+8	firmy	firma	NOUN	NNFP1-----A----	Case=Nom|Gender=Fem|Number=Plur|Polarity=Pos	1	advcl	_	SpaceAfter=No
+9	,	,	PUNCT	Z:-------------	_	13	punct	_	_
+10	které	který	DET	P4FP1----------	Case=Nom|Gender=Fem|Number=Plur|PronType=Int,Rel	13	nsubj	_	Coref=6
+11	pro	pro	ADP	RR--4----------	AdpType=Prep|Case=Acc	12	case	_	_
+12	pronajímatele	pronajímatel	NOUN	NNMP4-----A----	Animacy=Anim|Case=Acc|Gender=Masc|Number=Plur|Polarity=Pos	13	obl	_	_
+13	znamenají	znamenat	VERB	VB-P---3P-AA---	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	8	acl	_	SpaceAfter=No
+14	,	,	PUNCT	Z:-------------	_	29	punct	_	_
+15	že	že	SCONJ	J,-------------	_	29	mark	_	_
+16	pod	pod	ADP	RR--7----------	AdpType=Prep|Case=Ins	17	case	_	_
+17	hrozbou	hrozba	NOUN	NNFS7-----A----	Case=Ins|Gender=Fem|Number=Sing|Polarity=Pos	29	obl	_	_
+18	pokuty	pokuta	NOUN	NNFS2-----A----	Case=Gen|Gender=Fem|Number=Sing|Polarity=Pos	17	nmod	_	_
+19	ve	v	ADP	RV--6----------	AdpType=Voc|Case=Loc	20	case	_	_
+20	výši	výše	NOUN	NNFS6-----A----	Case=Loc|Gender=Fem|Number=Sing|Polarity=Pos	18	nmod	_	_
+21	až	až	PART	TT-------------	_	24	advmod:emph	_	_
+22	tří	tři	NUM	ClXP2----------	Case=Gen|Number=Plur|NumForm=Word|NumType=Card|NumValue=1,2,3	24	nummod	_	_
+23	měsíčních	měsíční	ADJ	AAIP2----1A----	Animacy=Inan|Case=Gen|Degree=Pos|Gender=Masc|Number=Plur|Polarity=Pos	24	amod	_	_
+24	nájmů	nájem	NOUN	NNIP2-----A----	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur|Polarity=Pos	20	nmod	_	_
+25	si	se	PRON	P7-X3----------	Case=Dat|PronType=Prs|Reflex=Yes|Variant=Short	29	obl	_	_
+26	po	po	ADP	RR--4----------	AdpType=Prep|Case=Acc	28	case	_	_
+27	určitou	určitý	ADJ	AAFS4----1A----	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing|Polarity=Pos	28	amod	_	_
+28	dobu	doba	NOUN	NNFS4-----A----	Case=Acc|Gender=Fem|Number=Sing|Polarity=Pos	29	obl	_	_
+29	nesmí	smět	VERB	VB-S---3P-NA---	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Neg|Tense=Pres|VerbForm=Fin|Voice=Act	13	ccomp	_	_
+30	sám	sám	DET	PLYS1----------	Case=Nom|Gender=Masc|Number=Sing|PronType=Emp	31	xcomp	_	_
+31	najít	najít	VERB	Vf--------A----	Polarity=Pos|VerbForm=Inf	29	xcomp	_	_
+32	klienta	klient	NOUN	NNMS4-----A----	Animacy=Anim|Case=Acc|Gender=Masc|Number=Sing|Polarity=Pos	31	iobj	_	SpaceAfter=No
+33	.	.	PUNCT	Z:-------------	_	1	punct	_	_
+
+# sent_id = 23
+# text = Podle mého názoru by stejnou pokutu měla platit i kancelář, pokud v dané době není schopna najít nájemce, nebo by neměla exkluzivní smlouvy uzavírat.
+1	Podle	podle	ADP	RR--2----------	AdpType=Prep|Case=Gen	3	case	_	_
+2	mého	můj	DET	PSZS2-S1-------	Case=Gen|Gender=Masc,Neut|Number=Sing|Number[psor]=Sing|Person=1|Poss=Yes|PronType=Prs	3	det	_	_
+3	názoru	názor	NOUN	NNIS2-----A----	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing|Polarity=Pos	7	obl	_	_
+4	by	být	AUX	Vc-------------	Mood=Cnd|VerbForm=Fin	7	aux	_	_
+5	stejnou	stejný	ADJ	AAFS4----1A----	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing|Polarity=Pos	6	amod	_	_
+6	pokutu	pokuta	NOUN	NNFS4-----A----	Case=Acc|Gender=Fem|Number=Sing|Polarity=Pos	8	obj	_	_
+7	měla	mít	VERB	VpQW---XR-AA---	Gender=Fem,Neut|Number=Plur,Sing|Polarity=Pos|Tense=Past|VerbForm=Part|Voice=Act	0	root	_	_
+8	platit	platit	VERB	Vf--------A----	Polarity=Pos|VerbForm=Inf	7	xcomp	_	_
+9	i	i	CCONJ	J^-------------	_	10	advmod:emph	_	_
+10	kancelář	kancelář	NOUN	NNFS1-----A----	Case=Nom|Gender=Fem|Number=Sing|Polarity=Pos	7	nsubj	_	SpaceAfter=No
+11	,	,	PUNCT	Z:-------------	_	17	punct	_	_
+12	pokud	pokud	SCONJ	J,-------------	_	17	mark	_	_
+13	v	v	ADP	RR--6----------	AdpType=Prep|Case=Loc	15	case	_	_
+14	dané	daný	ADJ	AAFS6----1A----	Case=Loc|Degree=Pos|Gender=Fem|Number=Sing|Polarity=Pos	15	amod	_	_
+15	době	doba	NOUN	NNFS6-----A----	Case=Loc|Gender=Fem|Number=Sing|Polarity=Pos	17	obl	_	_
+16	není	být	AUX	VB-S---3P-NA---	Mood=Ind|Number=Sing|Person=3|Polarity=Neg|Tense=Pres|VerbForm=Fin|Voice=Act	17	cop	_	_
+17	schopna	schopný	ADJ	ACQW------A----	Gender=Fem,Neut|Number=Plur,Sing|Polarity=Pos|Variant=Short	7	advcl	_	_
+18	najít	najít	VERB	Vf--------A----	Polarity=Pos|VerbForm=Inf	17	xcomp	_	_
+19	nájemce	nájemce	NOUN	NNMS4-----A----	Animacy=Anim|Case=Acc|Gender=Masc|Number=Sing|Polarity=Pos	18	obj	_	SpaceAfter=No
+20	,	,	PUNCT	Z:-------------	_	23	punct	_	_
+21	nebo	nebo	CCONJ	J^-------------	_	23	cc	_	_
+22	by	být	AUX	Vc-------------	Mood=Cnd|VerbForm=Fin	23	aux	_	_
+23	neměla	mít	VERB	VpQW---XR-NA---	Gender=Fem,Neut|Number=Plur,Sing|Polarity=Neg|Tense=Past|VerbForm=Part|Voice=Act	7	conj	_	_
+24	exkluzivní	exkluzivní	ADJ	AAFP4----1A----	Case=Acc|Degree=Pos|Gender=Fem|Number=Plur|Polarity=Pos	25	amod	_	_
+25	smlouvy	smlouva	NOUN	NNFP4-----A----	Case=Acc|Gender=Fem|Number=Plur|Polarity=Pos	26	obj	_	_
+26	uzavírat	uzavírat	VERB	Vf--------A----	Polarity=Pos|VerbForm=Inf	23	xcomp	_	SpaceAfter=No
+27	.	.	PUNCT	Z:-------------	_	7	punct	_	_
+
+# sent_id = 24
+# text = Naše zprostředkovatelská smlouva pronajímatele ani nájemce nijak nezavazuje.
+1	Naše	můj	DET	PSHS1-P1-------	Case=Nom|Gender=Fem,Neut|Number=Sing|Number[psor]=Plur|Person=1|Poss=Yes|PronType=Prs	3	det	_	_
+2	zprostředkovatelská	zprostředkovatelský	ADJ	AAFS1----1A----	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing|Polarity=Pos	3	amod	_	_
+3	smlouva	smlouva	NOUN	NNFS1-----A----	Case=Nom|Gender=Fem|Number=Sing|Polarity=Pos	8	nsubj	_	_
+4	pronajímatele	pronajímatel	NOUN	NNMS4-----A----	Animacy=Anim|Case=Acc|Gender=Masc|Number=Sing|Polarity=Pos	8	obj	_	_
+5	ani	ani	CCONJ	J^-------------	_	6	cc	_	_
+6	nájemce	nájemce	NOUN	NNMS4-----A----	Animacy=Anim|Case=Acc|Gender=Masc|Number=Sing|Polarity=Pos	4	conj	_	_
+7	nijak	nijak	ADV	Db-------------	PronType=Neg	8	advmod	_	_
+8	nezavazuje	zavazovat	VERB	VB-S---3P-NA---	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Neg|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No
+9	.	.	PUNCT	Z:-------------	_	8	punct	_	_
+
+# sent_id = 25
+# text = Po jejím podpisu se jeho nabídka okamžitě dostává do databáze, vysvětlil M. Vacek.
+1	Po	po	ADP	RR--6----------	AdpType=Prep|Case=Loc	3	case	_	_
+2	jejím	jeho	DET	PSZS6FS3-------	Case=Loc|Gender=Masc,Neut|Gender[psor]=Fem|Number=Sing|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	3	det	_	_
+3	podpisu	podpis	NOUN	NNIS6-----A---1	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing|Polarity=Pos	8	obl	_	_
+4	se	se	PRON	P7-X4----------	Case=Acc|PronType=Prs|Reflex=Yes|Variant=Short	8	expl:pv	_	_
+5	jeho	jeho	DET	PSXXXZS3-------	Gender[psor]=Masc,Neut|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	6	det	_	_
+6	nabídka	nabídka	NOUN	NNFS1-----A----	Case=Nom|Gender=Fem|Number=Sing|Polarity=Pos	8	nsubj	_	_
+7	okamžitě	okamžitě	ADV	Dg-------1A----	Degree=Pos|Polarity=Pos	8	advmod	_	_
+8	dostává	dostávat	VERB	VB-S---3P-AA---	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	12	ccomp	_	_
+9	do	do	ADP	RR--2----------	AdpType=Prep|Case=Gen	10	case	_	_
+10	databáze	databáze	NOUN	NNFS2-----A----	Case=Gen|Gender=Fem|Number=Sing|Polarity=Pos	8	obl	_	SpaceAfter=No
+11	,	,	PUNCT	Z:-------------	_	8	punct	_	_
+12	vysvětlil	vysvětlit	VERB	VpYS---XR-AA---	Aspect=Perf|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part|Voice=Act	0	root	_	_
+13	M	M	PROPN	NNMXX-----A---8	Abbr=Yes|Animacy=Anim|Gender=Masc|NameType=Giv|Polarity=Pos	12	nsubj	_	SpaceAfter=No
+14	.	.	PUNCT	Z:-------------	_	13	punct	_	_
+15	Vacek	Vacek	PROPN	NNMS1-----A----	Animacy=Anim|Case=Nom|Gender=Masc|NameType=Sur|Number=Sing|Polarity=Pos	13	flat	_	SpaceAfter=No
+16	.	.	PUNCT	Z:-------------	_	12	punct	_	_
+
+# sent_id = 26
+# text = Za uzavření smlouvy a zařazení do databáze klient neplatí.
+1	Za	za	ADP	RR--4----------	AdpType=Prep|Case=Acc	2	case	_	_
+2	uzavření	uzavření	NOUN	NNNS4-----A----	Case=Acc|Gender=Neut|Number=Sing|Polarity=Pos	9	obj	_	_
+3	smlouvy	smlouva	NOUN	NNFS2-----A----	Case=Gen|Gender=Fem|Number=Sing|Polarity=Pos	2	nmod	_	_
+4	a	a	CCONJ	J^-------------	_	5	cc	_	_
+5	zařazení	zařazení	NOUN	NNNS4-----A----	Case=Acc|Gender=Neut|Number=Sing|Polarity=Pos	2	conj	_	_
+6	do	do	ADP	RR--2----------	AdpType=Prep|Case=Gen	7	case	_	_
+7	databáze	databáze	NOUN	NNFS2-----A----	Case=Gen|Gender=Fem|Number=Sing|Polarity=Pos	5	nmod	_	_
+8	klient	klient	NOUN	NNMS1-----A----	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing|Polarity=Pos	9	nsubj	_	_
+9	neplatí	platit	VERB	VB-S---3P-NA---	Mood=Ind|Number=Sing|Person=3|Polarity=Neg|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No
+10	.	.	PUNCT	Z:-------------	_	9	punct	_	SpacesAfter=\s\r\n\r\n
+
+# sent_id = 27
+# text = V případě, že díky Ubytrealu jako zprostředkovateli uzavře nájemce smlouvu na dlouhodobý pronájem bytu, zaplatí této společnosti odměnu ve výši 70 procent měsíčního nájmu.
+# newpar
+1	V	v	ADP	RR--6----------	AdpType=Prep|Case=Loc	2	case	_	_
+2	případě	případ	NOUN	NNIS6-----A----	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing|Polarity=Pos	17	obl	_	SpaceAfter=No
+3	,	,	PUNCT	Z:-------------	_	9	punct	_	_
+4	že	že	SCONJ	J,-------------	_	9	mark	_	_
+5	díky	díky	ADP	RR--3----------	AdpType=Prep|Case=Dat	6	case	_	_
+6	Ubytrealu	Ubytreal	PROPN	NNIS3-----A----	Animacy=Inan|Case=Dat|Gender=Masc|NameType=Com|Number=Sing|Polarity=Pos	9	obl	_	_
+7	jako	jako	SCONJ	J,-------------	_	8	mark	_	_
+8	zprostředkovateli	zprostředkovatel	NOUN	NNMS3-----A----	Animacy=Anim|Case=Dat|Gender=Masc|Number=Sing|Polarity=Pos	6	nmod	_	_
+9	uzavře	uzavřít	VERB	VB-S---3P-AA---	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	2	acl	_	_
+10	nájemce	nájemce	NOUN	NNMS1-----A----	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing|Polarity=Pos	9	nsubj	_	_
+11	smlouvu	smlouva	NOUN	NNFS4-----A----	Case=Acc|Gender=Fem|Number=Sing|Polarity=Pos	9	obj	_	_
+12	na	na	ADP	RR--4----------	AdpType=Prep|Case=Acc	14	case	_	_
+13	dlouhodobý	dlouhodobý	ADJ	AAIS4----1A----	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing|Polarity=Pos	14	amod	_	_
+14	pronájem	pronájem	NOUN	NNIS4-----A----	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing|Polarity=Pos	11	nmod	_	_
+15	bytu	byt	NOUN	NNIS2-----A----	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing|Polarity=Pos	14	nmod	_	SpaceAfter=No
+16	,	,	PUNCT	Z:-------------	_	9	punct	_	_
+17	zaplatí	zaplatit	VERB	VB-S---3P-AA---	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+18	této	tento	DET	PDFS3----------	Case=Dat|Gender=Fem|Number=Sing|PronType=Dem	19	det	_	_
+19	společnosti	společnost	NOUN	NNFS3-----A----	Case=Dat|Gender=Fem|Number=Sing|Polarity=Pos	17	iobj	_	_
+20	odměnu	odměna	NOUN	NNFS4-----A----	Case=Acc|Gender=Fem|Number=Sing|Polarity=Pos	17	obj	_	_
+21	ve	v	ADP	RV--6----------	AdpType=Voc|Case=Loc	22	case	_	_
+22	výši	výše	NOUN	NNFS6-----A----	Case=Loc|Gender=Fem|Number=Sing|Polarity=Pos	20	nmod	_	_
+23	70	70	NUM	C=-------------	NumForm=Digit|NumType=Card	24	nummod:gov	_	_
+24	procent	procento	NOUN	NNNP2-----A----	Case=Gen|Gender=Neut|Number=Plur|Polarity=Pos	22	nmod	_	_
+25	měsíčního	měsíční	ADJ	AAIS2----1A----	Animacy=Inan|Case=Gen|Degree=Pos|Gender=Masc|Number=Sing|Polarity=Pos	26	amod	_	_
+26	nájmu	nájem	NOUN	NNIS2-----A----	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing|Polarity=Pos	24	nmod	_	SpaceAfter=No
+27	.	.	PUNCT	Z:-------------	_	17	punct	_	_
+
+# sent_id = 28
+# text = Pokud přičiněním Ubytrealu uzavře smlouvu o dlouhodobém pronájmu pronajímatel bytu, zaplatí odměnu ve výši 100 procent měsíčního nájmu.
+1	Pokud	pokud	SCONJ	J,-------------	_	4	mark	_	_
+2	přičiněním	přičinění	NOUN	NNNS7-----A----	Case=Ins|Gender=Neut|Number=Sing|Polarity=Pos	4	obl	_	_
+3	Ubytrealu	Ubytreal	PROPN	NNIS2-----A----	Animacy=Inan|Case=Gen|Gender=Masc|NameType=Com|Number=Sing|Polarity=Pos	2	nmod	_	_
+4	uzavře	uzavřít	VERB	VB-S---3P-AA---	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	12	advcl	_	_
+5	smlouvu	smlouva	NOUN	NNFS4-----A----	Case=Acc|Gender=Fem|Number=Sing|Polarity=Pos	4	obj	_	_
+6	o	o	ADP	RR--6----------	AdpType=Prep|Case=Loc	8	case	_	_
+7	dlouhodobém	dlouhodobý	ADJ	AAIS6----1A----	Animacy=Inan|Case=Loc|Degree=Pos|Gender=Masc|Number=Sing|Polarity=Pos	8	amod	_	_
+8	pronájmu	pronájem	NOUN	NNIS6-----A----	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing|Polarity=Pos	5	nmod	_	_
+9	pronajímatel	pronajímatel	NOUN	NNMS1-----A----	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing|Polarity=Pos	4	nsubj	_	_
+10	bytu	byt	NOUN	NNIS2-----A----	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing|Polarity=Pos	9	nmod	_	SpaceAfter=No
+11	,	,	PUNCT	Z:-------------	_	4	punct	_	_
+12	zaplatí	zaplatit	VERB	VB-S---3P-AA---	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+13	odměnu	odměna	NOUN	NNFS4-----A----	Case=Acc|Gender=Fem|Number=Sing|Polarity=Pos	12	obj	_	_
+14	ve	v	ADP	RV--6----------	AdpType=Voc|Case=Loc	15	case	_	_
+15	výši	výše	NOUN	NNFS6-----A----	Case=Loc|Gender=Fem|Number=Sing|Polarity=Pos	13	nmod	_	_
+16	100	100	NUM	C=-------------	NumForm=Digit|NumType=Card	17	nummod:gov	_	_
+17	procent	procento	NOUN	NNNP2-----A----	Case=Gen|Gender=Neut|Number=Plur|Polarity=Pos	15	nmod	_	_
+18	měsíčního	měsíční	ADJ	AAIS2----1A----	Animacy=Inan|Case=Gen|Degree=Pos|Gender=Masc|Number=Sing|Polarity=Pos	19	amod	_	_
+19	nájmu	nájem	NOUN	NNIS2-----A----	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing|Polarity=Pos	17	nmod	_	SpaceAfter=No
+20	.	.	PUNCT	Z:-------------	_	12	punct	_	_
+
+# sent_id = 29
+# text = Pronajímatel platí víc, protože je to výdělečná činnost.
+1	Pronajímatel	pronajímatel	NOUN	NNMS1-----A----	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing|Polarity=Pos	2	nsubj	_	_
+2	platí	platit	VERB	VB-S---3P-AA---	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+3	víc	hodně	ADV	Dg-------2A---1	Degree=Cmp|Polarity=Pos	2	obj	_	SpaceAfter=No
+4	,	,	PUNCT	Z:-------------	_	9	punct	_	_
+5	protože	protože	SCONJ	J,-------------	_	9	mark	_	_
+6	je	být	AUX	VB-S---3P-AA---	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	9	cop	_	_
+7	to	ten	DET	PDNS1----------	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	9	nsubj	_	_
+8	výdělečná	výdělečný	ADJ	AAFS1----1A----	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing|Polarity=Pos	9	amod	_	_
+9	činnost	činnost	NOUN	NNFS1-----A----	Case=Nom|Gender=Fem|Number=Sing|Polarity=Pos	2	advcl	_	SpaceAfter=No
+10	.	.	PUNCT	Z:-------------	_	2	punct	_	_
+
+# sent_id = 30
+# text = Naše služby ovšem nekončí podpisem smlouvy o dlouhodobém pronájmu a vyinkasováním odměny.
+1	Naše	můj	DET	PSHP1-P1-------	Case=Nom|Gender=Fem,Neut|Number=Plur|Number[psor]=Plur|Person=1|Poss=Yes|PronType=Prs	2	det	_	_
+2	služby	služba	NOUN	NNFP1-----A----	Case=Nom|Gender=Fem|Number=Plur|Polarity=Pos	4	nsubj	_	_
+3	ovšem	ovšem	CCONJ	J^-------------	_	4	cc	_	_
+4	nekončí	končit	VERB	VB-P---3P-NA---	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Polarity=Neg|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+5	podpisem	podpis	NOUN	NNIS7-----A----	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing|Polarity=Pos	4	obl	_	_
+6	smlouvy	smlouva	NOUN	NNFS2-----A----	Case=Gen|Gender=Fem|Number=Sing|Polarity=Pos	5	nmod	_	_
+7	o	o	ADP	RR--6----------	AdpType=Prep|Case=Loc	9	case	_	_
+8	dlouhodobém	dlouhodobý	ADJ	AAIS6----1A----	Animacy=Inan|Case=Loc|Degree=Pos|Gender=Masc|Number=Sing|Polarity=Pos	9	amod	_	_
+9	pronájmu	pronájem	NOUN	NNIS6-----A----	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing|Polarity=Pos	6	nmod	_	_
+10	a	a	CCONJ	J^-------------	_	11	cc	_	_
+11	vyinkasováním	vyinkasování	NOUN	NNNS7-----A----	Case=Ins|Gender=Neut|Number=Sing|Polarity=Pos	5	conj	_	_
+12	odměny	odměna	NOUN	NNFS2-----A----	Case=Gen|Gender=Fem|Number=Sing|Polarity=Pos	11	nmod	_	SpaceAfter=No
+13	.	.	PUNCT	Z:-------------	_	4	punct	_	_
+
+# sent_id = 31
+# text = Svým klientům poskytujeme po celou dobu nájmu právní servis, uvedl M. Vacek.
+1	Svým	svůj	DET	P8XP3----------	Case=Dat|Number=Plur|Poss=Yes|PronType=Prs|Reflex=Yes	2	det	_	_
+2	klientům	klient	NOUN	NNMP3-----A----	Animacy=Anim|Case=Dat|Gender=Masc|Number=Plur|Polarity=Pos	3	iobj	_	_
+3	poskytujeme	poskytovat	VERB	VB-P---1P-AA---	Aspect=Imp|Mood=Ind|Number=Plur|Person=1|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	11	ccomp	_	_
+4	po	po	ADP	RR--4----------	AdpType=Prep|Case=Acc	6	case	_	_
+5	celou	celý	ADJ	AAFS4----1A----	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing|Polarity=Pos	6	amod	_	_
+6	dobu	doba	NOUN	NNFS4-----A----	Case=Acc|Gender=Fem|Number=Sing|Polarity=Pos	3	obl	_	_
+7	nájmu	nájem	NOUN	NNIS2-----A----	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing|Polarity=Pos	6	nmod	_	_
+8	právní	právní	ADJ	AAIS4----1A----	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing|Polarity=Pos	9	amod	_	_
+9	servis	servis	NOUN	NNIS4-----A----	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing|Polarity=Pos	3	obj	_	SpaceAfter=No
+10	,	,	PUNCT	Z:-------------	_	3	punct	_	_
+11	uvedl	uvést	VERB	VpYS---XR-AA---	Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part|Voice=Act	0	root	_	_
+12	M	M	PROPN	NNMXX-----A---8	Abbr=Yes|Animacy=Anim|Gender=Masc|NameType=Giv|Polarity=Pos	11	nsubj	_	SpaceAfter=No
+13	.	.	PUNCT	Z:-------------	_	12	punct	_	_
+14	Vacek	Vacek	PROPN	NNMS1-----A----	Animacy=Anim|Case=Nom|Gender=Masc|NameType=Sur|Number=Sing|Polarity=Pos	12	flat	_	SpaceAfter=No
+15	.	.	PUNCT	Z:-------------	_	11	punct	_	_
+
