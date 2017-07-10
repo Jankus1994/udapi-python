@@ -1,0 +1,736 @@
+# sent_id = 1
+# text = Není vhodné, aby politická strana měla svůj deník
+1	Není	být	VERB	VB-S---3P-NA---	Mood=Ind|Negative=Neg|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	2	cop	_	_
+2	vhodné	vhodný	ADJ	AANS1----1A----	Case=Nom|Degree=Pos|Gender=Neut|Negative=Pos|Number=Sing	0	root	_	SpaceAfter=No
+3	,	,	PUNCT	Z:-------------	_	8	punct	_	_
+4-5	aby	_	_	_	_	_	_	_	_
+4	aby	aby	SCONJ	J,-------------	_	8	mark	_	_
+5	by	být	AUX	Vc-------------	Mood=Cnd|Person=3|VerbForm=Fin	8	aux	_	_
+6	politická	politický	ADJ	AAFS1----1A----	Case=Nom|Degree=Pos|Gender=Fem|Negative=Pos|Number=Sing	7	amod	_	_
+7	strana	strana	NOUN	NNFS1-----A----	Case=Nom|Gender=Fem|Negative=Pos|Number=Sing	8	nsubj	_	Coref=0
+8	měla	mít	VERB	VpQW---XR-AA---	Gender=Fem,Neut|Negative=Pos|Number=Plur,Sing|Tense=Past|VerbForm=Part|Voice=Act	2	csubj	_	_
+9	svůj	svůj	DET	P8IS4----------	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs|Reflex=Yes	10	det	_	Coref=0
+10	deník	deník	NOUN	NNIS4-----A----	Animacy=Inan|Case=Acc|Gender=Masc|Negative=Pos|Number=Sing	8	dobj	_	Coref=13
+
+# sent_id = 2
+# text = Premiér Václav Klaus odpovídá v pravidelné rubrice na aktuální otázky redaktorky Lidových novin Evy Martínkové o Domníváte se, že se vám podaří přesvědčit koaliční partnery o nutnosti přijmout ústavní zákon o vyrovnaném rozpočtu?
+1	Premiér	premiér	NOUN	NNMS1-----A----	Animacy=Anim|Case=Nom|Gender=Masc|Negative=Pos|Number=Sing	2	nmod	_	_
+2	Václav	Václav	PROPN	NNMS1-----A----	Animacy=Anim|Case=Nom|Gender=Masc|NameType=Giv|Negative=Pos|Number=Sing	4	nsubj	_	_
+3	Klaus	Klaus	PROPN	NNMS1-----A----	Animacy=Anim|Case=Nom|Gender=Masc|NameType=Sur|Negative=Pos|Number=Sing	2	name	_	Coref=1
+4	odpovídá	odpovídat	VERB	VB-S---3P-AA---	Aspect=Imp|Mood=Ind|Negative=Pos|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+5	v	v	ADP	RR--6----------	AdpType=Prep|Case=Loc	7	case	_	_
+6	pravidelné	pravidelný	ADJ	AAFS6----1A----	Case=Loc|Degree=Pos|Gender=Fem|Negative=Pos|Number=Sing	7	amod	_	_
+7	rubrice	rubrika	NOUN	NNFS6-----A----	Case=Loc|Gender=Fem|Negative=Pos|Number=Sing	4	nmod	_	_
+8	na	na	ADP	RR--4----------	AdpType=Prep|Case=Acc	10	case	_	_
+9	aktuální	aktuální	ADJ	AAFP4----1A----	Case=Acc|Degree=Pos|Gender=Fem|Negative=Pos|Number=Plur	10	amod	_	_
+10	otázky	otázka	NOUN	NNFP4-----A----	Case=Acc|Gender=Fem|Negative=Pos|Number=Plur	4	dobj	_	_
+11	redaktorky	redaktorka	NOUN	NNFS2-----A----	Case=Gen|Gender=Fem|Negative=Pos|Number=Sing	14	nmod	_	_
+12	Lidových	lidový	ADJ	AAFP2----1A----	Case=Gen|Degree=Pos|Gender=Fem|Negative=Pos|Number=Plur	13	amod	_	_
+13	novin	noviny	NOUN	NNFP2-----A----	Case=Gen|Gender=Fem|Negative=Pos|Number=Plur	11	nmod	_	Coref=9
+14	Evy	Eva	PROPN	NNFS2-----A----	Case=Gen|Gender=Fem|NameType=Giv|Negative=Pos|Number=Sing	10	nmod	_	_
+15	Martínkové	Martínková	PROPN	NNFS2-----A----	Case=Gen|Gender=Fem|NameType=Sur|Negative=Pos|Number=Sing	14	name	_	_
+16	o	o	ADP	RR--4----------	AdpType=Prep|Case=Acc	17	case	_	_
+17	Domníváte	Domnívát	PRON	Co------------1	NumType=Mult|PronType=Dem,Ind	4	advmod	_	Drop_coref=1
+18	se	se	PRON	P7-X4----------	Case=Acc|PronType=Prs|Reflex=Yes|Variant=Short	23	expl	_	SpaceAfter=No
+19	,	,	PUNCT	Z:-------------	_	23	punct	_	_
+20	že	že	SCONJ	J,-------------	_	23	mark	_	_
+21	se	se	PRON	P7-X4----------	Case=Acc|PronType=Prs|Reflex=Yes|Variant=Short	23	expl	_	_
+22	vám	ty	PRON	PP-P3--2-------	Case=Dat|Number=Plur|Person=2|PronType=Prs	23	dobj	_	Coref=1
+23	podaří	podařit	VERB	VB-S---3P-AA---	Aspect=Perf|Mood=Ind|Negative=Pos|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	17	acl	_	Coref=3
+24	přesvědčit	přesvědčit	VERB	Vf--------A----	Aspect=Perf|Negative=Pos|VerbForm=Inf	23	csubj	_	Drop_coref=1
+25	koaliční	koaliční	ADJ	AAMP4----1A----	Animacy=Anim|Case=Acc|Degree=Pos|Gender=Masc|Negative=Pos|Number=Plur	26	amod	_	_
+26	partnery	partner	NOUN	NNMP4-----A----	Animacy=Anim|Case=Acc|Gender=Masc|Negative=Pos|Number=Plur	24	dobj	_	Coref=6
+27	o	o	ADP	RR--6----------	AdpType=Prep|Case=Loc	28	case	_	_
+28	nutnosti	nutnost	NOUN	NNFS6-----A----	Case=Loc|Gender=Fem|Negative=Pos|Number=Sing	26	nmod	_	Drop_coref=2
+29	přijmout	přijmout	VERB	Vf--------A----	Negative=Pos|VerbForm=Inf	28	acl	_	Drop_coref=2
+30	ústavní	ústavní	ADJ	AAIS4----1A----	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Negative=Pos|Number=Sing	31	amod	_	_
+31	zákon	zákon	NOUN	NNIS4-----A----	Animacy=Inan|Case=Acc|Gender=Masc|Negative=Pos|Number=Sing	29	dobj	_	Coref=7
+32	o	o	ADP	RR--6----------	AdpType=Prep|Case=Loc	34	case	_	_
+33	vyrovnaném	vyrovnaný	ADJ	AAIS6----1A----	Animacy=Inan|Case=Loc|Degree=Pos|Gender=Masc|Negative=Pos|Number=Sing	34	amod	_	_
+34	rozpočtu	rozpočet	NOUN	NNIS6-----A----	Animacy=Inan|Case=Loc|Gender=Masc|Negative=Pos|Number=Sing	31	nmod	_	SpaceAfter=No
+35	?	?	PUNCT	Z:-------------	_	4	punct	_	_
+
+# sent_id = 3
+# text = O tom nemohu spekulovat zejména proto, že nejde pouze o věcnou stránku správnosti či nesprávnosti této iniciativy.
+1	O	o	ADP	RR--6----------	AdpType=Prep|Case=Loc	2	case	_	_
+2	tom	ten	PRON	PDZS6----------	Case=Loc|Gender=Masc,Neut|Number=Sing|PronType=Dem	4	dobj	_	Coref=3
+3	nemohu	moci	VERB	VB-S---1P-NA--1	Mood=Ind|Negative=Neg|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+4	spekulovat	spekulovat	VERB	Vf--------A----	Aspect=Imp|Negative=Pos|VerbForm=Inf	3	xcomp	_	Drop_coref=1
+5	zejména	zejména	ADV	Db-------------	_	6	advmod:emph	_	_
+6	proto	proto	ADV	Db-------------	_	3	advmod	_	SpaceAfter=No
+7	,	,	PUNCT	Z:-------------	_	9	punct	_	_
+8	že	že	SCONJ	J,-------------	_	9	mark	_	_
+9	nejde	jít	VERB	VB-S---3P-NA---	Mood=Ind|Negative=Neg|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	3	advcl	_	_
+10	pouze	pouze	ADV	Db-------------	_	13	advmod:emph	_	_
+11	o	o	ADP	RR--4----------	AdpType=Prep|Case=Acc	13	case	_	_
+12	věcnou	věcný	ADJ	AAFS4----1A----	Case=Acc|Degree=Pos|Gender=Fem|Negative=Pos|Number=Sing	13	amod	_	_
+13	stránku	stránka	NOUN	NNFS4-----A----	Case=Acc|Gender=Fem|Negative=Pos|Number=Sing	9	dobj	_	Coref=5
+14	správnosti	správnost	NOUN	NNFS2-----A----	Case=Gen|Gender=Fem|Negative=Pos|Number=Sing	13	nmod	_	_
+15	či	či	CONJ	J^-------------	_	14	cc	_	_
+16	nesprávnosti	správnost	NOUN	NNFS2-----N----	Case=Gen|Gender=Fem|Negative=Neg|Number=Sing	14	conj	_	_
+17	této	tento	DET	PDFS2----------	Case=Gen|Gender=Fem|Number=Sing|PronType=Dem	18	det	_	_
+18	iniciativy	iniciativa	NOUN	NNFS2-----A----	Case=Gen|Gender=Fem|Negative=Pos|Number=Sing	14	nmod	_	Coref=2|SpaceAfter=No
+19	.	.	PUNCT	Z:-------------	_	3	punct	_	_
+
+# sent_id = 4
+# text = Má to samozřejmě i stránku politickou, prestižní a já mám obavu, že druhá stránka může zvítězit nad tou první a že koaliční partneři mohou být proti zejména z důvodu druhého.
+1	Má	mít	VERB	VB-S---3P-AA---	Mood=Ind|Negative=Pos|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+2	to	ten	PRON	PDNS1----------	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	1	nsubj	_	Coref=2
+3	samozřejmě	samozřejmě	ADV	Dg-------1A----	Degree=Pos|Negative=Pos	1	cc	_	_
+4	i	i	CONJ	J^-------------	_	5	advmod:emph	_	_
+5	stránku	stránka	NOUN	NNFS4-----A----	Case=Acc|Gender=Fem|Negative=Pos|Number=Sing	1	dobj	_	Coref=4
+6	politickou	politický	ADJ	AAFS4----1A----	Case=Acc|Degree=Pos|Gender=Fem|Negative=Pos|Number=Sing	5	amod	_	SpaceAfter=No
+7	,	,	PUNCT	Z:-------------	_	6	punct	_	_
+8	prestižní	prestižní	ADJ	AAFS4----1A----	Case=Acc|Degree=Pos|Gender=Fem|Negative=Pos|Number=Sing	6	conj	_	_
+9	a	a	CONJ	J^-------------	_	6	cc	_	_
+10	já	já	PRON	PP-S1--1-------	Case=Nom|Number=Sing|Person=1|PronType=Prs	6	conj	_	Coref=1
+11	mám	mít	VERB	VB-S---1P-AA---	Mood=Ind|Negative=Pos|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	1	conj	_	_
+12	obavu	obava	NOUN	NNFS4-----A----	Case=Acc|Gender=Fem|Negative=Pos|Number=Sing	11	dobj	_	Drop_coref=1|SpaceAfter=No
+13	,	,	PUNCT	Z:-------------	_	17	punct	_	_
+14	že	že	SCONJ	J,-------------	_	17	mark	_	_
+15	druhá	druhý	ADJ	CrFS1----------	Case=Nom|Gender=Fem|Number=Sing|NumType=Ord	16	amod	_	_
+16	stránka	stránka	NOUN	NNFS1-----A----	Case=Nom|Gender=Fem|Negative=Pos|Number=Sing	17	nsubj	_	Coref=4
+17	může	moci	VERB	VB-S---3P-AA---	Mood=Ind|Negative=Pos|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	12	acl	_	_
+18	zvítězit	zvítězit	VERB	Vf--------A----	Aspect=Perf|Negative=Pos|VerbForm=Inf	17	xcomp	_	_
+19	nad	nad	ADP	RR--7----------	AdpType=Prep|Case=Ins	20	case	_	_
+20	tou	ten	PRON	PDFS7----------	Case=Ins|Gender=Fem|Number=Sing|PronType=Dem	18	dobj	_	Coref=5
+21	první	první	ADJ	CrFS7----------	Case=Ins|Gender=Fem|Number=Sing|NumType=Ord	20	amod	_	_
+22	a	a	CONJ	J^-------------	_	17	cc	_	_
+23	že	že	SCONJ	J,-------------	_	26	mark	_	_
+24	koaliční	koaliční	ADJ	AAMP1----1A----	Animacy=Anim|Case=Nom|Degree=Pos|Gender=Masc|Negative=Pos|Number=Plur	25	amod	_	_
+25	partneři	partner	NOUN	NNMP1-----A----	Animacy=Anim|Case=Nom|Gender=Masc|Negative=Pos|Number=Plur	26	nsubj	_	Coref=6
+26	mohou	moci	VERB	VB-P---3P-AA--1	Mood=Ind|Negative=Pos|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	17	conj	_	_
+27	být	být	VERB	Vf--------A----	Negative=Pos|VerbForm=Inf	26	xcomp	_	_
+28	proti	proti	ADP	RR--3----------	AdpType=Prep|Case=Dat	32	case	_	_
+29	zejména	zejména	ADV	Db-------------	_	32	advmod:emph	_	_
+30	z	z	ADP	RR--2----------	AdpType=Prep|Case=Gen	32	case	_	_
+31	důvodu	důvod	NOUN	NNIS2-----A----	Animacy=Inan|Case=Gen|Gender=Masc|Negative=Pos|Number=Sing	30	mwe	_	Coref=4
+32	druhého	druhý	ADJ	CrIS2----------	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing|NumType=Ord	27	nmod	_	SpaceAfter=No
+33	.	.	PUNCT	Z:-------------	_	1	punct	_	_
+
+# sent_id = 5
+# text = Ale toto téma je vážné, myslím, že patří mezi jedno z hlavních témat naší současnosti, a proto jsem se pokusil systematicky utřídit argumenty a napsat to do svého pondělního příspěvku do Lidových novin.
+1	Ale	ale	CONJ	J^-------------	_	5	cc	_	_
+2	toto	tento	DET	PDNS1----------	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	3	det	_	_
+3	téma	téma	NOUN	NNNS1-----A----	Case=Nom|Gender=Neut|Negative=Pos|Number=Sing	5	nsubj	_	Coref=7
+4	je	být	VERB	VB-S---3P-AA---	Mood=Ind|Negative=Pos|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	5	cop	_	_
+5	vážné	vážný	ADJ	AANS1----1A----	Case=Nom|Degree=Pos|Gender=Neut|Negative=Pos|Number=Sing	0	root	_	SpaceAfter=No
+6	,	,	PUNCT	Z:-------------	_	5	punct	_	_
+7	myslím	myslit	VERB	VB-S---1P-AA---	Aspect=Imp|Mood=Ind|Negative=Pos|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	5	conj	_	Drop_coref=1|SpaceAfter=No
+8	,	,	PUNCT	Z:-------------	_	10	punct	_	_
+9	že	že	SCONJ	J,-------------	_	10	mark	_	_
+10	patří	patřit	VERB	VB-S---3P-AA---	Aspect=Imp|Mood=Ind|Negative=Pos|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	7	ccomp	_	Drop_coref=7
+11	mezi	mezi	ADP	RR--4----------	AdpType=Prep|Case=Acc	12	case	_	_
+12	jedno	jeden	NUM	ClNS4----------	Case=Acc|Gender=Neut|Number=Sing|NumForm=Word|NumType=Card|NumValue=1,2,3	10	advmod	_	_
+13	z	z	ADP	RR--2----------	AdpType=Prep|Case=Gen	15	case	_	_
+14	hlavních	hlavní	ADJ	AANP2----1A----	Case=Gen|Degree=Pos|Gender=Neut|Negative=Pos|Number=Plur	15	amod	_	_
+15	témat	téma	NOUN	NNNP2-----A----	Case=Gen|Gender=Neut|Negative=Pos|Number=Plur	12	nmod	_	_
+16	naší	můj	DET	PSFS2-P1-------	Case=Gen|Gender=Fem|Number=Sing|Number[psor]=Plur|Person=1|Poss=Yes|PronType=Prs	17	det	_	_
+17	současnosti	současnost	NOUN	NNFS2-----A----	Case=Gen|Gender=Fem|Negative=Pos|Number=Sing	15	nmod	_	SpaceAfter=No
+18	,	,	PUNCT	Z:-------------	_	5	punct	_	_
+19	a	a	CONJ	J^-------------	_	5	cc	_	_
+20	proto	proto	CONJ	J^-------------	_	5	cc	_	_
+21	jsem	být	AUX	VB-S---1P-AA---	Mood=Ind|Negative=Pos|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	23	aux	_	_
+22	se	se	PRON	P7-X4----------	Case=Acc|PronType=Prs|Reflex=Yes|Variant=Short	23	expl	_	_
+23	pokusil	pokusit	VERB	VpYS---XR-AA---	Aspect=Perf|Gender=Masc|Negative=Pos|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	5	conj	_	Drop_coref=1
+24	systematicky	systematicky	ADV	Dg-------1A----	Degree=Pos|Negative=Pos	25	advmod	_	_
+25	utřídit	utřídit	VERB	Vf--------A----	Aspect=Perf|Negative=Pos|VerbForm=Inf	23	xcomp	_	_
+26	argumenty	argument	NOUN	NNIP4-----A----	Animacy=Inan|Case=Acc|Gender=Masc|Negative=Pos|Number=Plur	25	dobj	_	Coref=8
+27	a	a	CONJ	J^-------------	_	25	cc	_	Drop_coref=1
+28	napsat	napsat	VERB	Vf--------A----	Negative=Pos|VerbForm=Inf	25	conj	_	_
+29	to	ten	PRON	PDNS4----------	Case=Acc|Gender=Neut|Number=Sing|PronType=Dem	28	dobj	_	Coref=8
+30	do	do	ADP	RR--2----------	AdpType=Prep|Case=Gen	33	case	_	_
+31	svého	svůj	DET	P8ZS2----------	Case=Gen|Gender=Masc,Neut|Number=Sing|Poss=Yes|PronType=Prs|Reflex=Yes	33	det	_	Coref=1
+32	pondělního	pondělní	ADJ	AAIS2----1A----	Animacy=Inan|Case=Gen|Degree=Pos|Gender=Masc|Negative=Pos|Number=Sing	33	amod	_	_
+33	příspěvku	příspěvek	NOUN	NNIS2-----A----	Animacy=Inan|Case=Gen|Gender=Masc|Negative=Pos|Number=Sing	28	nmod	_	_
+34	do	do	ADP	RR--2----------	AdpType=Prep|Case=Gen	36	case	_	_
+35	Lidových	lidový	ADJ	AAFP2----1A----	Case=Gen|Degree=Pos|Gender=Fem|Negative=Pos|Number=Plur	36	amod	_	_
+36	novin	noviny	NOUN	NNFP2-----A----	Case=Gen|Gender=Fem|Negative=Pos|Number=Plur	33	nmod	_	Coref=9|SpaceAfter=No
+37	.	.	PUNCT	Z:-------------	_	5	punct	_	_
+
+# sent_id = 6
+# text = Myslím, že teď, v krátké odpovědi, bych to zploštil, zkrátil, a to není třeba. o
+1	Myslím	myslit	VERB	VB-S---1P-AA---	Aspect=Imp|Mood=Ind|Negative=Pos|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	Drop_coref=1|SpaceAfter=No
+2	,	,	PUNCT	Z:-------------	_	12	punct	_	_
+3	že	že	SCONJ	J,-------------	_	12	mark	_	_
+4	teď	teď	ADV	Db-------------	_	12	advmod	_	SpaceAfter=No
+5	,	,	PUNCT	Z:-------------	_	8	punct	_	_
+6	v	v	ADP	RR--6----------	AdpType=Prep|Case=Loc	8	case	_	_
+7	krátké	krátký	ADJ	AAFS6----1A----	Case=Loc|Degree=Pos|Gender=Fem|Negative=Pos|Number=Sing	8	amod	_	_
+8	odpovědi	odpověď	NOUN	NNFS6-----A----	Case=Loc|Gender=Fem|Negative=Pos|Number=Sing	12	nmod	_	SpaceAfter=No
+9	,	,	PUNCT	Z:-------------	_	8	punct	_	_
+10	bych	být	AUX	Vc-S---1-------	Mood=Cnd|Number=Sing|Person=1|VerbForm=Fin	12	aux	_	_
+11	to	ten	PRON	PDNS4----------	Case=Acc|Gender=Neut|Number=Sing|PronType=Dem	12	dobj	_	Coref=8
+12	zploštil	zploštit	VERB	VpYS---XR-AA---	Aspect=Perf|Gender=Masc|Negative=Pos|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	1	ccomp	_	SpaceAfter=No
+13	,	,	PUNCT	Z:-------------	_	1	punct	_	Drop_coref=1
+14	zkrátil	zkrátit	VERB	VpYS---XR-AA---	Aspect=Perf|Gender=Masc|Negative=Pos|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	1	conj	_	SpaceAfter=No
+15	,	,	PUNCT	Z:-------------	_	1	punct	_	_
+16	a	a	CONJ	J^-------------	_	1	cc	_	_
+17	to	ten	PRON	PDNS1----------	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	19	nsubj	_	Coref=1
+18	není	být	VERB	VB-S---3P-NA---	Mood=Ind|Negative=Neg|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	19	cop	_	_
+19	třeba	třeba	ADJ	ACNS------A----	Gender=Neut|Negative=Pos|Number=Sing|Variant=Short	1	conj	_	SpaceAfter=No
+20	.	.	PUNCT	Z:-------------	_	1	punct	_	_
+21	o	o	PUNCT	Z:-------------	_	1	punct	_	_
+
+# sent_id = 7
+# text = Postrádá ODS jako pravicová strana na novinovém trhu nezávislý deník, který by dostatečně tlumočil její postoje vůči společnosti?
+1	Postrádá	postrádat	VERB	VB-S---3P-AA---	Aspect=Imp|Mood=Ind|Negative=Pos|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+2	ODS	ODS	PROPN	NNFXX-----A---8	Abbr=Yes|Gender=Fem|NameType=Com|Negative=Pos	1	nsubj	_	Coref=11
+3	jako	jako	SCONJ	J,-------------	_	5	mark	_	_
+4	pravicová	pravicový	ADJ	AAFS1----1A----	Case=Nom|Degree=Pos|Gender=Fem|Negative=Pos|Number=Sing	5	amod	_	_
+5	strana	strana	NOUN	NNFS1-----A----	Case=Nom|Gender=Fem|Negative=Pos|Number=Sing	2	xcomp	_	_
+6	na	na	ADP	RR--6----------	AdpType=Prep|Case=Loc	8	case	_	_
+7	novinovém	novinový	ADJ	AAIS6----1A----	Animacy=Inan|Case=Loc|Degree=Pos|Gender=Masc|Negative=Pos|Number=Sing	8	amod	_	_
+8	trhu	trh	NOUN	NNIS6-----A----	Animacy=Inan|Case=Loc|Gender=Masc|Negative=Pos|Number=Sing	1	nmod	_	_
+9	nezávislý	závislý	ADJ	AAIS4----1N----	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Negative=Neg|Number=Sing	10	amod	_	_
+10	deník	deník	NOUN	NNIS4-----A----	Animacy=Inan|Case=Acc|Gender=Masc|Negative=Pos|Number=Sing	1	dobj	_	Coref=10|SpaceAfter=No
+11	,	,	PUNCT	Z:-------------	_	15	punct	_	_
+12	který	který	PRON	P4YS1----------	Case=Nom|Gender=Masc|Number=Sing|PronType=Int,Rel	15	nsubj	_	Coref=10
+13	by	být	AUX	Vc-------------	Mood=Cnd|VerbForm=Fin	15	aux	_	_
+14	dostatečně	dostatečně	ADV	Dg-------1A----	Degree=Pos|Negative=Pos	15	advmod	_	_
+15	tlumočil	tlumočit	VERB	VpYS---XR-AA---	Aspect=Imp|Gender=Masc|Negative=Pos|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	10	acl	_	_
+16	její	jeho	DET	PSXP4FS3-------	Case=Acc|Gender[psor]=Fem|Number=Plur|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	17	det	_	Coref=11
+17	postoje	postoj	NOUN	NNIP4-----A----	Animacy=Inan|Case=Acc|Gender=Masc|Negative=Pos|Number=Plur	15	dobj	_	_
+18	vůči	vůči	ADP	RR--3----------	AdpType=Prep|Case=Dat	19	case	_	_
+19	společnosti	společnost	NOUN	NNFS3-----A----	Case=Dat|Gender=Fem|Negative=Pos|Number=Sing	17	nmod	_	SpaceAfter=No
+20	?	?	PUNCT	Z:-------------	_	1	punct	_	_
+
+# sent_id = 8
+# text = Hovoří se v těchto dnech o propojení, které údajně existuje mezi ODS a deníkem Telegraf.
+1	Hovoří	hovořit	VERB	VB-S---3P-AA---	Aspect=Imp|Mood=Ind|Negative=Pos|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+2	se	se	PRON	P7-X4----------	Case=Acc|PronType=Prs|Reflex=Yes|Variant=Short	1	auxpass:reflex	_	_
+3	v	v	ADP	RR--6----------	AdpType=Prep|Case=Loc	5	case	_	_
+4	těchto	tento	DET	PDXP6----------	Case=Loc|Number=Plur|PronType=Dem	5	det	_	_
+5	dnech	den	NOUN	NNIP6-----A----	Animacy=Inan|Case=Loc|Gender=Masc|Negative=Pos|Number=Plur	1	nmod	_	_
+6	o	o	ADP	RR--6----------	AdpType=Prep|Case=Loc	7	case	_	_
+7	propojení	propojení	NOUN	NNNS6-----A----	Case=Loc|Gender=Neut|Negative=Pos|Number=Sing	1	dobj	_	Coref=12|SpaceAfter=No
+8	,	,	PUNCT	Z:-------------	_	11	punct	_	_
+9	které	který	PRON	P4NS1----------	Case=Nom|Gender=Neut|Number=Sing|PronType=Int,Rel	11	nsubj	_	Coref=12
+10	údajně	údajně	ADV	Dg-------1A----	Degree=Pos|Negative=Pos	11	advmod	_	_
+11	existuje	existovat	VERB	VB-S---3P-AA---	Aspect=Imp|Mood=Ind|Negative=Pos|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	7	acl	_	_
+12	mezi	mezi	ADP	RR--7----------	AdpType=Prep|Case=Ins	13	case	_	_
+13	ODS	ODS	PROPN	NNFXX-----A---8	Abbr=Yes|Gender=Fem|NameType=Com|Negative=Pos	11	nmod	_	Coref=11
+14	a	a	CONJ	J^-------------	_	13	cc	_	_
+15	deníkem	deník	NOUN	NNIS7-----A----	Animacy=Inan|Case=Ins|Gender=Masc|Negative=Pos|Number=Sing	13	conj	_	Coref=22
+16	Telegraf	Telegraf	PROPN	NNIS1-----A----	Animacy=Inan|Case=Nom|Gender=Masc|NameType=Pro|Negative=Pos|Number=Sing	15	nmod	_	SpaceAfter=No
+17	.	.	PUNCT	Z:-------------	_	1	punct	_	_
+
+# sent_id = 9
+# text = ODS opravdu nechybí žádný takový deník.
+1	ODS	ODS	PROPN	NNFXX-----A---8	Abbr=Yes|Gender=Fem|NameType=Com|Negative=Pos	3	dobj	_	Coref=11
+2	opravdu	opravdu	ADV	Db-------------	_	3	cc	_	_
+3	nechybí	chybět	VERB	VB-S---3P-NA---	Aspect=Imp|Mood=Ind|Negative=Neg|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+4	žádný	žádný	DET	PWYS1----------	Case=Nom|Gender=Masc|Negative=Neg|Number=Sing|PronType=Neg	6	det	_	_
+5	takový	takový	DET	PDYS1----------	Case=Nom|Gender=Masc|Number=Sing|PronType=Dem	6	det	_	_
+6	deník	deník	NOUN	NNIS1-----A----	Animacy=Inan|Case=Nom|Gender=Masc|Negative=Pos|Number=Sing	3	nsubj	_	Coref=10|SpaceAfter=No
+7	.	.	PUNCT	Z:-------------	_	3	punct	_	_
+
+# sent_id = 10
+# text = Mnohokrát jsme se přesvědčili všichni, že není vhodné, aby politická strana měla svůj deník.
+1	Mnohokrát	mnohokrát	PRON	Co-------------	NumType=Mult|PronType=Dem,Ind	4	dobj	_	_
+2	jsme	být	AUX	VB-P---1P-AA---	Mood=Ind|Negative=Pos|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	4	aux	_	_
+3	se	se	PRON	P7-X4----------	Case=Acc|PronType=Prs|Reflex=Yes|Variant=Short	4	expl	_	_
+4	přesvědčili	přesvědčit	VERB	VpMP---XR-AA---	Animacy=Anim|Aspect=Perf|Gender=Masc|Negative=Pos|Number=Plur|Tense=Past|VerbForm=Part|Voice=Act	0	root	_	_
+5	všichni	všechen	PRON	PLMP1----------	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur|PronType=Tot	4	nsubj	_	SpaceAfter=No
+6	,	,	PUNCT	Z:-------------	_	9	punct	_	_
+7	že	že	SCONJ	J,-------------	_	9	mark	_	_
+8	není	být	VERB	VB-S---3P-NA---	Mood=Ind|Negative=Neg|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	9	cop	_	_
+9	vhodné	vhodný	ADJ	AANS1----1A----	Case=Nom|Degree=Pos|Gender=Neut|Negative=Pos|Number=Sing	4	ccomp	_	SpaceAfter=No
+10	,	,	PUNCT	Z:-------------	_	15	punct	_	_
+11-12	aby	_	_	_	_	_	_	_	_
+11	aby	aby	SCONJ	J,-------------	_	15	mark	_	_
+12	by	být	AUX	Vc-------------	Mood=Cnd|Person=3|VerbForm=Fin	15	aux	_	_
+13	politická	politický	ADJ	AAFS1----1A----	Case=Nom|Degree=Pos|Gender=Fem|Negative=Pos|Number=Sing	14	amod	_	_
+14	strana	strana	NOUN	NNFS1-----A----	Case=Nom|Gender=Fem|Negative=Pos|Number=Sing	15	nsubj	_	Coref=0
+15	měla	mít	VERB	VpQW---XR-AA---	Gender=Fem,Neut|Negative=Pos|Number=Plur,Sing|Tense=Past|VerbForm=Part|Voice=Act	9	csubj	_	_
+16	svůj	svůj	DET	P8IS4----------	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs|Reflex=Yes	17	det	_	Coref=0
+17	deník	deník	NOUN	NNIS4-----A----	Animacy=Inan|Case=Acc|Gender=Masc|Negative=Pos|Number=Sing	15	dobj	_	Coref=13|SpaceAfter=No
+18	.	.	PUNCT	Z:-------------	_	4	punct	_	_
+
+# sent_id = 11
+# text = O nic takového neusilujeme.
+1	O	o	ADP	RR--4----------	AdpType=Prep|Case=Acc	2	case	_	_
+2	nic	nic	PRON	PW--4----------	Case=Acc|Negative=Neg|PronType=Neg	4	dobj	_	_
+3	takového	takový	PRON	PDZS2----------	Case=Gen|Gender=Masc,Neut|Number=Sing|PronType=Dem	2	amod	_	_
+4	neusilujeme	usilovat	VERB	VB-P---1P-NA---	Aspect=Imp|Mood=Ind|Negative=Neg|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	Drop_coref=11|SpaceAfter=No
+5	.	.	PUNCT	Z:-------------	_	4	punct	_	_
+
+# sent_id = 12
+# text = Důvody jsou dva.
+1	Důvody	důvod	NOUN	NNIP1-----A----	Animacy=Inan|Case=Nom|Gender=Masc|Negative=Pos|Number=Plur	3	nsubj	_	_
+2	jsou	být	VERB	VB-P---3P-AA---	Mood=Ind|Negative=Pos|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	3	cop	_	_
+3	dva	dva	NUM	ClYP1----------	Case=Nom|Gender=Masc|Number=Plur|NumForm=Word|NumType=Card|NumValue=1,2,3	0	root	_	SpaceAfter=No
+4	.	.	PUNCT	Z:-------------	_	3	punct	_	_
+
+# sent_id = 13
+# text = Na trhu s deníky a týdeníky je podle mého názoru taková pluralita a taková konkurence, že není sebemenším problémem se s jakýmkoliv názorem dostat do těchto sdělovacích prostředků, a proto pootáčet jeden deník tím či oním směrem by bylo podle mého názoru naprosto zbytečné a myslím, že o to nikdo neusiluje ani v jiné politické straně.
+1	Na	na	ADP	RR--6----------	AdpType=Prep|Case=Loc	2	case	_	_
+2	trhu	trh	NOUN	NNIS6-----A----	Animacy=Inan|Case=Loc|Gender=Masc|Negative=Pos|Number=Sing	12	nmod	_	_
+3	s	s	ADP	RR--7----------	AdpType=Prep|Case=Ins	4	case	_	_
+4	deníky	deník	NOUN	NNIP7-----A----	Animacy=Inan|Case=Ins|Gender=Masc|Negative=Pos|Number=Plur	2	nmod	_	_
+5	a	a	CONJ	J^-------------	_	4	cc	_	Coref=15
+6	týdeníky	týdeník	NOUN	NNIP7-----A----	Animacy=Inan|Case=Ins|Gender=Masc|Negative=Pos|Number=Plur	4	conj	_	_
+7	je	být	VERB	VB-S---3P-AA---	Mood=Ind|Negative=Pos|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	12	cop	_	_
+8	podle	podle	ADP	RR--2----------	AdpType=Prep|Case=Gen	10	case	_	_
+9	mého	můj	DET	PSZS2-S1-------	Case=Gen|Gender=Masc,Neut|Number=Sing|Number[psor]=Sing|Person=1|Poss=Yes|PronType=Prs	10	det	_	Coref=1
+10	názoru	názor	NOUN	NNIS2-----A----	Animacy=Inan|Case=Gen|Gender=Masc|Negative=Pos|Number=Sing	12	nmod	_	_
+11	taková	takový	DET	PDFS1----------	Case=Nom|Gender=Fem|Number=Sing|PronType=Dem	12	det	_	_
+12	pluralita	pluralita	NOUN	NNFS1-----A----	Case=Nom|Gender=Fem|Negative=Pos|Number=Sing	0	root	_	_
+13	a	a	CONJ	J^-------------	_	12	cc	_	_
+14	taková	takový	DET	PDFS1----------	Case=Nom|Gender=Fem|Number=Sing|PronType=Dem	15	det	_	_
+15	konkurence	konkurence	NOUN	NNFS1-----A----	Case=Nom|Gender=Fem|Negative=Pos|Number=Sing	12	conj	_	SpaceAfter=No
+16	,	,	PUNCT	Z:-------------	_	20	punct	_	_
+17	že	že	SCONJ	J,-------------	_	20	mark	_	_
+18	není	být	VERB	VB-S---3P-NA---	Mood=Ind|Negative=Neg|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	20	cop	_	_
+19	sebemenším	sebemenší	ADJ	AAIS7----1A----	Animacy=Inan|Case=Ins|Degree=Pos|Gender=Masc|Negative=Pos|Number=Sing	20	amod	_	_
+20	problémem	problém	NOUN	NNIS7-----A----	Animacy=Inan|Case=Ins|Gender=Masc|Negative=Pos|Number=Sing	15	acl	_	Drop_coref=14
+21	se	se	PRON	P7-X4----------	Case=Acc|PronType=Prs|Reflex=Yes|Variant=Short	25	expl	_	_
+22	s	s	ADP	RR--7----------	AdpType=Prep|Case=Ins	24	case	_	_
+23	jakýmkoliv	jakýkoliv	DET	PZZS7----------	Case=Ins|Gender=Masc,Neut|Number=Sing|PronType=Ind	24	det	_	_
+24	názorem	názor	NOUN	NNIS7-----A----	Animacy=Inan|Case=Ins|Gender=Masc|Negative=Pos|Number=Sing	25	nmod	_	_
+25	dostat	dostat	VERB	Vf--------A----	Negative=Pos|VerbForm=Inf	20	csubj	_	Drop_coref=14
+26	do	do	ADP	RR--2----------	AdpType=Prep|Case=Gen	29	case	_	_
+27	těchto	tento	DET	PDXP2----------	Case=Gen|Number=Plur|PronType=Dem	29	det	_	_
+28	sdělovacích	sdělovací	ADJ	AAIP2----1A----	Animacy=Inan|Case=Gen|Degree=Pos|Gender=Masc|Negative=Pos|Number=Plur	29	amod	_	_
+29	prostředků	prostředek	NOUN	NNIP2-----A----	Animacy=Inan|Case=Gen|Gender=Masc|Negative=Pos|Number=Plur	25	nmod	_	Coref=15|SpaceAfter=No
+30	,	,	PUNCT	Z:-------------	_	20	punct	_	_
+31	a	a	CONJ	J^-------------	_	20	cc	_	_
+32	proto	proto	CONJ	J^-------------	_	20	cc	_	_
+33	pootáčet	pootáčet	VERB	Vf--------A----	Aspect=Imp|Negative=Pos|VerbForm=Inf	46	csubj	_	Coref=16
+34	jeden	jeden	NUM	ClIS4----------	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing|NumForm=Word|NumType=Card|NumValue=1,2,3	35	nummod	_	_
+35	deník	deník	NOUN	NNIS4-----A----	Animacy=Inan|Case=Acc|Gender=Masc|Negative=Pos|Number=Sing	33	dobj	_	_
+36	tím	ten	DET	PDZS7----------	Case=Ins|Gender=Masc,Neut|Number=Sing|PronType=Dem	39	det	_	_
+37	či	či	CONJ	J^-------------	_	36	cc	_	_
+38	oním	onen	PRON	PDZS7----------	Case=Ins|Gender=Masc,Neut|Number=Sing|PronType=Dem	36	conj	_	_
+39	směrem	směr	NOUN	NNIS7-----A----	Animacy=Inan|Case=Ins|Gender=Masc|Negative=Pos|Number=Sing	33	nmod	_	_
+40	by	být	AUX	Vc-------------	Mood=Cnd|VerbForm=Fin	46	aux	_	_
+41	bylo	být	VERB	VpNS---XR-AA---	Gender=Neut|Negative=Pos|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	46	cop	_	_
+42	podle	podle	ADP	RR--2----------	AdpType=Prep|Case=Gen	44	case	_	_
+43	mého	můj	DET	PSZS2-S1-------	Case=Gen|Gender=Masc,Neut|Number=Sing|Number[psor]=Sing|Person=1|Poss=Yes|PronType=Prs	44	det	_	Coref=1
+44	názoru	názor	NOUN	NNIS2-----A----	Animacy=Inan|Case=Gen|Gender=Masc|Negative=Pos|Number=Sing	46	nmod	_	_
+45	naprosto	naprosto	ADV	Db-------------	_	46	advmod	_	_
+46	zbytečné	zbytečný	ADJ	AANS1----1A----	Case=Nom|Degree=Pos|Gender=Neut|Negative=Pos|Number=Sing	20	conj	_	_
+47	a	a	CONJ	J^-------------	_	46	cc	_	_
+48	myslím	myslit	VERB	VB-S---1P-AA---	Aspect=Imp|Mood=Ind|Negative=Pos|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	46	conj	_	Drop_coref=1|SpaceAfter=No
+49	,	,	PUNCT	Z:-------------	_	54	punct	_	_
+50	že	že	SCONJ	J,-------------	_	54	mark	_	_
+51	o	o	ADP	RR--4----------	AdpType=Prep|Case=Acc	52	case	_	_
+52	to	ten	PRON	PDNS4----------	Case=Acc|Gender=Neut|Number=Sing|PronType=Dem	54	dobj	_	Coref=16
+53	nikdo	nikdo	PRON	PWM-1----------	Animacy=Anim|Case=Nom|Gender=Masc|Negative=Neg|PronType=Neg	54	nsubj	_	_
+54	neusiluje	usilovat	VERB	VB-S---3P-NA---	Aspect=Imp|Mood=Ind|Negative=Neg|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	48	ccomp	_	_
+55	ani	ani	CONJ	J^-------------	_	59	advmod:emph	_	_
+56	v	v	ADP	RR--6----------	AdpType=Prep|Case=Loc	59	case	_	_
+57	jiné	jiný	ADJ	AAFS6----1A----	Case=Loc|Degree=Pos|Gender=Fem|Negative=Pos|Number=Sing	59	amod	_	_
+58	politické	politický	ADJ	AAFS6----1A----	Case=Loc|Degree=Pos|Gender=Fem|Negative=Pos|Number=Sing	59	amod	_	_
+59	straně	strana	NOUN	NNFS6-----A----	Case=Loc|Gender=Fem|Negative=Pos|Number=Sing	54	nmod	_	SpaceAfter=No
+60	.	.	PUNCT	Z:-------------	_	12	punct	_	_
+
+# sent_id = 14
+# text = Obdobný pocit mám ohledně demonopolizovaného rozhlasu.
+1	Obdobný	obdobný	ADJ	AAIS4----1A----	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Negative=Pos|Number=Sing	2	amod	_	_
+2	pocit	pocit	NOUN	NNIS4-----A----	Animacy=Inan|Case=Acc|Gender=Masc|Negative=Pos|Number=Sing	3	dobj	_	_
+3	mám	mít	VERB	VB-S---1P-AA---	Mood=Ind|Negative=Pos|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	Drop_coref=1
+4	ohledně	ohledně	ADP	RR--2----------	AdpType=Prep|Case=Gen	6	case	_	_
+5	demonopolizovaného	demonopolizovaný	ADJ	AAIS2----1A----	Animacy=Inan|Case=Gen|Degree=Pos|Gender=Masc|Negative=Pos|Number=Sing	6	amod	_	_
+6	rozhlasu	rozhlas	NOUN	NNIS2-----A----	Animacy=Inan|Case=Gen|Gender=Masc|Negative=Pos|Number=Sing	3	nmod	_	SpaceAfter=No
+7	.	.	PUNCT	Z:-------------	_	3	punct	_	_
+
+# sent_id = 15
+# text = Nemám identický pocit u tiskových kanceláří, kde monopol té jedné jediné je stále velmi výrazný, a také ohledně televize tento pocit nemám.
+1	Nemám	mít	VERB	VB-S---1P-NA---	Mood=Ind|Negative=Neg|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+2	identický	identický	ADJ	AAIS4----1A----	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Negative=Pos|Number=Sing	3	amod	_	_
+3	pocit	pocit	NOUN	NNIS4-----A----	Animacy=Inan|Case=Acc|Gender=Masc|Negative=Pos|Number=Sing	1	dobj	_	Drop_coref=17
+4	u	u	ADP	RR--2----------	AdpType=Prep|Case=Gen	6	case	_	_
+5	tiskových	tiskový	ADJ	AAFP2----1A----	Case=Gen|Degree=Pos|Gender=Fem|Negative=Pos|Number=Plur	6	amod	_	_
+6	kanceláří	kancelář	NOUN	NNFP2-----A----	Case=Gen|Gender=Fem|Negative=Pos|Number=Plur	1	nmod	_	Coref=18|SpaceAfter=No
+7	,	,	PUNCT	Z:-------------	_	16	punct	_	_
+8	kde	kde	ADV	Db-------------	_	16	advmod	_	Coref=18
+9	monopol	monopol	NOUN	NNIS1-----A----	Animacy=Inan|Case=Nom|Gender=Masc|Negative=Pos|Number=Sing	16	nsubj	_	_
+10	té	ten	PRON	PDFS2----------	Case=Gen|Gender=Fem|Number=Sing|PronType=Dem	9	nmod	_	_
+11	jedné	jeden	NUM	ClFS2----------	Case=Gen|Gender=Fem|Number=Sing|NumForm=Word|NumType=Card|NumValue=1,2,3	12	nummod	_	_
+12	jediné	jediný	ADJ	AAFS2----1A----	Case=Gen|Degree=Pos|Gender=Fem|Negative=Pos|Number=Sing	10	amod	_	_
+13	je	být	VERB	VB-S---3P-AA---	Mood=Ind|Negative=Pos|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	16	cop	_	_
+14	stále	stále	ADV	Db-------------	_	16	advmod	_	_
+15	velmi	velmi	ADV	Db-------------	_	16	advmod	_	_
+16	výrazný	výrazný	ADJ	AAIS1----1A----	Animacy=Inan|Case=Nom|Degree=Pos|Gender=Masc|Negative=Pos|Number=Sing	6	acl	_	SpaceAfter=No
+17	,	,	PUNCT	Z:-------------	_	1	punct	_	_
+18	a	a	CONJ	J^-------------	_	1	cc	_	Drop_coref=17
+19	také	také	ADV	Db-------------	_	24	advmod	_	_
+20	ohledně	ohledně	ADP	RR--2----------	AdpType=Prep|Case=Gen	21	case	_	_
+21	televize	televize	NOUN	NNFS2-----A----	Case=Gen|Gender=Fem|Negative=Pos|Number=Sing	24	nmod	_	_
+22	tento	tento	PRON	PDYS1----------	Case=Nom|Gender=Masc|Number=Sing|PronType=Dem	24	nsubj	_	_
+23	pocit	pocit	NOUN	NNIS4-----A----	Animacy=Inan|Case=Acc|Gender=Masc|Negative=Pos|Number=Sing	24	dobj	_	Drop_coref=17
+24	nemám	mít	VERB	VB-S---1P-NA---	Mood=Ind|Negative=Neg|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	1	conj	_	SpaceAfter=No
+25	.	.	PUNCT	Z:-------------	_	1	punct	_	_
+
+# sent_id = 16
+# text = Může možná vznikat někde jistý problém z hlediska okresních novin, ale ani tam se mi to nezdá tak dramatické, protože každý si může koupit celostátní deník a nemůže se vymlouvat, že je vázán na Nové Příbramsko, Sedlčansko, Benešovsko či Vlašimsko.
+1	Může	moci	VERB	VB-S---3P-AA---	Mood=Ind|Negative=Pos|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+2	možná	možná	ADV	Db-------------	_	1	cc	_	_
+3	vznikat	vznikat	VERB	Vf--------A----	Aspect=Imp|Negative=Pos|VerbForm=Inf	1	xcomp	_	_
+4	někde	někde	ADV	Db-------------	_	1	advmod	_	_
+5	jistý	jistý	ADJ	AAIS1----1A----	Animacy=Inan|Case=Nom|Degree=Pos|Gender=Masc|Negative=Pos|Number=Sing	6	amod	_	_
+6	problém	problém	NOUN	NNIS1-----A----	Animacy=Inan|Case=Nom|Gender=Masc|Negative=Pos|Number=Sing	1	nsubj	_	_
+7	z	z	ADP	RR--2----------	AdpType=Prep|Case=Gen	10	case	_	_
+8	hlediska	hledisko	NOUN	NNNS2-----A----	Case=Gen|Gender=Neut|Negative=Pos|Number=Sing	7	mwe	_	_
+9	okresních	okresní	ADJ	AAFP2----1A----	Case=Gen|Degree=Pos|Gender=Fem|Negative=Pos|Number=Plur	10	amod	_	_
+10	novin	noviny	NOUN	NNFP2-----A----	Case=Gen|Gender=Fem|Negative=Pos|Number=Plur	6	nmod	_	Coref=19|SpaceAfter=No
+11	,	,	PUNCT	Z:-------------	_	1	punct	_	_
+12	ale	ale	CONJ	J^-------------	_	1	cc	_	_
+13	ani	ani	CONJ	J^-------------	_	14	advmod:emph	_	_
+14	tam	tam	ADV	Db-------------	_	18	advmod	_	Coref=19
+15	se	se	PRON	P7-X4----------	Case=Acc|PronType=Prs|Reflex=Yes|Variant=Short	18	expl	_	_
+16	mi	já	PRON	PH-S3--1-------	Case=Dat|Number=Sing|Person=1|PronType=Prs|Variant=Short	18	dobj	_	Coref=17
+17	to	ten	PRON	PDNS1----------	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	18	nsubj	_	_
+18	nezdá	zdát	VERB	VB-S---3P-NA---	Mood=Ind|Negative=Neg|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	1	conj	_	_
+19	tak	tak	ADV	Db-------------	_	20	advmod	_	_
+20	dramatické	dramatický	ADJ	AANS1----1A----	Case=Nom|Degree=Pos|Gender=Neut|Negative=Pos|Number=Sing	18	dobj	_	SpaceAfter=No
+21	,	,	PUNCT	Z:-------------	_	25	punct	_	_
+22	protože	protože	SCONJ	J,-------------	_	25	mark	_	_
+23	každý	každý	ADJ	AAMS1----1A----	Animacy=Anim|Case=Nom|Degree=Pos|Gender=Masc|Negative=Pos|Number=Sing	25	nsubj	_	Coref=20
+24	si	se	PRON	P7-X3----------	Case=Dat|PronType=Prs|Reflex=Yes|Variant=Short	26	iobj	_	Coref=20
+25	může	moci	VERB	VB-S---3P-AA---	Mood=Ind|Negative=Pos|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	18	advcl	_	_
+26	koupit	koupit	VERB	Vf--------A----	Aspect=Perf|Negative=Pos|VerbForm=Inf	25	xcomp	_	_
+27	celostátní	celostátní	ADJ	AAIS4----1A----	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Negative=Pos|Number=Sing	28	amod	_	_
+28	deník	deník	NOUN	NNIS4-----A----	Animacy=Inan|Case=Acc|Gender=Masc|Negative=Pos|Number=Sing	26	dobj	_	_
+29	a	a	CONJ	J^-------------	_	1	cc	_	_
+30	nemůže	moci	VERB	VB-S---3P-NA---	Mood=Ind|Negative=Neg|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	1	conj	_	_
+31	se	se	PRON	P7-X4----------	Case=Acc|PronType=Prs|Reflex=Yes|Variant=Short	32	expl	_	_
+32	vymlouvat	vymlouvat	VERB	Vf--------A----	Aspect=Imp|Negative=Pos|VerbForm=Inf	30	xcomp	_	Coref=21|SpaceAfter=No
+33	,	,	PUNCT	Z:-------------	_	36	punct	_	_
+34	že	že	SCONJ	J,-------------	_	36	mark	_	_
+35	je	být	AUX	VB-S---3P-AA---	Mood=Ind|Negative=Pos|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	36	auxpass	_	_
+36	vázán	vázat	VERB	VsYS---XX-AP---	Aspect=Imp|Gender=Masc|Negative=Pos|Number=Sing|VerbForm=Part|Voice=Pass	32	ccomp	_	Drop_coref=20
+37	na	na	ADP	RR--4----------	AdpType=Prep|Case=Acc	39	case	_	_
+38	Nové	nový	ADJ	AANS4----1A----	Case=Acc|Degree=Pos|Gender=Neut|Negative=Pos|Number=Sing	39	amod	_	_
+39	Příbramsko	Příbramsko	PROPN	NNNS4-----A----	Case=Acc|Gender=Neut|NameType=Geo|Negative=Pos|Number=Sing	36	dobj	_	SpaceAfter=No
+40	,	,	PUNCT	Z:-------------	_	39	punct	_	_
+41	Sedlčansko	Sedlčansko	PROPN	NNNS4-----A----	Case=Acc|Gender=Neut|NameType=Geo|Negative=Pos|Number=Sing	39	conj	_	SpaceAfter=No
+42	,	,	PUNCT	Z:-------------	_	39	punct	_	_
+43	Benešovsko	Benešovsko	PROPN	NNNS4-----A----	Case=Acc|Gender=Neut|NameType=Geo|Negative=Pos|Number=Sing	39	conj	_	_
+44	či	či	CONJ	J^-------------	_	39	cc	_	_
+45	Vlašimsko	Vlašimsko	PROPN	NNNS4-----A----	Case=Acc|Gender=Neut|NameType=Geo|Negative=Pos|Number=Sing	39	conj	_	SpaceAfter=No
+46	.	.	PUNCT	Z:-------------	_	1	punct	_	_
+
+# sent_id = 17
+# text = Ani těmto argumentům nevěřím.
+1	Ani	ani	CONJ	J^-------------	_	3	advmod:emph	_	_
+2	těmto	tento	DET	PDXP3----------	Case=Dat|Number=Plur|PronType=Dem	3	det	_	_
+3	argumentům	argument	NOUN	NNIP3-----A----	Animacy=Inan|Case=Dat|Gender=Masc|Negative=Pos|Number=Plur	4	dobj	_	Coref=21
+4	nevěřím	věřit	VERB	VB-S---1P-NA---	Aspect=Imp|Mood=Ind|Negative=Neg|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	Drop_coref=17|SpaceAfter=No
+5	.	.	PUNCT	Z:-------------	_	4	punct	_	_
+
+# sent_id = 18
+# text = o
+1	o	o	PUNCT	Z:-------------	_	0	punct	_	_
+
+# sent_id = 19
+# text = Odmítáte tedy tvrzení, že se ODS snaží získat vliv na deník Telegraf?
+1	Odmítáte	odmítat	VERB	VB-P---2P-AA---	Aspect=Imp|Mood=Ind|Negative=Pos|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	Drop_coref=17
+2	tedy	tedy	ADV	Db-------------	_	1	cc	_	_
+3	tvrzení	tvrzení	NOUN	NNNS4-----A----	Case=Acc|Gender=Neut|Negative=Pos|Number=Sing	1	dobj	_	SpaceAfter=No
+4	,	,	PUNCT	Z:-------------	_	8	punct	_	_
+5	že	že	SCONJ	J,-------------	_	8	mark	_	_
+6	se	se	PRON	P7-X4----------	Case=Acc|PronType=Prs|Reflex=Yes|Variant=Short	8	expl	_	_
+7	ODS	ODS	PROPN	NNFXX-----A---8	Abbr=Yes|Gender=Fem|NameType=Com|Negative=Pos	8	nsubj	_	Coref=11
+8	snaží	snažit	VERB	VB-S---3P-AA---	Aspect=Imp|Mood=Ind|Negative=Pos|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	3	acl	_	_
+9	získat	získat	VERB	Vf--------A----	Aspect=Perf|Negative=Pos|VerbForm=Inf	8	xcomp	_	Drop_coref=11
+10	vliv	vliv	NOUN	NNIS4-----A----	Animacy=Inan|Case=Acc|Gender=Masc|Negative=Pos|Number=Sing	9	dobj	_	Drop_coref=11
+11	na	na	ADP	RR--4----------	AdpType=Prep|Case=Acc	12	case	_	_
+12	deník	deník	NOUN	NNIS4-----A----	Animacy=Inan|Case=Acc|Gender=Masc|Negative=Pos|Number=Sing	10	nmod	_	Coref=22
+13	Telegraf	Telegraf	PROPN	NNIS1-----A----	Animacy=Inan|Case=Nom|Gender=Masc|NameType=Pro|Negative=Pos|Number=Sing	12	nmod	_	SpaceAfter=No
+14	?	?	PUNCT	Z:-------------	_	1	punct	_	_
+
+# sent_id = 20
+# text = Již jsem několikrát řekl, že kdybych měl na celém spektru novin hledat deník, o kterém bych si myslel, že je dlouhodobě mým postojům nejbližší, tak by to byl Telegraf.
+1	Již	již	ADV	Db-------------	_	4	advmod	_	_
+2	jsem	být	AUX	VB-S---1P-AA---	Mood=Ind|Negative=Pos|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	4	aux	_	_
+3	několikrát	několikrát	PRON	Co-------------	NumType=Mult|PronType=Dem,Ind	4	advmod	_	_
+4	řekl	říci	VERB	VpYS---XR-AA---	Aspect=Perf|Gender=Masc|Negative=Pos|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	0	root	_	Drop_coref=17|SpaceAfter=No
+5	,	,	PUNCT	Z:-------------	_	34	punct	_	_
+6	že	že	SCONJ	J,-------------	_	34	mark	_	_
+7-8	kdybych	_	_	_	_	_	_	_	_
+7	když	když	SCONJ	J,-------------	_	9	mark	_	_
+8	bych	být	AUX	Vc-S---1-------	Mood=Cnd|Number=Sing|Person=1|VerbForm=Fin	9	aux	_	_
+9	měl	mít	VERB	VpYS---XR-AA---	Gender=Masc|Negative=Pos|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	34	advcl	_	_
+10	na	na	ADP	RR--6----------	AdpType=Prep|Case=Loc	12	case	_	_
+11	celém	celý	ADJ	AANS6----1A----	Case=Loc|Degree=Pos|Gender=Neut|Negative=Pos|Number=Sing	12	amod	_	_
+12	spektru	spektrum	NOUN	NNNS6-----A----	Case=Loc|Gender=Neut|Negative=Pos|Number=Sing	14	nmod	_	_
+13	novin	noviny	NOUN	NNFP2-----A----	Case=Gen|Gender=Fem|Negative=Pos|Number=Plur	12	nmod	_	Coref=15
+14	hledat	hledat	VERB	Vf--------A----	Aspect=Imp|Negative=Pos|VerbForm=Inf	9	xcomp	_	Drop_coref=17
+15	deník	deník	NOUN	NNIS4-----A----	Animacy=Inan|Case=Acc|Gender=Masc|Negative=Pos|Number=Sing	14	dobj	_	Coref=23|SpaceAfter=No
+16	,	,	PUNCT	Z:-------------	_	21	punct	_	_
+17	o	o	ADP	RR--6----------	AdpType=Prep|Case=Loc	18	case	_	_
+18	kterém	který	PRON	P4ZS6----------	Case=Loc|Gender=Masc,Neut|Number=Sing|PronType=Int,Rel	21	iobj	_	Coref=23
+19	bych	být	AUX	Vc-S---1-------	Mood=Cnd|Number=Sing|Person=1|VerbForm=Fin	21	aux	_	_
+20	si	se	PRON	P7-X3----------	Case=Dat|PronType=Prs|Reflex=Yes|Variant=Short	21	expl	_	_
+21	myslel	myslet	VERB	VpYS---XR-AA---	Gender=Masc|Negative=Pos|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	15	acl	_	Drop_coref=17|SpaceAfter=No
+22	,	,	PUNCT	Z:-------------	_	28	punct	_	_
+23	že	že	SCONJ	J,-------------	_	28	mark	_	_
+24	je	být	VERB	VB-S---3P-AA---	Mood=Ind|Negative=Pos|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	28	cop	_	Drop_coref=23
+25	dlouhodobě	dlouhodobě	ADV	Dg-------1A----	Degree=Pos|Negative=Pos	28	advmod	_	_
+26	mým	můj	DET	PSXP3-S1-------	Case=Dat|Number=Plur|Number[psor]=Sing|Person=1|Poss=Yes|PronType=Prs	27	det	_	Coref=17
+27	postojům	postoj	NOUN	NNIP3-----A----	Animacy=Inan|Case=Dat|Gender=Masc|Negative=Pos|Number=Plur	28	dobj	_	_
+28	nejbližší	blízký	ADJ	AAIS1----3A----	Animacy=Inan|Case=Nom|Degree=Sup|Gender=Masc|Negative=Pos|Number=Sing	21	ccomp	_	SpaceAfter=No
+29	,	,	PUNCT	Z:-------------	_	9	punct	_	_
+30	tak	tak	ADV	Db-------------	_	34	advmod	_	_
+31	by	být	AUX	Vc-------------	Mood=Cnd|VerbForm=Fin	34	aux	_	_
+32	to	ten	PRON	PDNS1----------	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	34	nsubj	_	Coref=23
+33	byl	být	VERB	VpYS---XR-AA---	Gender=Masc|Negative=Pos|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	34	cop	_	Coref=24
+34	Telegraf	Telegraf	NOUN	NNIS1-----A----	Animacy=Inan|Case=Nom|Gender=Masc|Negative=Pos|Number=Sing	4	ccomp	_	Coref=22|SpaceAfter=No
+35	.	.	PUNCT	Z:-------------	_	4	punct	_	_
+
+# sent_id = 21
+# text = Takže myšlenku, že bych měl motivaci, aby se toto změnilo, považuji za zcela lichou.
+1	Takže	takže	SCONJ	J,-------------	_	15	mark	_	_
+2	myšlenku	myšlenka	NOUN	NNFS4-----A----	Case=Acc|Gender=Fem|Negative=Pos|Number=Sing	15	dobj	_	SpaceAfter=No
+3	,	,	PUNCT	Z:-------------	_	6	punct	_	_
+4	že	že	SCONJ	J,-------------	_	6	mark	_	_
+5	bych	být	AUX	Vc-S---1-------	Mood=Cnd|Number=Sing|Person=1|VerbForm=Fin	6	aux	_	_
+6	měl	mít	VERB	VpYS---XR-AA---	Gender=Masc|Negative=Pos|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	2	acl	_	Drop_coref=17
+7	motivaci	motivace	NOUN	NNFS4-----A----	Case=Acc|Gender=Fem|Negative=Pos|Number=Sing	6	dobj	_	Drop_coref=17|SpaceAfter=No
+8	,	,	PUNCT	Z:-------------	_	13	punct	_	_
+9-10	aby	_	_	_	_	_	_	_	_
+9	aby	aby	SCONJ	J,-------------	_	13	mark	_	_
+10	by	být	AUX	Vc-------------	Mood=Cnd|Person=3|VerbForm=Fin	13	aux	_	_
+11	se	se	PRON	P7-X4----------	Case=Acc|PronType=Prs|Reflex=Yes|Variant=Short	13	expl	_	_
+12	toto	tento	PRON	PDNS1----------	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	13	nsubj	_	Coref=24
+13	změnilo	změnit	VERB	VpNS---XR-AA---	Aspect=Perf|Gender=Neut|Negative=Pos|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	7	acl	_	SpaceAfter=No
+14	,	,	PUNCT	Z:-------------	_	6	punct	_	_
+15	považuji	považovat	VERB	VB-S---1P-AA--1	Aspect=Imp|Mood=Ind|Negative=Pos|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	Drop_coref=17
+16	za	za	ADP	RR--4----------	AdpType=Prep|Case=Acc	18	case	_	_
+17	zcela	zcela	ADV	Db-------------	_	18	advmod	_	_
+18	lichou	lichý	ADJ	AAFS4----1A----	Case=Acc|Degree=Pos|Gender=Fem|Negative=Pos|Number=Sing	15	iobj	_	SpaceAfter=No
+19	.	.	PUNCT	Z:-------------	_	15	punct	_	_
+
+# sent_id = 22
+# text = S nikým jsem tam nekonverzoval, žádný politický orgán ODS se tímto tématem nezabýval.
+1	S	s	ADP	RR--7----------	AdpType=Prep|Case=Ins	2	case	_	_
+2	nikým	nikdo	PRON	PWM-7----------	Animacy=Anim|Case=Ins|Gender=Masc|Negative=Neg|PronType=Neg	5	dobj	_	_
+3	jsem	být	AUX	VB-S---1P-AA---	Mood=Ind|Negative=Pos|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	5	aux	_	_
+4	tam	tam	ADV	Db-------------	_	5	advmod	_	Coref=22
+5	nekonverzoval	konverzovat	VERB	VpYS---XR-NA---	Aspect=Imp|Gender=Masc|Negative=Neg|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	0	root	_	Drop_coref=17|SpaceAfter=No
+6	,	,	PUNCT	Z:-------------	_	5	punct	_	_
+7	žádný	žádný	DET	PWYS1----------	Case=Nom|Gender=Masc|Negative=Neg|Number=Sing|PronType=Neg	9	det	_	_
+8	politický	politický	ADJ	AAIS1----1A----	Animacy=Inan|Case=Nom|Degree=Pos|Gender=Masc|Negative=Pos|Number=Sing	9	amod	_	_
+9	orgán	orgán	NOUN	NNIS1-----A----	Animacy=Inan|Case=Nom|Gender=Masc|Negative=Pos|Number=Sing	14	nsubj	_	_
+10	ODS	ODS	PROPN	NNFXX-----A---8	Abbr=Yes|Gender=Fem|NameType=Com|Negative=Pos	9	nmod	_	Coref=11
+11	se	se	PRON	P7-X4----------	Case=Acc|PronType=Prs|Reflex=Yes|Variant=Short	14	expl	_	_
+12	tímto	tento	DET	PDZS7----------	Case=Ins|Gender=Masc,Neut|Number=Sing|PronType=Dem	13	det	_	_
+13	tématem	téma	NOUN	NNNS7-----A----	Case=Ins|Gender=Neut|Negative=Pos|Number=Sing	14	nmod	_	Coref=11
+14	nezabýval	zabývat	VERB	VpYS---XR-NA---	Aspect=Imp|Gender=Masc|Negative=Neg|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	5	conj	_	SpaceAfter=No
+15	.	.	PUNCT	Z:-------------	_	5	punct	_	_
+
+# sent_id = 23
+# text = o
+1	o	o	PUNCT	Z:-------------	_	0	punct	_	_
+
+# sent_id = 24
+# text = Jaký máte názor na účast nezávislých kandidátů v komunálních volbách?
+1	Jaký	jaký	DET	P4IS4----------	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing|PronType=Int,Rel	3	det	_	_
+2	máte	mít	VERB	VB-P---2P-AA---	Mood=Ind|Negative=Pos|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	Drop_coref=17
+3	názor	názor	NOUN	NNIS4-----A----	Animacy=Inan|Case=Acc|Gender=Masc|Negative=Pos|Number=Sing	2	dobj	_	Drop_coref=17
+4	na	na	ADP	RR--4----------	AdpType=Prep|Case=Acc	5	case	_	_
+5	účast	účast	NOUN	NNFS4-----A----	Case=Acc|Gender=Fem|Negative=Pos|Number=Sing	3	nmod	_	_
+6	nezávislých	závislý	ADJ	AAMP2----1N----	Animacy=Anim|Case=Gen|Degree=Pos|Gender=Masc|Negative=Neg|Number=Plur	7	amod	_	_
+7	kandidátů	kandidát	NOUN	NNMP2-----A----	Animacy=Anim|Case=Gen|Gender=Masc|Negative=Pos|Number=Plur	5	nmod	_	Coref=29
+8	v	v	ADP	RR--6----------	AdpType=Prep|Case=Loc	10	case	_	_
+9	komunálních	komunální	ADJ	AAFP6----1A----	Case=Loc|Degree=Pos|Gender=Fem|Negative=Pos|Number=Plur	10	amod	_	_
+10	volbách	volba	NOUN	NNFP6-----A----	Case=Loc|Gender=Fem|Negative=Pos|Number=Plur	7	nmod	_	SpaceAfter=No
+11	?	?	PUNCT	Z:-------------	_	2	punct	_	_
+
+# sent_id = 25
+# text = ODS odedávna zastávala názor, který je stoprocentně i názorem mým, že základní entitou naší politické scény je politická strana, a že pokus nahrazovat politickou stranu něčím jiným je vždycky trochu zvláštností.
+1	ODS	ODS	PROPN	NNFXX-----A---8	Abbr=Yes|Gender=Fem|NameType=Com|Negative=Pos	3	nsubj	_	Coref=11
+2	odedávna	odedávna	ADV	Db-------------	_	3	advmod	_	_
+3	zastávala	zastávat	VERB	VpQW---XR-AA---	Aspect=Imp|Gender=Fem,Neut|Negative=Pos|Number=Plur,Sing|Tense=Past|VerbForm=Part|Voice=Act	0	root	_	_
+4	názor	názor	NOUN	NNIS4-----A----	Animacy=Inan|Case=Acc|Gender=Masc|Negative=Pos|Number=Sing	3	dobj	_	Drop_coref=11|SpaceAfter=No
+5	,	,	PUNCT	Z:-------------	_	10	punct	_	_
+6	který	který	PRON	P4YS1----------	Case=Nom|Gender=Masc|Number=Sing|PronType=Int,Rel	10	nsubj	_	Coref=11
+7	je	být	VERB	VB-S---3P-AA---	Mood=Ind|Negative=Pos|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	10	cop	_	_
+8	stoprocentně	stoprocentně	ADV	Dg-------1A----	Degree=Pos|Negative=Pos	10	advmod	_	_
+9	i	i	CONJ	J^-------------	_	10	advmod:emph	_	_
+10	názorem	názor	NOUN	NNIS7-----A----	Animacy=Inan|Case=Ins|Gender=Masc|Negative=Pos|Number=Sing	4	acl	_	_
+11	mým	můj	DET	PSZS7-S1-------	Case=Ins|Gender=Masc,Neut|Number=Sing|Number[psor]=Sing|Person=1|Poss=Yes|PronType=Prs	10	det	_	Coref=17|SpaceAfter=No
+12	,	,	PUNCT	Z:-------------	_	15	punct	_	_
+13	že	že	SCONJ	J,-------------	_	15	mark	_	_
+14	základní	základní_,s	ADJ	AAFS7----1A----	Case=Ins|Degree=Pos|Gender=Fem|Negative=Pos|Number=Sing	15	amod	_	_
+15	entitou	entita	NOUN	NNFS7-----A----	Case=Ins|Gender=Fem|Negative=Pos|Number=Sing	10	acl	_	Coref=31
+16	naší	můj	DET	PSFS2-P1-------	Case=Gen|Gender=Fem|Number=Sing|Number[psor]=Plur|Person=1|Poss=Yes|PronType=Prs	18	det	_	_
+17	politické	politický	ADJ	AAFS2----1A----	Case=Gen|Degree=Pos|Gender=Fem|Negative=Pos|Number=Sing	18	amod	_	_
+18	scény	scéna	NOUN	NNFS2-----A----	Case=Gen|Gender=Fem|Negative=Pos|Number=Sing	15	nmod	_	Coref=32
+19	je	být	VERB	VB-S---3P-AA---	Mood=Ind|Negative=Pos|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	15	cop	_	_
+20	politická	politický	ADJ	AAFS1----1A----	Case=Nom|Degree=Pos|Gender=Fem|Negative=Pos|Number=Sing	21	amod	_	_
+21	strana	strana	NOUN	NNFS1-----A----	Case=Nom|Gender=Fem|Negative=Pos|Number=Sing	15	nsubj	_	Coref=0|SpaceAfter=No
+22	,	,	PUNCT	Z:-------------	_	15	punct	_	_
+23	a	a	CONJ	J^-------------	_	15	cc	_	_
+24	že	že	SCONJ	J,-------------	_	34	mark	_	_
+25	pokus	pokus	NOUN	NNIS1-----A----	Animacy=Inan|Case=Nom|Gender=Masc|Negative=Pos|Number=Sing	34	nsubj	_	Drop_coref=25
+26	nahrazovat	nahrazovat	VERB	Vf--------A----	Aspect=Imp|Negative=Pos|VerbForm=Inf	25	acl	_	Drop_coref=25
+27	politickou	politický	ADJ	AAFS4----1A----	Case=Acc|Degree=Pos|Gender=Fem|Negative=Pos|Number=Sing	28	amod	_	_
+28	stranu	strana	NOUN	NNFS4-----A----	Case=Acc|Gender=Fem|Negative=Pos|Number=Sing	26	dobj	_	Coref=0
+29	něčím	něco	PRON	PZ--7----------	Case=Ins|PronType=Ind	26	nmod	_	_
+30	jiným	jiný	ADJ	AANS7----1A----	Case=Ins|Degree=Pos|Gender=Neut|Negative=Pos|Number=Sing	29	amod	_	_
+31	je	být	VERB	VB-S---3P-AA---	Mood=Ind|Negative=Pos|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	34	cop	_	_
+32	vždycky	vždycky	ADV	Db-------------	_	34	advmod	_	_
+33	trochu	trochu	ADV	Db-------------	_	34	advmod	_	_
+34	zvláštností	zvláštnost	NOUN	NNFS7-----A----	Case=Ins|Gender=Fem|Negative=Pos|Number=Sing	15	conj	_	SpaceAfter=No
+35	.	.	PUNCT	Z:-------------	_	3	punct	_	_
+
+# sent_id = 26
+# text = Důvodů je mnoho, primární ten, že v kandidátovi politické strany volí občan nejen konkrétní osobu, ale i politickou stranu, která je jeho zázemím.
+1	Důvodů	důvod	NOUN	NNIP2-----A----	Animacy=Inan|Case=Gen|Gender=Masc|Negative=Pos|Number=Plur	2	nsubj	_	_
+2	je	být	VERB	VB-S---3P-AA---	Mood=Ind|Negative=Pos|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+3	mnoho	mnoho	DET	Ca--1----------	Case=Nom|NumType=Card|PronType=Dem,Ind	1	det:numgov	_	SpaceAfter=No
+4	,	,	PUNCT	Z:-------------	_	2	punct	_	_
+5	primární	primární	ADJ	AAIS1----1A----	Animacy=Inan|Case=Nom|Degree=Pos|Gender=Masc|Negative=Pos|Number=Sing	2	conj	_	_
+6	ten	ten	PRON	PDYS1----------	Case=Nom|Gender=Masc|Number=Sing|PronType=Dem	2	conj	_	SpaceAfter=No
+7	,	,	PUNCT	Z:-------------	_	13	punct	_	_
+8	že	že	SCONJ	J,-------------	_	13	mark	_	_
+9	v	v	ADP	RR--6----------	AdpType=Prep|Case=Loc	10	case	_	_
+10	kandidátovi	kandidát	NOUN	NNMS6-----A----	Animacy=Anim|Case=Loc|Gender=Masc|Negative=Pos|Number=Sing	13	nmod	_	Coref=27
+11	politické	politický	ADJ	AAFS2----1A----	Case=Gen|Degree=Pos|Gender=Fem|Negative=Pos|Number=Sing	12	amod	_	_
+12	strany	strana	NOUN	NNFS2-----A----	Case=Gen|Gender=Fem|Negative=Pos|Number=Sing	10	nmod	_	Coref=0
+13	volí	volit	VERB	VB-S---3P-AA---	Aspect=Imp|Mood=Ind|Negative=Pos|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	2	conj	_	_
+14	občan	občan	NOUN	NNMS1-----A----	Animacy=Anim|Case=Nom|Gender=Masc|Negative=Pos|Number=Sing	13	nsubj	_	Coref=28
+15	nejen	nejen	PART	TT-------------	_	17	advmod:emph	_	_
+16	konkrétní	konkrétní	ADJ	AAFS4----1A----	Case=Acc|Degree=Pos|Gender=Fem|Negative=Pos|Number=Sing	17	amod	_	_
+17	osobu	osoba	NOUN	NNFS4-----A----	Case=Acc|Gender=Fem|Negative=Pos|Number=Sing	13	dobj	_	SpaceAfter=No
+18	,	,	PUNCT	Z:-------------	_	17	punct	_	_
+19	ale	ale	CONJ	J^-------------	_	17	cc	_	_
+20	i	i	CONJ	J^-------------	_	22	advmod:emph	_	_
+21	politickou	politický	ADJ	AAFS4----1A----	Case=Acc|Degree=Pos|Gender=Fem|Negative=Pos|Number=Sing	22	amod	_	_
+22	stranu	strana	NOUN	NNFS4-----A----	Case=Acc|Gender=Fem|Negative=Pos|Number=Sing	17	conj	_	Coref=26|SpaceAfter=No
+23	,	,	PUNCT	Z:-------------	_	27	punct	_	_
+24	která	který	PRON	P4FS1----------	Case=Nom|Gender=Fem|Number=Sing|PronType=Int,Rel	27	nsubj	_	Coref=26
+25	je	být	VERB	VB-S---3P-AA---	Mood=Ind|Negative=Pos|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	27	cop	_	_
+26	jeho	jeho	DET	PSXXXZS3-------	Gender[psor]=Masc,Neut|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	27	det	_	Coref=27
+27	zázemím	zázemí	NOUN	NNNS7-----A----	Case=Ins|Gender=Neut|Negative=Pos|Number=Sing	22	acl	_	SpaceAfter=No
+28	.	.	PUNCT	Z:-------------	_	2	punct	_	_
+
+# sent_id = 27
+# text = Volí určitý konzistentní politický program.
+1	Volí	volit	VERB	VB-S---3P-AA---	Aspect=Imp|Mood=Ind|Negative=Pos|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	Drop_coref=28
+2	určitý	určitý	ADJ	AAIS4----1A----	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Negative=Pos|Number=Sing	5	amod	_	_
+3	konzistentní	konzistentní	ADJ	AAIS4----1A----	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Negative=Pos|Number=Sing	5	amod	_	_
+4	politický	politický	ADJ	AAIS4----1A----	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Negative=Pos|Number=Sing	5	amod	_	_
+5	program	program	NOUN	NNIS4-----A----	Animacy=Inan|Case=Acc|Gender=Masc|Negative=Pos|Number=Sing	1	dobj	_	SpaceAfter=No
+6	.	.	PUNCT	Z:-------------	_	1	punct	_	_
+
+# sent_id = 28
+# text = Volí chování této strany a nevolí pouze hezký, případně méně půvabný obličej kandidáta, za kterým nic nestojí.
+1	Volí	volit	VERB	VB-S---3P-AA---	Aspect=Imp|Mood=Ind|Negative=Pos|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+2	chování	chování	NOUN	NNNS4-----A----	Case=Acc|Gender=Neut|Negative=Pos|Number=Sing	1	dobj	_	_
+3	této	tento	DET	PDFS2----------	Case=Gen|Gender=Fem|Number=Sing|PronType=Dem	4	det	_	_
+4	strany	strana	NOUN	NNFS2-----A----	Case=Gen|Gender=Fem|Negative=Pos|Number=Sing	2	nmod	_	Coref=26
+5	a	a	CONJ	J^-------------	_	1	cc	_	Drop_coref=28
+6	nevolí	volit	VERB	VB-S---3P-NA---	Aspect=Imp|Mood=Ind|Negative=Neg|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	1	conj	_	_
+7	pouze	pouze	ADV	Db-------------	_	8	advmod:emph	_	_
+8	hezký	hezký	ADJ	AAIS4----1A----	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Negative=Pos|Number=Sing	13	amod	_	SpaceAfter=No
+9	,	,	PUNCT	Z:-------------	_	8	punct	_	_
+10	případně	případně	ADV	Dg-------1A----	Degree=Pos|Negative=Pos	8	cc	_	_
+11	méně	málo	ADV	Dg-------2A----	Degree=Cmp|Negative=Pos	12	advmod	_	_
+12	půvabný	půvabný	ADJ	AAIS4----1A----	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Negative=Pos|Number=Sing	8	conj	_	_
+13	obličej	obličej	NOUN	NNIS4-----A----	Animacy=Inan|Case=Acc|Gender=Masc|Negative=Pos|Number=Sing	6	dobj	_	Coref=30
+14	kandidáta	kandidát	NOUN	NNMS2-----A----	Animacy=Anim|Case=Gen|Gender=Masc|Negative=Pos|Number=Sing	13	nmod	_	Coref=29|SpaceAfter=No
+15	,	,	PUNCT	Z:-------------	_	19	punct	_	_
+16	za	za	ADP	RR--7----------	AdpType=Prep|Case=Ins	17	case	_	_
+17	kterým	který	PRON	P4ZS7----------	Case=Ins|Gender=Masc,Neut|Number=Sing|PronType=Int,Rel	19	advmod	_	Coref=30
+18	nic	nic	PRON	PW--1----------	Case=Nom|Negative=Neg|PronType=Neg	19	nsubj	_	_
+19	nestojí	stát	VERB	VB-S---3P-NA---	Mood=Ind|Negative=Neg|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	14	acl	_	SpaceAfter=No
+20	.	.	PUNCT	Z:-------------	_	1	punct	_	_
+
+# sent_id = 29
+# text = Není ničím vázán, může své postoje libovolně měnit.
+1	Není	být	AUX	VB-S---3P-NA---	Mood=Ind|Negative=Neg|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	3	auxpass	_	_
+2	ničím	nic	PRON	PW--7----------	Case=Ins|Negative=Neg|PronType=Neg	3	nmod	_	_
+3	vázán	vázat	VERB	VsYS---XX-AP---	Aspect=Imp|Gender=Masc|Negative=Pos|Number=Sing|VerbForm=Part|Voice=Pass	0	root	_	Drop_coref=29|SpaceAfter=No
+4	,	,	PUNCT	Z:-------------	_	3	punct	_	_
+5	může	moci	VERB	VB-S---3P-AA---	Mood=Ind|Negative=Pos|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	3	conj	_	_
+6	své	svůj	DET	P8YP4---------1	Case=Acc|Gender=Masc|Number=Plur|Poss=Yes|PronType=Prs|Reflex=Yes	7	det	_	_
+7	postoje	postoj	NOUN	NNIP4-----A----	Animacy=Inan|Case=Acc|Gender=Masc|Negative=Pos|Number=Plur	9	dobj	_	_
+8	libovolně	libovolně	ADV	Dg-------1A----	Degree=Pos|Negative=Pos	9	advmod	_	_
+9	měnit	měnit	VERB	Vf--------A----	Aspect=Imp|Negative=Pos|VerbForm=Inf	5	xcomp	_	Drop_coref=29|SpaceAfter=No
+10	.	.	PUNCT	Z:-------------	_	3	punct	_	_
+
+# sent_id = 30
+# text = To je naše dlouhodobé přesvědčení, a proto vždy budeme preferovat politické strany jako základní entitu politické scény oproti individualizovaným nezávislým kandidátům.
+1	To	ten	PRON	PDNS1----------	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	5	nsubj	_	_
+2	je	být	VERB	VB-S---3P-AA---	Mood=Ind|Negative=Pos|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	5	cop	_	_
+3	naše	můj	DET	PSHS1-P1-------	Case=Nom|Gender=Fem,Neut|Number=Sing|Number[psor]=Plur|Person=1|Poss=Yes|PronType=Prs	5	det	_	Coref=11
+4	dlouhodobé	dlouhodobý	ADJ	AANS1----1A----	Case=Nom|Degree=Pos|Gender=Neut|Negative=Pos|Number=Sing	5	amod	_	_
+5	přesvědčení	přesvědčení	NOUN	NNNS1-----A----	Case=Nom|Gender=Neut|Negative=Pos|Number=Sing	0	root	_	SpaceAfter=No
+6	,	,	PUNCT	Z:-------------	_	5	punct	_	_
+7	a	a	CONJ	J^-------------	_	5	cc	_	_
+8	proto	proto	CONJ	J^-------------	_	5	cc	_	_
+9	vždy	vždy	ADV	Db-------------	_	11	advmod	_	_
+10	budeme	být	AUX	VB-P---1F-AA---	Mood=Ind|Negative=Pos|Number=Plur|Person=1|Tense=Fut|VerbForm=Fin|Voice=Act	11	aux	_	_
+11	preferovat	preferovat	VERB	Vf--------A----	Aspect=Imp|Negative=Pos|VerbForm=Inf	5	conj	_	Drop_coref=11
+12	politické	politický	ADJ	AAFP4----1A----	Case=Acc|Degree=Pos|Gender=Fem|Negative=Pos|Number=Plur	13	amod	_	_
+13	strany	strana	NOUN	NNFP4-----A----	Case=Acc|Gender=Fem|Negative=Pos|Number=Plur	11	dobj	_	Coref=0
+14	jako	jako	SCONJ	J,-------------	_	16	mark	_	_
+15	základní	základní_,s	ADJ	AAFS4----1A----	Case=Acc|Degree=Pos|Gender=Fem|Negative=Pos|Number=Sing	16	amod	_	_
+16	entitu	entita	NOUN	NNFS4-----A----	Case=Acc|Gender=Fem|Negative=Pos|Number=Sing	13	xcomp	_	Coref=31
+17	politické	politický	ADJ	AAFS2----1A----	Case=Gen|Degree=Pos|Gender=Fem|Negative=Pos|Number=Sing	18	amod	_	_
+18	scény	scéna	NOUN	NNFS2-----A----	Case=Gen|Gender=Fem|Negative=Pos|Number=Sing	16	nmod	_	Coref=32
+19	oproti	oproti	ADP	RR--3----------	AdpType=Prep|Case=Dat	22	case	_	_
+20	individualizovaným	individualizovaný	ADJ	AAMP3----1A----	Animacy=Anim|Case=Dat|Degree=Pos|Gender=Masc|Negative=Pos|Number=Plur	22	amod	_	_
+21	nezávislým	závislý	ADJ	AAMP3----1N----	Animacy=Anim|Case=Dat|Degree=Pos|Gender=Masc|Negative=Neg|Number=Plur	22	amod	_	_
+22	kandidátům	kandidát	NOUN	NNMP3-----A----	Animacy=Anim|Case=Dat|Gender=Masc|Negative=Pos|Number=Plur	18	nmod	_	Coref=29|SpaceAfter=No
+23	.	.	PUNCT	Z:-------------	_	5	punct	_	_
+
+# sent_id = 31
+# text = Na druhé straně vím, že v řadě malých obcí nejsou zaběhnuté politické strany, jednotlivec není schopen stranu vytvořit či založit její odbočku.
+1	Na	na	ADP	RR--6----------	AdpType=Prep|Case=Loc	3	case	_	_
+2	druhé	druhý	ADJ	CrFS6----------	Case=Loc|Gender=Fem|Number=Sing|NumType=Ord	3	amod	_	_
+3	straně	strana	NOUN	NNFS6-----A----	Case=Loc|Gender=Fem|Negative=Pos|Number=Sing	4	nmod	_	_
+4	vím	vědět	VERB	VB-S---1P-AA---	Mood=Ind|Negative=Pos|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	Drop_coref=17|SpaceAfter=No
+5	,	,	PUNCT	Z:-------------	_	11	punct	_	_
+6	že	že	SCONJ	J,-------------	_	11	mark	_	_
+7	v	v	ADP	RR--6----------	AdpType=Prep|Case=Loc	8	case	_	_
+8	řadě	řada	NOUN	NNFS6-----A----	Case=Loc|Gender=Fem|Negative=Pos|Number=Sing	11	nmod	_	_
+9	malých	malý	ADJ	AAFP2----1A----	Case=Gen|Degree=Pos|Gender=Fem|Negative=Pos|Number=Plur	10	amod	_	_
+10	obcí	obec	NOUN	NNFP2-----A----	Case=Gen|Gender=Fem|Negative=Pos|Number=Plur	8	nmod	_	Coref=35
+11	nejsou	být	VERB	VB-P---3P-NA---	Mood=Ind|Negative=Neg|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	4	ccomp	_	_
+12	zaběhnuté	zaběhnutý	ADJ	AAFP1----1A----	Case=Nom|Degree=Pos|Gender=Fem|Negative=Pos|Number=Plur	14	amod	_	_
+13	politické	politický	ADJ	AAFP1----1A----	Case=Nom|Degree=Pos|Gender=Fem|Negative=Pos|Number=Plur	14	amod	_	_
+14	strany	strana	NOUN	NNFP1-----A----	Case=Nom|Gender=Fem|Negative=Pos|Number=Plur	11	nsubj	_	Coref=0|SpaceAfter=No
+15	,	,	PUNCT	Z:-------------	_	18	punct	_	Coref=34
+16	jednotlivec	jednotlivec	NOUN	NNMS1-----A----	Animacy=Anim|Case=Nom|Gender=Masc|Negative=Pos|Number=Sing	18	nsubj	_	Coref=33
+17	není	být	VERB	VB-S---3P-NA---	Mood=Ind|Negative=Neg|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	18	cop	_	_
+18	schopen	schopný	ADJ	ACYS------A----	Gender=Masc|Negative=Pos|Number=Sing|Variant=Short	14	acl	_	_
+19	stranu	strana	NOUN	NNFS4-----A----	Case=Acc|Gender=Fem|Negative=Pos|Number=Sing	20	dobj	_	Coref=0
+20	vytvořit	vytvořit	VERB	Vf--------A----	Aspect=Perf|Negative=Pos|VerbForm=Inf	18	xcomp	_	_
+21	či	či	CONJ	J^-------------	_	20	cc	_	Drop_coref=33
+22	založit	založit	VERB	Vf--------A----	Aspect=Perf|Negative=Pos|VerbForm=Inf	20	conj	_	_
+23	její	jeho	DET	PSFSXFS3-------	Gender=Fem|Gender[psor]=Fem|Number=Sing|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	24	det	_	Coref=0
+24	odbočku	odbočka	NOUN	NNFS4-----A----	Case=Acc|Gender=Fem|Negative=Pos|Number=Sing	22	dobj	_	SpaceAfter=No
+25	.	.	PUNCT	Z:-------------	_	4	punct	_	_
+
+# sent_id = 32
+# text = To znamená, že bude kandidovat bez podpory politické strany.
+1	To	ten	PRON	PDNS1----------	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	2	nsubj	_	Coref=34
+2	znamená	znamenat	VERB	VB-S---3P-AA---	Aspect=Imp|Mood=Ind|Negative=Pos|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No
+3	,	,	PUNCT	Z:-------------	_	6	punct	_	_
+4	že	že	SCONJ	J,-------------	_	6	mark	_	_
+5	bude	být	AUX	VB-S---3F-AA---	Mood=Ind|Negative=Pos|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	6	aux	_	_
+6	kandidovat	kandidovat	VERB	Vf--------A----	Aspect=Imp|Negative=Pos|VerbForm=Inf	2	ccomp	_	Drop_coref=33
+7	bez	bez	ADP	RR--2----------	AdpType=Prep|Case=Gen	8	case	_	_
+8	podpory	podpora	NOUN	NNFS2-----A----	Case=Gen|Gender=Fem|Negative=Pos|Number=Sing	6	nmod	_	_
+9	politické	politický	ADJ	AAFS2----1A----	Case=Gen|Degree=Pos|Gender=Fem|Negative=Pos|Number=Sing	10	amod	_	_
+10	strany	strana	NOUN	NNFS2-----A----	Case=Gen|Gender=Fem|Negative=Pos|Number=Sing	8	nmod	_	Coref=0|SpaceAfter=No
+11	.	.	PUNCT	Z:-------------	_	2	punct	_	_
+
+# sent_id = 33
+# text = V realitě malých obcí není důvod proti tomu vystupovat.
+1	V	v	ADP	RR--6----------	AdpType=Prep|Case=Loc	2	case	_	_
+2	realitě	realita	NOUN	NNFS6-----A----	Case=Loc|Gender=Fem|Negative=Pos|Number=Sing	5	nmod	_	_
+3	malých	malý	ADJ	AAFP2----1A----	Case=Gen|Degree=Pos|Gender=Fem|Negative=Pos|Number=Plur	4	amod	_	_
+4	obcí	obec	NOUN	NNFP2-----A----	Case=Gen|Gender=Fem|Negative=Pos|Number=Plur	2	nmod	_	Coref=35
+5	není	být	VERB	VB-S---3P-NA---	Mood=Ind|Negative=Neg|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+6	důvod	důvod	NOUN	NNIS1-----A----	Animacy=Inan|Case=Nom|Gender=Masc|Negative=Pos|Number=Sing	5	nsubj	_	Drop_coref=36
+7	proti	proti	ADP	RR--3----------	AdpType=Prep|Case=Dat	8	case	_	_
+8	tomu	ten	PRON	PDZS3----------	Case=Dat|Gender=Masc,Neut|Number=Sing|PronType=Dem	9	advmod	_	Coref=33
+9	vystupovat	vystupovat	VERB	Vf--------A----	Aspect=Imp|Negative=Pos|VerbForm=Inf	6	acl	_	Drop_coref=36|SpaceAfter=No
+10	.	.	PUNCT	Z:-------------	_	5	punct	_	_
+
