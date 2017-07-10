@@ -3,24 +3,26 @@
 #
 # evaluation of automatic recognition of coreference
 
-from conll_processor import CoNLL_processor
-from conll_api import CoNLL_API as api
+from udapi.core.block import Block
 import sys
 
-class CoNLL_evaluator:
-    def __init__( self, gold_input_name, auto_input_name):
-        self.gold_input = open( gold_input_name, 'r')
-        self.auto_input = open( auto_input_name, 'r')
-    def evaluate( self):
-        """
-        main method for evaluation
-        """
+class Conll_evaluator( Block):
+    def __init__( self):
+        super( Conll_evaluator, self).__init__()
+        self.gold_doc = None
+    def process_document( self, doc):
+        if ( self.gold_doc == None ):
+            self.gold_doc = doc
+            return
+        gold_doc = self.gold_doc
+        auto_doc = doc
+        
         precision_sum = 0
         recall_sum = 0
         
         # lists of Eval_coref_records
-        gold_coreferents = self.get_corefs( self.gold_input) # what was supposed to be decided
-        auto_coreferents = self.get_corefs( self.auto_input) # what was decided
+        gold_coreferents = self.get_corefs( gold_doc) # what was supposed to be decided
+        auto_coreferents = self.get_corefs( auto_doc) # what was decided
         
         print(len( gold_coreferents), len( auto_coreferents))
         
@@ -81,21 +83,16 @@ class CoNLL_evaluator:
         common = set( cluster_1.coref_ids) & set( cluster_2.coref_ids)
         return ( len( common) > 1 )
         
-    def get_corefs( self, input_file): # -> list of coreferenting expression (represented by Eval_coref_record object) in the given conll file        
+    def get_corefs( self, doc): # -> list of coreferenting expression (represented by Eval_coref_record object) in the given conll file        
         clusters = [] # list of Eval_cluster_records
         coreferents = [] # list of Eval_coref_records
-        sent_id = 0
-        for line in input_file:
-            if ( line == '\n' ): # blank line
-                sent_id += 1
-            elif ( line != '\n' and line[0] != '#' ): # not comment line -> record line
-                fields = line[:-1].split( '\t')
-                if ( len( fields) == 10 ): 
-                    misc = fields[-1]
-                    misc_fields = misc.split( '|')
-                    coref = [ misc_field for misc_field in misc_fields if "Coref" in misc_field ]
-                    if ( len( coref) > 0 ):
-                        cluster_id = int( coref[0].split( '=')[1])
+        
+        for bundle in doc.bundles:
+            bundle_id = bundle.bundle_id
+            for root in bundle.trees:
+                for node in root.descendants:
+                    if ( "Coref" in node.misc ):
+                        cluster_id = node.misc['Coref']
                         # there should be at most one such cluster
                         appropriate_clusters = [ cluster for cluster in clusters if ( cluster.cluster_id == cluster_id ) ]
                         if ( appropriate_clusters == [] ): # first occurence of this cluster id - create a new instance
@@ -103,41 +100,13 @@ class CoNLL_evaluator:
                             clusters.append( cluster)
                         else: # already existing cluster
                             cluster = appropriate_clusters[0] # there is at most one element
-                        word_id = int( fields[0])
-                        coref_id = ( sent_id, word_id )
+                        coref_id = ( bundle.bundle_id, node.ord )
                         cluster.add_coreferent( coref_id) # adding coreferent id to the list of coreferents of the cluster
                         #if ( api.has_upostag( node, [ "PRON", "DET" ]) # if we are supposed to detect coreference of this cluster
                         #     and api.has_feature( node, "PronType", [ "Prs", "Rel", "Dem" ]) ):
                         #    # !!! PRO DROPS MISSING !!!
                         coref = Eval_coref_record( coref_id, cluster)
-                        coreferents.append( coref) # output list of all pronouns, for which the coreference was detected                        
-                        
-                        
-        """            
-        for paragraph in api.get_paragraphs( doc):         # linear iteration through all nodes in the document
-            for sentence in api.get_sentences( paragraph): #
-                for node in api.get_nodes( sentence):      #
-                    cluster_id_string = api.get_misc_by_name( node, "Coref") # getting coreference cluster number (string)
-                    if ( cluster_id_string == None ):
-                        cluster_id_string = api.get_misc_by_name( node, "Drop_coref") # !!! DROPS ARE IGNORED FOR NOW, IF THERE IS A NON-DROPPED COREFEREN !!
-                    if ( cluster_id_string != None ):
-                        cluster_id = int( cluster_id_string)
-                        # there should be at most one such cluster
-                        appropriate_clusters = [ cluster for cluster in clusters if ( cluster.cluster_id == cluster_id ) ]
-                        if ( appropriate_clusters == [] ): # first occurence of this cluster id - create a new instance
-                            cluster = Eval_cluster_record( cluster_id)
-                            clusters.append( cluster)
-                        else: # already existing cluster
-                            cluster = appropriate_clusters[0] # there is at most one element
-                        coref_id = api.get_full_id( node)                        
-                        cluster.add_coreferent( coref_id) # adding coreferent to list of coreferents of the cluster
-                        if ( api.has_upostag( node, [ "PRON", "DET" ]) # if we are supposed to detect coreference of this cluster
-                             and api.has_feature( node, "PronType", [ "Prs", "Rel", "Dem" ]) ):
-                            # !!! PRO DROPS MISSING !!!
-                            coref = Eval_coref_record( coref_id, cluster)
-                            coreferents.append( coref) # output list of all pronouns, for which the coreference was detected
-        """
-        
+                        coreferents.append( coref) # output list of all pronouns, for which the coreference was detected                                                       
         return coreferents
     
     def get_coref_record_by_id( self, coreferents, id):
@@ -155,9 +124,4 @@ class Eval_coref_record:
     def __init__( self, coref_id, cluster):        
         self.coref_id = coref_id
         self.cluster = cluster
-        
-if ( len( sys.argv) == 3 ):
-    e = CoNLL_evaluator(sys.argv[1], sys.argv[2])
-    e.evaluate()
-
         
