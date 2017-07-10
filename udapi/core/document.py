@@ -15,7 +15,6 @@ class Document(object):
         self._highest_bundle_id = 0
         self.meta = {}
         self.filename = None # !!! ADDED !!!
-        self.init_cluster_id = None # !!! ADDED II !!!
 
     def __iter__(self):
         return iter(self.bundles)
@@ -40,6 +39,3 @@ class Document(object):
         
     def set_filename( self, filename):  # !!! ADDED !!!
         self.filename = filename        # !!! ADDED !!!
-
-    def set_init_cluster_id( self, init_cluster_id):  # !!! ADDED II !!!
-        self.init_cluster_id = init_cluster_id        # !!! ADDED II !!!
