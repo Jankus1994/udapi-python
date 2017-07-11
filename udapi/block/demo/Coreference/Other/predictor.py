@@ -55,8 +55,7 @@ class Predictor:
             if ( result ):
                 for id in id_vector:
                     print( id, end='\t')
-                #print( spam, str( result))
-                print( str( result))
+                print("")
         
 if ( len( sys.argv) == 2 ):
     p = Predictor()

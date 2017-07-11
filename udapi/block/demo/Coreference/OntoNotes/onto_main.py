@@ -22,7 +22,6 @@ class Onto_main( Block):
         #name = "ann_0001" # arabic
         #name = "a2e_0000"
         name = document.filename[:-10] # .in.conllu
-        init_cluster_id = document.init_cluster_id    
         
         # building a matching between words in OntoNotes and CoNLL-U files
         onto_input = open( path+"../demo/" + name + ".onf", 'r')        
@@ -40,5 +39,4 @@ class Onto_main( Block):
         Onto_word_conversion( list_of_clusters, list_of_corresponding_words) # void, conversion is made internally in the clusters (nodes are put into them)
 
         # adding the coreference information into the CoNLL-U file
-        coref_adder = Onto_coreference_adder( list_of_clusters, init_cluster_id) # void, changes are made in the nodes (which are in the clusters)
-        return coref_adder.cluster_id
+        coref_adder = Onto_coreference_adder( list_of_clusters) # void, changes are made in the nodes (which are in the clusters)

@@ -8,9 +8,19 @@ from udapi.core.block import Block
 class Conll_selector( Block):
     def process_node( self, node):
         if ( self.has_upostag( node, [ "PRON", "DET" ]) and # if we are suppose to detect coreference
-            self.has_feature( node, "PronType", [ "Prs", "Rel", "Dem" ]) ):
-            # !!! CONDITION FOR PRO-DROPS MISSING !!!
-            self.search_candidates( node) # list of candidates for coreference
+            self.has_feature( node, "PronType", [ "Prs", "Rel", "Dem" ]) ):            
+            self.search_candidates( node)
+        
+        if ( self.verb_without_subject( node) ):
+            self.search_candidates( node)
+    
+    def verb_without_subject( self, node):
+        if ( not self.has_upostag( node, [ "VERB" ]) ): # not a verb
+            return False
+        for child in node.children:
+            if ( self.has_deprel( node, [ "nsubj", "csubj" ]) ): # has a subject
+                return False
+        return True
     
     def search_candidates( self, node): # void
         """
@@ -139,6 +149,13 @@ class Conll_selector( Block):
         """
         list_of_real_values = node.feats[ feature_name ].split( ',')
         return ( len( set( list_of_real_values) & set( list_of_possible_values) ) > 0 )
+    
+    def has_deprel( self, node, list_of_possible_deprels): # -> bool
+        """
+        controls if the node's deprel is on of the possible ones
+        """     
+        return ( node.deprel in list_of_possible_deprels )
+        
     def get_bundle( self, node):
         n = node
         while ( not n.is_root() ):

@@ -38,6 +38,8 @@ class Conll_evaluator( Block):
         # words that that were supposed to be decided and also were. still clusters may differ
         common_gold_coreferents = [ coref for coref in gold_coreferents if ( coref.coref_id in auto_coref_ids ) ]
         common_auto_coreferents = [ coref for coref in auto_coreferents if ( coref.coref_id in gold_coref_ids ) ]
+        #print( len( common_gold_coreferents), len( common_auto_coreferents))
+
         if ( len( common_gold_coreferents) == len( common_auto_coreferents) ): # should hold
             common_corefs_number = len( common_gold_coreferents)
             for i in range( common_corefs_number):

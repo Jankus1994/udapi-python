@@ -13,7 +13,7 @@ class PDT_word_correspondence:
         self.para_ID = 0
         self.sent_ID = 0
         
-        self.list_of_corresponding_IDs = []
+        self.list_of_corresponding_words = []
         self.list_of_sentence_IDs = []
         
     def create_correspondence( self):
@@ -40,11 +40,10 @@ class PDT_word_correspondence:
                     
                     nodes_to_omit += self.token_division( token, form) # spaces and punctuation in the PDT word cause its division in CoNLL-U into more words
                     # for the matching we use only the first node, the rest must be omitted
-                    conll_ID = ( self.para_ID, self.sent_ID, word_ID )
-                    self.list_of_corresponding_IDs += [ ( pdt_ID, conll_ID ) ]                                    
+                    self.list_of_corresponding_words += [ ( pdt_ID, node ) ]                                    
                 self.list_of_sentence_IDs += [ ( self.para_ID, self.sent_ID ) ] 
                 self.sent_ID += 1
-        return ( self.list_of_corresponding_IDs, self.list_of_sentence_IDs )
+        return ( self.list_of_corresponding_words, self.list_of_sentence_IDs )
     
     def token_division( self, token, form): # -> int
         """
