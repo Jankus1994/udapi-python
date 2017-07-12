@@ -24,12 +24,10 @@ class Conll_evaluator( Block):
         gold_coreferents = self.get_corefs( gold_doc) # what was supposed to be decided
         auto_coreferents = self.get_corefs( auto_doc) # what was decided
         
-        print(len( gold_coreferents), len( auto_coreferents))
-        
-        if ( len( gold_coreferents) == 0 ):
-            return( 1, 1)
-        if ( len( auto_coreferents) == 0 ):
-            return( 0, 0)
+        print("")
+        print( "Gold coreferents:   ", len( gold_coreferents))
+        print( "Auto coreferents:   ", len( auto_coreferents))
+        print("")
         
         gold_coref_ids = [ coref.coref_id for coref in gold_coreferents ] # ids
         auto_coref_ids = [ coref.coref_id for coref in auto_coreferents ]
@@ -68,11 +66,22 @@ class Conll_evaluator( Block):
             #print( "Selected relevant:\t\t\t", len( common_gold_coreferents))
             #print( "Correctly decided:\t\t\t", true_positives)
             #print( "")
-            print( "Precision:  " + str( precision_sum / len( auto_coreferents))) # teraz je vysledok ohrsi kvoli vyskrtnuti koreferentov prodropov
-            print( "Recall:     " + str( recall_sum / len( gold_coreferents)))
+            
+            if ( len( gold_coreferents) == 0 ):
+                recall = None
+            else:
+                recall = recall_sum / len( gold_coreferents)
+                
+            if ( len( auto_coreferents) == 0 ):
+                precision = None
+            else:
+                precision = precision_sum / len( auto_coreferents)                
+            
+            print( "Precision:  ", precision) # teraz je vysledok ohrsi kvoli vyskrtnuti koreferentov prodropov
+            print( "Recall:     ", recall)
             #"""
             # if an id is missing in one of the id-lists, it will contribute 0 to precision/recall sum, but 1 to the divisor
-            return ( precision_sum / len( auto_coreferents), recall_sum / len( gold_coreferents) )
+            #return ( precision_sum / len( auto_coreferents), recall_sum / len( gold_coreferents) )
             
         
     def compare_clusters( self, cluster_1, cluster_2): # -> bool

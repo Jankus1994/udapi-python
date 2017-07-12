@@ -1,19 +1,21 @@
 # Jan Faryad
 # 19. 6. 2017
 
-from udapi.core.block import Block
-from udapi.block.demo.Coreference.PDT.pdt_word_correspondence import PDT_word_correspondence
-from udapi.block.demo.Coreference.PDT.pdt_get_coreference import PDT_get_coreference
-from udapi.block.demo.Coreference.PDT.pdt_word_conversion import PDT_word_conversion
-from udapi.block.demo.Coreference.PDT.pdt_clusterization import PDT_clusterization
-from udapi.block.demo.Coreference.PDT.pdt_add_coreference import PDT_add_coreference
+from udapi.block.demo.Coreference.Conv.conv import Conv_main
+from udapi.block.demo.Coreference.PDT.pdt_word_correspondence import Pdt_word_correspondence
+from udapi.block.demo.Coreference.PDT.pdt_coreference_getter import Pdt_coreference_getter
+from udapi.block.demo.Coreference.PDT.pdt_word_converter import Pdt_word_converter
+from udapi.block.demo.Coreference.PDT.pdt_coreference_setter import Pdt_coreference_setter
 
 
-class Pdt_main( Block):
-    def process_document( self, document):
-        
-        path = "../demo/" # the actual folder is udapi-python/udapi
-        
+class Pdt_main( Conv_main):
+    def __init__( self):
+        super( Pdt_main, self).__init__()
+        self.word_correspondence  = Pdt_word_correspondence()
+        self.coreference_getter   = Pdt_coreference_getter()
+        self.word_converter       = Pdt_word_converter()
+        self.coreference_setter    = Pdt_coreference_setter()    
+
         # name of the file
         #name = "cmpr9410_001" # train 1
         #name = "lnd94103_052" # train 8
@@ -28,41 +30,3 @@ class Pdt_main( Block):
         #name = "mf930713_118" # train 3
         #name = "ln95048_117" # train 6
         #name = "ln94206_62" # train 8
-        name = document.filename[:-9] # .in.conll  
-        
-        # building a matching between words in PDT and CoNLL-U files
-        pdt_w_input = open( path + name + ".w", 'r') # surface (word) layer
-        word_correspondence = PDT_word_correspondence( pdt_w_input, document)
-        ( list_of_corresponding_words, list_of_sentence_IDs ) = word_correspondence.create_correspondence()
-        pdt_w_input.close()
-
-        # extracting information about coreference from
-        pdt_t_input = open( path + name + ".t", 'r') # deep syntactical (tectogrammatical) layer
-        get_coreference = PDT_get_coreference( pdt_t_input)
-        list_of_corefs = get_coreference.read_file()
-        pdt_t_input.close()        
-
-        # conversion of the PDT IDs to CoNLL-U IDs
-        word_conversion = PDT_word_conversion( list_of_corefs, list_of_corresponding_words)
-        list_of_corefs = word_conversion.convert_words()
-
-        # clusterization?? - conversion from chains to clusters        
-        clusterizer = PDT_clusterization( list_of_corefs)
-        list_of_corefs = clusterizer.convert_chains_to_clusters()
-        
-
-        # adding the coreference information into the CoNLL-U file
-        #listing(list_of_corefs_II)        
-        #for i in list_of_corresponding_IDs:
-        #    print(i)
-        #cored_adder = PDT_add_coreference( list_of_corefs_II, list_of_sentence_IDs, document)
-        #cored_adder.process_file()
-        
-        #document.store_conllu("modifik.conllu")
-        
-def listing( list_of_corefs): # void
-    """
-    prints attributes of coreference record in the given list
-    """
-    for i in list_of_corefs:
-        print( ( i.own_node.form, i.own_dropped, i.coref_node.form, i.coref_dropped) )        

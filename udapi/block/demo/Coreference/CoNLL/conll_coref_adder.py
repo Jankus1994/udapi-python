@@ -20,8 +20,7 @@ class Conll_coref_adder( Block):
             antecedent_node = self.get_node( doc, int( fields[2]), int( fields[3]))
             
             dropped = False
-            if ( pronoun_node.upos == "PRON" ):
-                print("juhuu")
+            if ( pronoun_node.upos == "VERB" ):
                 dropped = True
         
             # obtaining Coreferents from ids - either creating new coreferents or finding some already existing
