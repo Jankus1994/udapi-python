@@ -34,7 +34,7 @@ class Conll_selector( Block):
         
         self.search_bundle_for_candidates( node, actual_bundle)
         
-        backwards_distance = 3 # 3 previous sentences
+        backwards_distance = 1 # 3 previous sentences
         for i in range( backwards_distance):
             if ( previous_bundle != None ):
                 #candidates += self.search_bundle_for_candidates( node, previous_bundle)
