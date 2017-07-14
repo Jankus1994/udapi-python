@@ -14,7 +14,7 @@ class Pdt_coreference_setter( Conv_coreference_setter):
         self.cluster_id = -1 # id of coreference clusters    
         #
         
-        for record in self.list_of_corefs:
+        for record in self.list_of_corefs:      
             cluster_ID = self.find_coref_cluster( record.coref_node, record.coref_dropped)
             
             if ( cluster_ID == None ):
@@ -28,11 +28,11 @@ class Pdt_coreference_setter( Conv_coreference_setter):
             self.set_cluster( record.own_node, cluster_ID, record.own_dropped)
             self.list_of_cluster_records.append( own_cluster_record)
         
-        for cluster_record in self.list_of_cluster_records:
-            if ( cluster_record.dropped ):
-                cluster_record.node.misc["Drop_coref"] = cluster_record.cluster_ID
-            else:
-                cluster_record.node.misc["Coref"] = cluster_record.cluster_ID
+        #for cluster_record in self.list_of_cluster_records:
+        #    if ( cluster_record.dropped ):
+        #        cluster_record.node.misc["Drop_coref"] = cluster_record.cluster_ID
+        #    else:
+        #        cluster_record.node.misc["Coref"] = cluster_record.cluster_ID
             
     def find_coref_cluster( self, node, dropped): # -> int (cluster number)
         """
@@ -48,6 +48,9 @@ class Pdt_coreference_setter( Conv_coreference_setter):
         return self.cluster_id
     
     def set_cluster( self, node, cluster_ID, dropped):
+        if ( node == None ):
+            return
+        
         if ( dropped ):
             node.misc["Drop_coref"] = cluster_ID
         else:

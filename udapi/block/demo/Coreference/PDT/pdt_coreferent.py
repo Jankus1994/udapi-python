@@ -1,9 +1,7 @@
 # Jan Faryad]
 # 12. 7. 2017
 
-from udapi.block.demo.Coreference.Conv.conv import Conv_coreferent
-
-class Pdt_coreferent( Conv_coreferent):
+class Pdt_coreferent():
     def __init__( self, own_dropped, own_ID, coref_dropped, coref_ID):
         self.own_dropped = own_dropped # bool - if the refering word is dropped
         self.coref_dropped = coref_dropped # bool - if the referent is dropped
@@ -13,3 +11,5 @@ class Pdt_coreferent( Conv_coreferent):
         
         self.own_node = None
         self.coref_node = None
+        
+        self.cluster_ID = -1

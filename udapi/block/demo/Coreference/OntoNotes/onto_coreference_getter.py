@@ -3,22 +3,20 @@
 #
 # extracting information about coreference from onf file
 
-class Onto_coreference_getter:
-    def __init__( self, onto_input):
-        """ onto input ... onf file """
-        self.onto_input = onto_input        
-    
-    def process_file( self):
+class Onto_coreference_getter:    
+    def execute( self, filename): # -> list of onto clusters
         """
         main method, calle from outside
         reads the "Coreference chains" parts in the onf file, where
         the coreference clusters for each section are enumerated
         """
+        onto_input = open( filename + ".onf", 'r')  
+        
         list_of_clusters = []
         
         active_chains = False # if we are in the the "Coreference chains" block which comes after each section (text, set of sentences)
         active_cluster = False # if we are in one particular cluster
-        for line in self.onto_input:
+        for line in onto_input:
             if ( "Coreference chains" in line ): # beginning of the enumeration of clusters
                 active_chains = True
             elif ( "Plain sentence" in line ): # new sentence -> end of the enumeration
@@ -38,6 +36,7 @@ class Onto_coreference_getter:
                     coreferent = Onto_coreferent( position_string, expression)
                     cluster.add_coref( coreferent)
         
+        onto_input.close()
         return list_of_clusters
                 
     def process_coref_line( self, line): # -> ( string, string )

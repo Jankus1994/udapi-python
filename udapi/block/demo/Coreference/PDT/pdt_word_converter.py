@@ -5,7 +5,7 @@
 from udapi.block.demo.Coreference.Conv.conv import Conv_word_converter
 
 class Pdt_word_converter( Conv_word_converter):    
-    def execute( self, list_of_corefs, list_of_corresponding_words): # -> list of pdt coreferents        
+    def execute( self, list_of_corefs, list_of_corresponding_words): # -> list of pdt coreferents
         """main conversion method, called from outside"""
         # initialization
         self.list_of_corefs = list_of_corefs
@@ -15,7 +15,7 @@ class Pdt_word_converter( Conv_word_converter):
         for coref_record in self.list_of_corefs:
             coref_record.own_node = self.get_corresponding_node( coref_record.own_ID)
             coref_record.coref_node = self.get_corresponding_node( coref_record.coref_ID)         
-            
+        
         return self.list_of_corefs
     
     def get_corresponding_node( self, ID_string): # -> udapi node

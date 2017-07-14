@@ -3,6 +3,7 @@
 #
 # selection of features for feature vectors
 
+import math
 from udapi.core.block import Block
 
 class Conll_selector( Block):
@@ -26,8 +27,8 @@ class Conll_selector( Block):
         """
         selects possible coreferents of the given node
         COULD BE CHANGED IN THE FUTURE
-        """
-        actual_bundle = self.get_bundle( node)
+        """        
+        actual_bundle = self.get_bundle( self.get_root_path( node))
         previous_bundle = self.previous_bundle( actual_bundle)
         next_bundle = self.next_bundle( actual_bundle)
         
@@ -62,8 +63,8 @@ class Conll_selector( Block):
         """
         if ( node == candidate ):
             return False
-        if ( self.has_upostag( candidate, ["NOUN", "PRON", "VERB"]) ):
-            return True
+        if ( self.has_upostag( candidate, [ "NOUN", "PRON", "VERB" ]) ):
+            return True            
         return False
     def print_feature_vector( self, node, candidate): # void
         """
@@ -71,25 +72,27 @@ class Conll_selector( Block):
         !!! SHOULD BE CHANGED IN THE FUTURE !!!
         """
         feature_vector = []
-        node_bundle = self.get_bundle( node)
-        candidate_bundle = self.get_bundle( candidate)
+        node_root_path = self.get_root_path( node)
+        candidate_root_path = self.get_root_path( candidate)
+        node_bundle = self.get_bundle( node_root_path)
+        candidate_bundle = self.get_bundle( candidate_root_path)
         same_sentence = ( node_bundle == candidate_bundle )
         
         # distances
-        # feature_vector.append( same_sentence)
-        # if ( same_sentence ):
-        #     feature_vector.append( True) # same paragraph
-        #     feature_vector.append( api.surface_node_distance( node, candidate))
-        # else:
-        #     same_paragraph = api.in_same_paragraph( node, candidate)
-        #     feature_vector.append( same_paragraph)
-        #     if ( same_paragraph ):
-        #         feature_vector.append( api.surface_sentence_distance( node, candidate))
-        #     else:
-        #         feature_vector.append( api.surface_paragraph_distance( node, candidate))
-        # feature_vector.append( api.depth_distance( node, candidate))
-        # feature_vector.append( api.compound_distance( node, candidate))
-        # feature_vector.append( api.ccs_depth( node, candidate))
+        feature_vector.append( same_sentence)
+        if ( same_sentence ):
+            feature_vector.append( int( math.fabs( node.ord - candidate.ord)))
+        else:
+            feature_vector.append( int( math.fabs( int( node_bundle.bundle_id) - int( candidate_bundle.bundle_id))))
+        
+        node_depth = self.get_depth( node_root_path)
+        candidate_depth = self.get_depth( candidate_root_path)
+        feature_vector.append( node_depth)
+        feature_vector.append( candidate_depth)
+        feature_vector.append( int( math.fabs( node_depth - candidate_depth)))
+        ccs_depth = self.get_ccs_depth( node_root_path, candidate_root_path)
+        feature_vector.append( ccs_depth)
+        feature_vector.append( int( math.fabs( node_depth - ccs_depth)) + int( math.fabs( ccs_depth - candidate_depth))) # compound distance
 
         anaphoric_pronoun = node.ord > candidate.ord # the pronoun is after its antecedent - anaphora
         feature_vector.append( same_sentence and anaphoric_pronoun)
@@ -105,7 +108,7 @@ class Conll_selector( Block):
         feature_vector.append( self.has_feature( node, "PronType", ["Prs"])) # personal
         feature_vector.append( self.has_feature( node, "PronType", ["Rel"])) # relative
         feature_vector.append( self.has_feature( node, "Reflex", ["Yes"])) # reflexive
-        feature_vector.append( self.has_feature( node, "Poss", ["Yes"])) # possessive
+        feature_vector.append( self.has_feature( node, "Poss", ["Yes"])) # possessive        
         
         # candidate
         # part of speech
@@ -113,7 +116,7 @@ class Conll_selector( Block):
         feature_vector.append( candidate.upos == "PRON" )
         feature_vector.append( candidate.upos == "VERB" )
         # function in the sentence
-        feature_vector.append( candidate.udeprel == "nsubj" ) # nominal subject
+        feature_vector.append( candidate.udeprel == "nsubj" or  candidate.udeprel == "csubj" ) # subject        
         
         # target_value
         if ( self.for_training() ):
@@ -156,11 +159,9 @@ class Conll_selector( Block):
         """     
         return ( node.deprel in list_of_possible_deprels )
         
-    def get_bundle( self, node):
-        n = node
-        while ( not n.is_root() ):
-            n = n.parent
-        return n.bundle
+    def get_bundle( self, root_path):
+        root = root_path[0]
+        return root.bundle
     def previous_bundle( self, bundle):
         bundle_id = int( bundle.bundle_id)
         if ( bundle_id > 1 ):
@@ -182,5 +183,21 @@ class Conll_selector( Block):
         for c in [ coref_1, drop_coref_1 ]:
             if ( c != "" and c in [ coref_2, drop_coref_2 ] ):                
                 return True
-        return False        
+        return False     
+    
+    def get_depth( self, root_path):
+        return len( root_path) - 1
+    def get_ccs_depth( self, root_path_1, root_path_2): # closest common supernode
+        it = 0
+        while ( it < len( root_path_1) and it < len( root_path_2) and root_path_1[it] == root_path_2[it] ):
+            it += 1
+        return it - 1        
+    
+    def get_root_path(self, node):
+        root_path = [ node ]
+        n = node        
+        while ( not n.is_root() ):            
+            n = n.parent
+            root_path = [ n ] + root_path
+        return root_path    
     
